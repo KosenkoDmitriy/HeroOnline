@@ -1,0 +1,20 @@
+Master => Auth
+- Requests:
+	SignIn
+	Register
+	Activate
+	ForgotPass
+	ChangePass
+	ChargeCash
+
+Auth => Master
+- Responses
+	SignIn
+	Register
+	ChangePass
+
+- Requests
+	AddCash
+	Refresh
+	UserKick
+	UserBlock

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{519C0F93-7D86-4A0E-8D8B-3219B116930F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DEngine.Unity</RootNamespace>
+    <AssemblyName>DEngine.Unity</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\_Bin\</OutputPath>
+    <IntermediateOutputPath>..\_Obj\$(AssemblyName)\</IntermediateOutputPath>
+    <DefineConstants>TRACE;DEBUG;_UNITY</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\_Bin\</OutputPath>
+    <IntermediateOutputPath>..\_Obj\$(AssemblyName)\</IntermediateOutputPath>
+    <DefineConstants>TRACE;_UNITY</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zlib">
+      <HintPath>..\_Lib\Ionic.Zlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>..\_Lib\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\_Lib\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\DEngine.Common\BinSerializer.cs">
+      <Link>Common\BinSerializer.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\BattleConfig.cs">
+      <Link>Common\Config\BattleConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\DungeonConfig.cs">
+      <Link>Common\Config\DungeonConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\ItemConfig.cs">
+      <Link>Common\Config\ItemConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\LandConfig.cs">
+      <Link>Common\Config\LandConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\MissionConfig.cs">
+      <Link>Common\Config\MissionConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\RoleConfig.cs">
+      <Link>Common\Config\RoleConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\SkillConfig.cs">
+      <Link>Common\Config\SkillConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\GameConfig.cs">
+      <Link>Common\Config\GameConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\UserConfig.cs">
+      <Link>Common\Config\UserConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\Utilities.cs">
+      <Link>Common\Config\Utilities.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\ErrorCode.cs">
+      <Link>Common\ErrorCode.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\EventCode.cs">
+      <Link>Common\EventCode.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameAward.cs">
+      <Link>Common\GameLogic\GameAward.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameBattle.cs">
+      <Link>Common\GameLogic\GameBattle.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameEnums.cs">
+      <Link>Common\GameLogic\GameEnums.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameItem.cs">
+      <Link>Common\GameLogic\GameItem.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameObj.cs">
+      <Link>Common\GameLogic\GameObj.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameRole.cs">
+      <Link>Common\GameLogic\GameRole.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameSkill.cs">
+      <Link>Common\GameLogic\GameSkill.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameUser.cs">
+      <Link>Common\GameLogic\GameUser.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameZone.cs">
+      <Link>Common\GameLogic\GameZone.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\Global.cs">
+      <Link>Common\GameLogic\Global.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\RoleSkill.cs">
+      <Link>Common\GameLogic\RoleSkill.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\ShopItem.cs">
+      <Link>Common\GameLogic\ShopItem.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\UserItem.cs">
+      <Link>Common\GameLogic\UserItem.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\UserRole.cs">
+      <Link>Common\GameLogic\UserRole.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\OperationCode.cs">
+      <Link>Common\OperationCode.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\ParameterCode.cs">
+      <Link>Common\ParameterCode.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Serialization.cs">
+      <Link>Common\Serialization.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Services\WorldInfo.cs">
+      <Link>Services\WorldInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\StringMap.cs">
+      <Link>Common\StringMap.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\SubCode.cs">
+      <Link>Common\SubCode.cs</Link>
+    </Compile>
+    <Compile Include="Photon\PhotonController.cs" />
+    <Compile Include="Photon\PhotonEventArgs.cs" />
+    <Compile Include="Photon\PhotonManager.cs" />
+    <Compile Include="Photon\States\Connected.cs" />
+    <Compile Include="Photon\States\Connecting.cs" />
+    <Compile Include="Photon\States\Disconnected.cs" />
+    <Compile Include="Photon\States\NetworkState.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

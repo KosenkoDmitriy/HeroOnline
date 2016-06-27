@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ServerConfig>
+  <MasterIP>127.0.0.1</MasterIP>
+  <MasterPort>4520</MasterPort>
+  <ZoneMaxCCU>500</ZoneMaxCCU>
+  <WorldId>1</WorldId>
+  <ServiceUrl>http://home.blueskysoft.vn/lolservices</ServiceUrl>
+</ServerConfig>

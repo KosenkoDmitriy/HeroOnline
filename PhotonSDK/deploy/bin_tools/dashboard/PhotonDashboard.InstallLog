@@ -1,0 +1,15 @@
+﻿Installing assembly 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe
+   i = 
+   logfile = E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.InstallLog
+Installing service PhontonDashboardService...
+Service PhontonDashboardService has been successfully installed.
+Creating EventLog source PhontonDashboardService in log Application...
+Committing assembly 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe
+   i = 
+   logfile = E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.InstallLog

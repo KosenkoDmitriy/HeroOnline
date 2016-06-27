@@ -1,0 +1,44 @@
+{
+  "gold20": {
+    "itemType": "CONSUMABLE",
+    "description": "Gold 20 Package",
+    "price": 0.99,
+    "smallIconUrl": "http://example.com",
+    "title": "Gold 20 Package"
+  },
+  "gold50": {
+    "itemType": "CONSUMABLE",
+    "description": "Gold 50 Package",
+    "price": 0.99,
+    "smallIconUrl": "http://example.com",
+    "title": "Gold 50 Package"
+  },
+  "gold100": {
+    "itemType": "CONSUMABLE",
+    "description": "Gold 100 Package",
+    "price": 0.99,
+    "smallIconUrl": "http://example.com",
+    "title": "Gold 100 Package"
+  },
+  "gold200": {
+    "itemType": "CONSUMABLE",
+    "description": "Gold 200 Package",
+    "price": 0.99,
+    "smallIconUrl": "http://example.com",
+    "title": "Gold 200 Package"
+  },
+  "gold500": {
+    "itemType": "CONSUMABLE",
+    "description": "Gold 500 Package",
+    "price": 0.99,
+    "smallIconUrl": "http://example.com",
+    "title": "Gold 500 Package"
+  },
+  "silver25000": {
+    "itemType": "CONSUMABLE",
+    "description": "Silver 25000 Package",
+    "price": 0.99,
+    "smallIconUrl": "http://example.com",
+    "title": "Silver 25000 Package"
+  }
+}

@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>LOL Services - Account Site</title>
+    <link href="/Scripts/skins/aqua/theme.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <table style="width: 100%; border-spacing: 10px; border-collapse: collapse" border="0">
+        <tr>
+            <td style="width: 18%">
+                <img alt="" src="/Images/icon_lol.png" />
+            </td>
+            <td id="top_menu" style="text-align: right; vertical-align: top">
+                <a href="http://home.blueskysoft.vn" target="_blank">Home</a> | <a href="http://forum.blueskysoft.vn" target="_blank">Forum</a><br />
+                <br />
+                <% Html.RenderPartial("LoginName"); %>
+            </td>
+        </tr>
+        <tr>
+            <td id="main_menu" style="text-align: left; vertical-align: top">
+                <% Html.RenderPartial("LeftMenu"); %>
+            </td>
+            <td style="text-align: left; vertical-align: top">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

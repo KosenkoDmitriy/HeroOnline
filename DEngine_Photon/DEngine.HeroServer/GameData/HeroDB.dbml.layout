@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 18, 20.5" name="HeroDB">
+  <DataContextMoniker Name="/HeroDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="80721ead-73be-4b63-aabc-4e6d945945af" absoluteBounds="6.75, 5.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HeroDBDataContext/ActionLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4654c9f9-f6b4-45dc-8023-0bc72a485be7" absoluteBounds="6.7650000000000006, 6.2100000000000009, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="39db851c-f6e1-47b4-b36d-c8b5d27a01c4" absoluteBounds="6.75, 8.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HeroDBDataContext/PillageLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9fe51459-3373-4a89-8717-94c20d405728" absoluteBounds="6.7650000000000006, 9.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dcafb001-ae2e-4dcd-9657-c82260188910" absoluteBounds="9.75, 4.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/HeroDBDataContext/EnemyCache" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40566212-bedd-46d7-aaec-56bb2bef6743" absoluteBounds="9.765, 5.2100000000000009, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9486fd5a-c983-4821-9b2a-6a71491e9556" absoluteBounds="9.75, 7.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/HeroDBDataContext/CashLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5be5043e-0966-4fc1-922f-c16d675f8109" absoluteBounds="9.765, 8.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="60e9653b-c505-4b61-a2ee-01531443bd0e" absoluteBounds="8.75, 11.75, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/HeroDBDataContext/ArenaLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8dea5ca9-8dfc-4895-9331-3a8824cc4024" absoluteBounds="8.765, 12.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ba8cb30-86d1-47b7-ac88-c320dda32a97" absoluteBounds="6.75, 1, 2, 3.3093082681298256">
+      <DataClassMoniker Name="/HeroDBDataContext/RoleBase" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19a98bb3-9df2-43ce-8621-2f77c9d432b7" absoluteBounds="6.7650000005960464, 1.4600000008940697, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="59efbefa-7f6e-489d-843b-5707d318ad1a" absoluteBounds="9.5, 2, 2, 1.3862939458340406">
+      <DataClassMoniker Name="/HeroDBDataContext/RoleExtra" />
+      <nestedChildShapes>
+        <elementListCompartment Id="332998f9-f517-4294-9938-a3536204cd3e" absoluteBounds="9.5150000005960464, 2.4600000008940697, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.75 : 2.69314697291702); (9.5 : 2.69314697291702)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HeroDBDataContext/RoleBase/RoleBase_RoleExtra" />
+      <nodes>
+        <classShapeMoniker Id="6ba8cb30-86d1-47b7-ac88-c320dda32a97" />
+        <classShapeMoniker Id="59efbefa-7f6e-489d-843b-5707d318ad1a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2f9929a5-cd7b-4d0a-a74d-a847b8f879f3" absoluteBounds="11.75, 11.75, 2, 6.1938297526041666">
+      <DataClassMoniker Name="/HeroDBDataContext/SkillBase" />
+      <nestedChildShapes>
+        <elementListCompartment Id="47d036e1-e01a-4160-8791-7b5cbae2e249" absoluteBounds="11.765, 12.21, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bae11891-af78-4f64-aadf-83198bcb90f3" absoluteBounds="12.75, 0.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/HeroDBDataContext/ItemBase" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec0646d9-cb3a-452b-bbfe-2fae02ed8c50" absoluteBounds="12.765, 1.2100000000000009, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e73c4aec-fa31-414d-98eb-7e26851e3ece" absoluteBounds="3.5, 1.5, 2, 3.6939111328124987">
+      <DataClassMoniker Name="/HeroDBDataContext/Item" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68630526-4c85-48fb-b4fe-567c1d6afe52" absoluteBounds="3.5150000005960464, 1.9600000008940697, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5662dfd-fd91-43b2-a145-8214dbe48977" absoluteBounds="12.75, 5.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/HeroDBDataContext/AccountLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9fd52d29-93af-4f5b-81c1-35b26a037529" absoluteBounds="12.765, 6.2100000000000009, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c9483450-8737-4447-8a25-2654ddea668f" absoluteBounds="14.75, 8.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/HeroDBDataContext/GiftBox" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9d9eda09-9e7f-4412-8232-08520746f79b" absoluteBounds="14.765, 9.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="25fb0922-efef-4574-8804-9d98aa2cecb4" absoluteBounds="0.75, 5.875, 2, 5.040021158854163">
+      <DataClassMoniker Name="/HeroDBDataContext/UserEx" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0240e205-1036-4524-98ad-0e5887132fbc" absoluteBounds="0.76500000059604645, 6.33500000089407, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 5.875); (1.75 : 3.34695556640625); (3.5 : 3.34695556640625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HeroDBDataContext/UserEx/UserEx_Item" />
+      <nodes>
+        <classShapeMoniker Id="25fb0922-efef-4574-8804-9d98aa2cecb4" />
+        <classShapeMoniker Id="e73c4aec-fa31-414d-98eb-7e26851e3ece" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a52c9b86-4b70-4160-873d-01c0941d8ce1" absoluteBounds="14.75, 13.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/HeroDBDataContext/MailBox" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2b16111d-9cba-476d-beab-a717f6f1ad35" absoluteBounds="14.765, 14.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9b75ad29-9c02-44da-aee2-f5785340d61f" absoluteBounds="15.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HeroDBDataContext/OnlineLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3063d44a-9d17-44f2-8243-9577c4502b6d" absoluteBounds="15.765, 1.2100000000000009, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2edffabd-8be1-4e17-901d-82902d822858" absoluteBounds="15.75, 3.75, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/HeroDBDataContext/Friend" />
+      <nestedChildShapes>
+        <elementListCompartment Id="29c561d3-5da0-4a0e-8349-d47aa44dc503" absoluteBounds="15.765, 4.2100000000000009, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9c49a77e-77b7-4224-a3bc-618807b56346" absoluteBounds="0.75, 16.75, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/HeroDBDataContext/Shop" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97899931-e2e1-47cc-be26-4ec21bd6f0ed" absoluteBounds="0.76500000000000057, 17.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="67756305-7e8f-4d90-bdfd-2aea785fa770" absoluteBounds="6.25, 13.375, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/HeroDBDataContext/House" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be3727e1-1541-46c7-b4d1-52f1a364f6bc" absoluteBounds="6.2650000000000006, 13.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2a5c1a70-225d-4345-8067-8fb4143f61b1" absoluteBounds="3.5, 13.25, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/HeroDBDataContext/Land" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99d38436-47ab-4715-be2a-45ce50c33c54" absoluteBounds="3.5149999999999997, 13.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 10.9150211588542); (1.75 : 14.2315991210937); (3.5 : 14.2315991210937)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HeroDBDataContext/UserEx/UserEx_Land" />
+      <nodes>
+        <classShapeMoniker Id="25fb0922-efef-4574-8804-9d98aa2cecb4" />
+        <classShapeMoniker Id="2a5c1a70-225d-4345-8067-8fb4143f61b1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 14.2604484049479); (6.25 : 14.2604484049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HeroDBDataContext/Land/Land_House" />
+      <nodes>
+        <classShapeMoniker Id="2a5c1a70-225d-4345-8067-8fb4143f61b1" />
+        <classShapeMoniker Id="67756305-7e8f-4d90-bdfd-2aea785fa770" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9d7af58f-d0a3-42b9-a653-c3ed05117bea" absoluteBounds="3.5, 6, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/HeroDBDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5fb20cd7-3d5d-425a-ae2a-4c8a2ff57310" absoluteBounds="3.5150000005960464, 6.46000000089407, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 7.65465413411458); (3.5 : 7.65465413411458)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HeroDBDataContext/UserEx/UserEx_Role" />
+      <nodes>
+        <classShapeMoniker Id="25fb0922-efef-4574-8804-9d98aa2cecb4" />
+        <classShapeMoniker Id="9d7af58f-d0a3-42b9-a653-c3ed05117bea" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1a58a372-bcd1-478a-b0bb-bd12fd7ba57b" absoluteBounds="3.5, 10, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/HeroDBDataContext/RoleHire" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a2eb1bb-9e86-43ef-98c0-93fb057c18ec" absoluteBounds="3.5150000005960464, 10.46000000089407, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 10.4575105792967); (3.5 : 10.4575105792967)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HeroDBDataContext/UserEx/UserEx_RoleHire" />
+      <nodes>
+        <classShapeMoniker Id="25fb0922-efef-4574-8804-9d98aa2cecb4" />
+        <classShapeMoniker Id="1a58a372-bcd1-478a-b0bb-bd12fd7ba57b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

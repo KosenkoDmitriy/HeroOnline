@@ -1,0 +1,118 @@
+﻿body {
+    color: #35a5bb;
+    font-size: 14px;
+    font-family: Tahoma;
+    background-color: white;
+    margin: 0;
+}
+
+#top_menu {
+    color: #35a5bb;
+}
+
+    #top_menu a {
+        color: #35a5bb;
+        text-decoration: none;
+    }
+
+        #top_menu a:hover {
+            color: #6eb4e5;
+            background-color: #cccccc;
+            text-decoration: none;
+        }
+
+#main_menu {
+    color: #35a5bb;
+}
+
+    #main_menu a {
+        color: #35a5bb;
+        text-decoration: none;
+    }
+
+        #main_menu a:hover {
+            color: #6eb4e5;
+            background-color: #cccccc;
+            text-decoration: none;
+        }
+
+.acc_code {
+    color: #3f8f21;
+    font-weight: bold;
+}
+
+.title1 {
+    color: #35a5bb;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.title2 {
+    color: #35a5bb;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.title3 {
+    color: #35a5bb;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tableform {
+    margin-left: 100px;
+    width: 95%;
+    border: none;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+    .tableform th td {
+        padding: 5px;
+    }
+
+.tablelist {
+    margin-left: 100px;
+    width: 50%;
+    border: solid 1px green;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+    .tablelist th td {
+        border: solid 1px green;
+    }
+
+.text-highlight {
+    background-color: #ffff88;
+}
+/* validation
+----------------------------------------------------------*/
+.redstar {
+    color: #d33838;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.field-validation-error {
+    color: #ff0000;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+    .validation-summary-errors ul {
+        color: #ff0000;
+    }

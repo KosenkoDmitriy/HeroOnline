@@ -1,0 +1,441 @@
+3248: 15:39:58.431 - ---
+3248: 15:39:58.431 - Service: "Photon Socket Server" starting
+3248: 15:39:58.431 - Config File: E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Win32\PhotonServer.config
+3248: 15:39:58.432 - Will produce at most: 10 crash dumps
+3248: 15:39:58.432 - Action: run as service
+7488: 15:39:58.433 - Server Starting...
+7488: 15:39:58.433 -    Tick count: 63134244 (wraps in: 48.9795 days)
+7488: 15:39:58.433 - Tick count 64: 63134244
+7488: 15:39:58.433 - Photon Version: 3.4.4.2588
+7488: 15:39:58.433 - PID: 6916
+7488: 15:39:58.433 - Current directory is: C:\Windows\system32
+7488: 15:39:58.433 - Changing current directory to: E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Win32
+7488: 15:39:58.433 - Config File: E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Win32\PhotonServer.config
+7488: 15:39:58.434 - Will NOT log unimportant exceptions
+7488: 15:39:58.436 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+7488: 15:39:58.436 - Shutdown timeout enabled: 30000ms
+7488: 15:39:58.436 - Starting I/O thread pool with 2 threads
+7488: 15:39:58.437 - Using Standard allocator
+7488: 15:39:58.437 - Max message size: 512000
+7488: 15:39:58.437 - Starting business logic thread pool with the following settings
+7488: 15:39:58.437 - InitialThreads: 4 threads
+7488: 15:39:58.437 - MinThreads: 4 threads
+7488: 15:39:58.437 - Thread pool is fixed size
+7488: 15:39:58.437 - Starting ENet thread pool with the following settings
+7488: 15:39:58.437 - InitialThreads: 2 threads
+7488: 15:39:58.437 - MinThreads: 2 threads
+7488: 15:39:58.437 - Thread pool is fixed size
+7488: 15:39:58.437 - OnlyDispatchTimers: False
+7488: 15:39:58.437 - S2S: flow control: Max pending writes: 50
+7488: 15:39:58.437 - S2S: flow control: Max queued buffers: 200
+7488: 15:39:58.437 - S2S: flow control: Max pending writes MUX: 500
+7488: 15:39:58.437 - S2S: flow control: Max queued buffers MUX: 2000
+7488: 15:39:58.437 - S2S: MaxInboundMessageSize: 512000
+7488: 15:39:58.437 - S2S: MaxOutboundMessageSize: 512000
+7488: 15:39:58.437 - S2S: No inactivity timeout
+7488: 15:39:58.440 - WebSocket S2S: MaxInboundMessageSize: 512000
+7488: 15:39:58.440 - WebSocket S2S: MaxOutboundMessageSize: 512000
+7488: 15:39:58.440 - WebSocket S2S: No inactivity timeout
+7488: 15:39:58.440 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+7488: 15:39:58.440 - Per peer bandwidth limit
+7488: 15:39:58.440 - Transmit Rate Limit: 256 KB/Sec
+7488: 15:39:58.440 - Limit period: 200ms
+7488: 15:39:58.440 - Limit per period: 52428 bytes
+7488: 15:39:58.440 - Max queued data for transmission per peer: 512000 bytes
+7488: 15:39:58.440 - Minimum retransmit timeout: 200
+7488: 15:39:58.440 - Minimum ENet timeout: 5000ms
+7488: 15:39:58.440 - Maximum ENet timeout: 30000ms
+7488: 15:39:58.440 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+7488: 15:39:58.440 - Outbound ENet: MaxInboundMessageSize: 512000
+7488: 15:39:58.440 - Outbound ENet: MaxOutboundMessageSize: 512000
+7488: 15:39:58.442 - GetRuntime - About to load CLR - versions available:
+7488: 15:39:58.442 - v2.0.50727
+7488: 15:39:58.442 - v4.0.30319
+7488: 15:39:58.442 - Configuration requests: "v2.0.50727"
+7488: 15:39:58.442 - About to load version: "v2.0.50727"
+7488: 15:39:58.449 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+7488: 15:39:58.449 - CLRBaseDirectory set to "E:\Projects_BlueSky\tt\PhotonSDK\deploy"
+7488: 15:39:58.449 - Optimising event broadcast for 20 or more peers
+7488: 15:39:58.450 - Start: About to load CLR - versions available:
+7488: 15:39:58.450 - v2.0.50727
+7488: 15:39:58.450 - v4.0.30319
+7488: 15:39:58.450 - No preference in configuration file, will load latest.
+7488: 15:39:58.450 - About to load version: "v4.0.30319"
+7488: 15:39:58.451 - Loaded version: "v4.0.30319"
+7488: 15:39:58.562 - Photon host runtime loaded
+7488: 15:40:00.811 - License is valid.
+7488: 15:40:00.811 - Licensed for 100 concurrent connections.
+7488: 15:40:00.811 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+7488: 15:40:00.811 - ENet: Per peer bandwidth limit
+7488: 15:40:00.811 - ENet: Transmit Rate Limit: 256 KB/Sec
+7488: 15:40:00.811 - ENet: Limit period: 200ms
+7488: 15:40:00.811 - ENet: Limit per period: 52428 bytes
+7488: 15:40:00.811 - ENet: Max queued data for transmission per peer: 512000 bytes
+7488: 15:40:00.811 - ENet: Minimum retransmit timeout: 200
+7488: 15:40:00.811 - ENet: Minimum timeout: 5000ms
+7488: 15:40:00.811 - ENet: Maximum timeout: 30000ms
+7488: 15:40:00.811 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+7488: 15:40:00.812 - About to load application: HeroWorld from DEngine.HeroServer
+7488: 15:40:00.812 - Auto restart is enabled for application
+7488: 15:40:00.812 - Application will restart 1000ms after the last change detected
+7488: 15:40:00.812 - Application will restart if files matching the following are changed: "dll;config"
+7488: 15:40:00.812 - Application will NOT restart if files matching the following are changed: "log4net.config"
+7488: 15:40:00.864 - Taking reference on default app domain
+7488: 15:40:17.755 - HeroWorld:2 - Start() failed. Exception:
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.GetEnumerator()
+   at DEngine.HeroServer.GameData.HeroDB.LoadGameRoles(HeroDBDataContext dbContext)
+   at DEngine.HeroServer.GameData.HeroDB.LoadGlobalTables()
+   at DEngine.HeroServer.GameData.HeroDB..ctor()
+   at DEngine.HeroServer.WorldService..ctor()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+ at...
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception: The network path was not found
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.GetEnumerator()
+   at DEngine.HeroServer.GameData.HeroDB.LoadGameRoles(HeroDBDataContext dbContext)
+   at DEngine.HeroServer.GameData.HeroDB.LoadGlobalTables()
+   at DEngine.HeroServer.GameData.HeroDB..ctor()
+   at DEngine.HeroServer.WorldService..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Reflection.Assembly.CreateInstance(String typeName, Boolean ignoreCase, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at PhotonHostRuntime.PhotonDomainManager.PhotonPlainAppDomainBehavior.Start(String assemblyName, String typeName, String instanceName, String applicationName, IPhotonApplicationSink sink, ILogToUnmanagedLog logger, IControlListeners listenerControl)
+   at PhotonHostRuntime.PhotonDomainManager.Start(String assemblyName, String typeName, String instanceName, String applicationName, IPhotonApplicationSink sink, ILogToUnmanagedLog logger, IControlListeners listenerControl)
+7488: 15:40:17.756 - HeroWorld:2 - Stop() failed.
+Exception:
+System.Exception: Stop: unable to call the Application.TearDown() - undefined photonControl.
+   at PhotonHostRuntime.PhotonDomainManager.PhotonPlainAppDomainBehavior.Stop()
+   at PhotonHostRuntime.PhotonDomainManager.Stop()
+7488: 15:40:17.756 - ERROR: Failed to start application: "HeroWorld" in app domain: 2
+6428: 15:40:17.756 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+7488: 15:40:17.756 - CService::OnException() - Exception: CManagedHost::StartApplication() - Failed to start application in AppDomain: 2 - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7488: 15:40:17.756 - Server shutting down...
+7488: 15:40:17.756 - Shutdown monitoring enabled, 30000ms before process abort
+7488: 15:40:17.757 - Notifying CLR applications of shutdown...
+7488: 15:40:17.757 - RequestStop: defalt app domain
+7488: 15:40:17.757 - Shutting down WebSocket Outbound Connection Manager...
+7488: 15:40:17.757 - Shutting down TCP Outbound Connection Manager...
+7488: 15:40:17.757 - Shutting down ENet Outbound Connection Manager...
+7488: 15:40:17.757 - Disconnecting all outbound peers...
+7488: 15:40:17.758 - Shutting down ENet host...
+7488: 15:40:17.758 - Disconnecting all peers...
+7488: 15:40:17.758 - Shutting down socket servers...
+7488: 15:40:17.758 - Shutting down ENet thread pool...
+7488: 15:40:17.758 - Shutting down TCP inactivity timers...
+7488: 15:40:17.759 - Shutting down CLR applications...
+7488: 15:40:17.759 - Shutting down business logic thread pool...
+7488: 15:40:17.759 - Shutting down I/O thread pool...
+7488: 15:40:17.759 - Destroying servers
+7488: 15:40:17.759 - Destroying WebSocket Outbound Connection Manager
+7488: 15:40:17.759 - Destroying TCP Outbound Connection Manager
+7488: 15:40:17.759 - Destroying TCP inactivity timer
+7488: 15:40:17.759 - Destroying ENet timer wheel
+7488: 15:40:17.759 - Destroying ENet host
+7488: 15:40:17.759 - Destroying ENet outbound host
+7488: 15:40:17.759 - Destroying HTTP inactivity timer
+7488: 15:40:17.759 - Destroying HTTP host
+7488: 15:40:17.759 - Flushing ENET buffer allocator...
+7488: 15:40:17.759 - Flushing TCP buffer handle allocator...
+7488: 15:40:17.759 - Flushing stream socket allocator...
+7488: 15:40:17.759 - Flushing inbound datagram socket allocator...
+7488: 15:40:17.759 - Flushing outbound datagram socket allocator...
+7488: 15:40:17.760 - Destroying CLR dispatcher
+7488: 15:40:17.760 - Destroying CLR applications
+7488: 15:40:17.760 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+6452: 15:40:17.762 - Unloading Domain: ApplicationName = 'HeroWorld', DomainId='2'
+6428: 15:40:17.763 - CManagedHost::OnDomainUnload() - 2
+7488: 15:40:17.764 - ~CCLRApplicationCollection() - Done. All objects released
+7488: 15:40:17.764 - ~CManagedHost() - Release default app domain
+7488: 15:40:17.764 - CManagedHost::OnDomainUnload() - 1
+7488: 15:40:17.764 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+7488: 15:40:17.764 - ~CManagedHost
+7488: 15:40:17.764 - Destroying ENet thread pool
+7488: 15:40:17.764 - Destroying Business logic thread pool
+7488: 15:40:17.764 - Destroying I/O thread pool
+7488: 15:40:17.764 - Destroying ENet buffer allocator
+7488: 15:40:17.764 - Destroying TCP buffer allocator
+7488: 15:40:17.764 - Destroying TCP socket allocator
+7488: 15:40:17.764 - Destroying ENet inbound socket allocator
+7488: 15:40:17.765 - Destroying ENet outbound socket allocator
+7488: 15:40:17.765 - Shutdown complete...
+3248: 15:40:17.765 - MessageBox: Photon Socket Server: HeroOnline - 3.4.4.2588Failed to start service
+Error code: 108
+
+Instance Name = "HeroOnline"
+3248: 15:40:17.765 - Service shutting down: failed to start application. Errorcode: 108
+3248: 15:40:17.766 - Service shut down complete
+4212: 15:44:38.988 - ---
+4212: 15:44:38.988 - Service: "Photon Socket Server" starting
+4212: 15:44:38.988 - Config File: E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Win32\PhotonServer.config
+4212: 15:44:38.989 - Will produce at most: 10 crash dumps
+4212: 15:44:38.989 - Action: run as service
+7032: 15:44:38.990 - Server Starting...
+7032: 15:44:38.990 -    Tick count: 63414796 (wraps in: 48.9763 days)
+7032: 15:44:38.990 - Tick count 64: 63414796
+7032: 15:44:38.990 - Photon Version: 3.4.4.2588
+7032: 15:44:38.990 - PID: 7256
+7032: 15:44:38.990 - Current directory is: C:\Windows\system32
+7032: 15:44:38.990 - Changing current directory to: E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Win32
+7032: 15:44:38.990 - Config File: E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Win32\PhotonServer.config
+7032: 15:44:38.991 - Will NOT log unimportant exceptions
+7032: 15:44:38.995 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+7032: 15:44:38.995 - Shutdown timeout enabled: 30000ms
+7032: 15:44:38.995 - Starting I/O thread pool with 2 threads
+7032: 15:44:38.996 - Using Standard allocator
+7032: 15:44:38.996 - Max message size: 512000
+7032: 15:44:38.996 - Starting business logic thread pool with the following settings
+7032: 15:44:38.996 - InitialThreads: 4 threads
+7032: 15:44:38.996 - MinThreads: 4 threads
+7032: 15:44:38.996 - Thread pool is fixed size
+7032: 15:44:38.996 - Starting ENet thread pool with the following settings
+7032: 15:44:38.996 - InitialThreads: 2 threads
+7032: 15:44:38.996 - MinThreads: 2 threads
+7032: 15:44:38.996 - Thread pool is fixed size
+7032: 15:44:38.996 - OnlyDispatchTimers: False
+7032: 15:44:38.996 - S2S: flow control: Max pending writes: 50
+7032: 15:44:38.996 - S2S: flow control: Max queued buffers: 200
+7032: 15:44:38.996 - S2S: flow control: Max pending writes MUX: 500
+7032: 15:44:38.996 - S2S: flow control: Max queued buffers MUX: 2000
+7032: 15:44:38.996 - S2S: MaxInboundMessageSize: 512000
+7032: 15:44:38.996 - S2S: MaxOutboundMessageSize: 512000
+7032: 15:44:38.996 - S2S: No inactivity timeout
+7032: 15:44:38.999 - WebSocket S2S: MaxInboundMessageSize: 512000
+7032: 15:44:38.999 - WebSocket S2S: MaxOutboundMessageSize: 512000
+7032: 15:44:38.999 - WebSocket S2S: No inactivity timeout
+7032: 15:44:38.999 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+7032: 15:44:38.999 - Per peer bandwidth limit
+7032: 15:44:38.999 - Transmit Rate Limit: 256 KB/Sec
+7032: 15:44:38.999 - Limit period: 200ms
+7032: 15:44:38.999 - Limit per period: 52428 bytes
+7032: 15:44:38.999 - Max queued data for transmission per peer: 512000 bytes
+7032: 15:44:38.999 - Minimum retransmit timeout: 200
+7032: 15:44:38.999 - Minimum ENet timeout: 5000ms
+7032: 15:44:38.999 - Maximum ENet timeout: 30000ms
+7032: 15:44:38.999 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+7032: 15:44:38.999 - Outbound ENet: MaxInboundMessageSize: 512000
+7032: 15:44:38.999 - Outbound ENet: MaxOutboundMessageSize: 512000
+7032: 15:44:39.001 - GetRuntime - About to load CLR - versions available:
+7032: 15:44:39.001 - v2.0.50727
+7032: 15:44:39.001 - v4.0.30319
+7032: 15:44:39.001 - Configuration requests: "v2.0.50727"
+7032: 15:44:39.001 - About to load version: "v2.0.50727"
+7032: 15:44:39.009 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+7032: 15:44:39.009 - CLRBaseDirectory set to "E:\Projects_BlueSky\tt\PhotonSDK\deploy"
+7032: 15:44:39.009 - Optimising event broadcast for 20 or more peers
+7032: 15:44:39.010 - Start: About to load CLR - versions available:
+7032: 15:44:39.010 - v2.0.50727
+7032: 15:44:39.010 - v4.0.30319
+7032: 15:44:39.010 - No preference in configuration file, will load latest.
+7032: 15:44:39.010 - About to load version: "v4.0.30319"
+7032: 15:44:39.010 - Loaded version: "v4.0.30319"
+7032: 15:44:39.122 - Photon host runtime loaded
+7032: 15:44:41.400 - License is valid.
+7032: 15:44:41.400 - Licensed for 100 concurrent connections.
+7032: 15:44:41.401 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+7032: 15:44:41.401 - ENet: Per peer bandwidth limit
+7032: 15:44:41.401 - ENet: Transmit Rate Limit: 256 KB/Sec
+7032: 15:44:41.401 - ENet: Limit period: 200ms
+7032: 15:44:41.401 - ENet: Limit per period: 52428 bytes
+7032: 15:44:41.401 - ENet: Max queued data for transmission per peer: 512000 bytes
+7032: 15:44:41.401 - ENet: Minimum retransmit timeout: 200
+7032: 15:44:41.401 - ENet: Minimum timeout: 5000ms
+7032: 15:44:41.401 - ENet: Maximum timeout: 30000ms
+7032: 15:44:41.401 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+7032: 15:44:41.401 - About to load application: HeroWorld from DEngine.HeroServer
+7032: 15:44:41.401 - Auto restart is enabled for application
+7032: 15:44:41.401 - Application will restart 1000ms after the last change detected
+7032: 15:44:41.401 - Application will restart if files matching the following are changed: "dll;config"
+7032: 15:44:41.401 - Application will NOT restart if files matching the following are changed: "log4net.config"
+7032: 15:44:41.455 - Taking reference on default app domain
+7032: 15:44:58.344 - HeroWorld:2 - Start() failed. Exception:
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.GetEnumerator()
+   at DEngine.HeroServer.GameData.HeroDB.LoadGameRoles(HeroDBDataContext dbContext)
+   at DEngine.HeroServer.GameData.HeroDB.LoadGlobalTables()
+   at DEngine.HeroServer.GameData.HeroDB..ctor()
+   at DEngine.HeroServer.WorldService..ctor()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+ at...
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception: The network path was not found
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.GetEnumerator()
+   at DEngine.HeroServer.GameData.HeroDB.LoadGameRoles(HeroDBDataContext dbContext)
+   at DEngine.HeroServer.GameData.HeroDB.LoadGlobalTables()
+   at DEngine.HeroServer.GameData.HeroDB..ctor()
+   at DEngine.HeroServer.WorldService..ctor()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Reflection.Assembly.CreateInstance(String typeName, Boolean ignoreCase, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at PhotonHostRuntime.PhotonDomainManager.PhotonPlainAppDomainBehavior.Start(String assemblyName, String typeName, String instanceName, String applicationName, IPhotonApplicationSink sink, ILogToUnmanagedLog logger, IControlListeners listenerControl)
+   at PhotonHostRuntime.PhotonDomainManager.Start(String assemblyName, String typeName, String instanceName, String applicationName, IPhotonApplicationSink sink, ILogToUnmanagedLog logger, IControlListeners listenerControl)
+7032: 15:44:58.345 - HeroWorld:2 - Stop() failed.
+Exception:
+System.Exception: Stop: unable to call the Application.TearDown() - undefined photonControl.
+   at PhotonHostRuntime.PhotonDomainManager.PhotonPlainAppDomainBehavior.Stop()
+   at PhotonHostRuntime.PhotonDomainManager.Stop()
+7032: 15:44:58.345 - ERROR: Failed to start application: "HeroWorld" in app domain: 2
+7588: 15:44:58.345 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+7032: 15:44:58.345 - CService::OnException() - Exception: CManagedHost::StartApplication() - Failed to start application in AppDomain: 2 - A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+7032: 15:44:58.345 - Server shutting down...
+7032: 15:44:58.345 - Shutdown monitoring enabled, 30000ms before process abort
+7032: 15:44:58.346 - Notifying CLR applications of shutdown...
+7032: 15:44:58.346 - RequestStop: defalt app domain
+7032: 15:44:58.346 - Shutting down WebSocket Outbound Connection Manager...
+7032: 15:44:58.346 - Shutting down TCP Outbound Connection Manager...
+7032: 15:44:58.346 - Shutting down ENet Outbound Connection Manager...
+7032: 15:44:58.346 - Disconnecting all outbound peers...
+7032: 15:44:58.346 - Shutting down ENet host...
+7032: 15:44:58.346 - Disconnecting all peers...
+7032: 15:44:58.347 - Shutting down socket servers...
+7032: 15:44:58.347 - Shutting down ENet thread pool...
+7032: 15:44:58.347 - Shutting down TCP inactivity timers...
+7032: 15:44:58.347 - Shutting down CLR applications...
+7032: 15:44:58.347 - Shutting down business logic thread pool...
+7032: 15:44:58.347 - Shutting down I/O thread pool...
+7032: 15:44:58.348 - Destroying servers
+7032: 15:44:58.348 - Destroying WebSocket Outbound Connection Manager
+7032: 15:44:58.348 - Destroying TCP Outbound Connection Manager
+7032: 15:44:58.348 - Destroying TCP inactivity timer
+7032: 15:44:58.348 - Destroying ENet timer wheel
+7032: 15:44:58.348 - Destroying ENet host
+7032: 15:44:58.348 - Destroying ENet outbound host
+7032: 15:44:58.348 - Destroying HTTP inactivity timer
+7032: 15:44:58.348 - Destroying HTTP host
+7032: 15:44:58.348 - Flushing ENET buffer allocator...
+7032: 15:44:58.348 - Flushing TCP buffer handle allocator...
+7032: 15:44:58.348 - Flushing stream socket allocator...
+7032: 15:44:58.348 - Flushing inbound datagram socket allocator...
+7032: 15:44:58.348 - Flushing outbound datagram socket allocator...
+7032: 15:44:58.348 - Destroying CLR dispatcher
+7032: 15:44:58.348 - Destroying CLR applications
+7032: 15:44:58.348 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+7916: 15:44:58.351 - Unloading Domain: ApplicationName = 'HeroWorld', DomainId='2'
+7588: 15:44:58.352 - CManagedHost::OnDomainUnload() - 2
+7032: 15:44:58.353 - ~CCLRApplicationCollection() - Done. All objects released
+7032: 15:44:58.353 - ~CManagedHost() - Release default app domain
+7032: 15:44:58.353 - CManagedHost::OnDomainUnload() - 1
+7032: 15:44:58.353 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+7032: 15:44:58.353 - ~CManagedHost
+7032: 15:44:58.353 - Destroying ENet thread pool
+7032: 15:44:58.353 - Destroying Business logic thread pool
+7032: 15:44:58.353 - Destroying I/O thread pool
+7032: 15:44:58.353 - Destroying ENet buffer allocator
+7032: 15:44:58.353 - Destroying TCP buffer allocator
+7032: 15:44:58.353 - Destroying TCP socket allocator
+7032: 15:44:58.353 - Destroying ENet inbound socket allocator
+7032: 15:44:58.353 - Destroying ENet outbound socket allocator
+7032: 15:44:58.353 - Shutdown complete...
+4212: 15:44:58.354 - MessageBox: Photon Socket Server: HeroOnline - 3.4.4.2588Failed to start service
+Error code: 108
+
+Instance Name = "HeroOnline"
+4212: 15:44:58.354 - Service shutting down: failed to start application. Errorcode: 108
+4212: 15:44:58.355 - Service shut down complete
+2756: 15:46:27.426 - ---
+2756: 15:46:27.426 - Service: "Photon Socket Server" starting
+2756: 15:46:27.426 - Config File: E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Win32\PhotonServer.config
+2756: 15:46:27.427 - Will produce at most: 10 crash dumps
+2756: 15:46:27.427 - Action: remove service
+2756: 15:46:27.429 - Service: "Photon Socket Server: HeroOnline" removed
+2756: 15:46:27.429 - MessageBox: Photon Socket Server: HeroOnline - 3.4.4.2588
+
+Service removed
+
+Instance Name = "HeroOnline"
+2756: 15:46:28.662 - Service shutting down
+2756: 15:46:28.663 - Service shut down complete

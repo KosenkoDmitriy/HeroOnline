@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameConfig>
+  <DungeonLevel>5</DungeonLevel>
+  <ArenaLevel>5</ArenaLevel>
+  <ArenaWinSilver>1800</ArenaWinSilver>
+  <ArenaLostSilver>2000</ArenaLostSilver>
+  <PillageLevel>1</PillageLevel>
+  <Pillage RefreshUsers="3" BuyAttack="3"  MaxAttack="5" MaxDefence="3" />
+  <DailyAwards>0;1;2;3;4;5;6;7</DailyAwards>
+  <OnlineAwards>0;30;90;270;810;2430;7290</OnlineAwards>
+  <GameEvents>
+    <Event Id="1" Name="WeeklyArenaAward">
+      <Schedule>5 0 * * 1</Schedule>
+      <StartTime>2014-12-20</StartTime>
+      <EndTime>2028-12-20</EndTime>
+      <EventData>0;-1;60;60;30;30;30;30;30;30;30;10;2</EventData>
+    </Event>
+  </GameEvents>
+  <Promotions>
+    <Package Id="1" Name="Bronze Package" Price="20">
+      <Hero Count="0" Grade="0" />
+      <Equipment Count="1" MinLevel="2" MaxLevel="5" Grades="0;0;30;70;0" />
+      <Item Count="9" ItemId="52;87" ItemRate="30;70" />
+      <Item Count="10" ItemId="31" ItemRate="100" />
+    </Package>
+    <Package Id="2" Name="Sivler Package" Price="70">
+      <Hero Count="1" Grade="3" />
+      <Equipment Count="1" MinLevel="2" MaxLevel="5" Grades="0;0;0;70;30" />
+      <Item Count="9" ItemId="52;87;97" ItemRate="10;30;60" />
+      <Item Count="10" ItemId="48" ItemRate="100" />
+    </Package>
+    <Package Id="3" Name="Gold Package" Price="200">
+      <Hero Count="1" Grade="4" />
+      <Equipment Count="1" MinLevel="2" MaxLevel="5" Grades="0;0;0;30;70" />
+      <Item Count="1" ItemId="72;73;74;75;76;77;78;79;80;81;82;83;84;85;86" ItemRate="1;1;1;1;1;1;1;1;1;1;1;1;1;1;1" />
+      <Item Count="1" ItemId="72;73;74;75;76;77;78;79;80;81;82;83;84;85;86" ItemRate="1;1;1;1;1;1;1;1;1;1;1;1;1;1;1" />
+      <Item Count="1" ItemId="72;73;74;75;76;77;78;79;80;81;82;83;84;85;86" ItemRate="1;1;1;1;1;1;1;1;1;1;1;1;1;1;1" />
+      <Item Count="5" ItemId="48" ItemRate="100" />
+    </Package>
+  </Promotions>
+</GameConfig>

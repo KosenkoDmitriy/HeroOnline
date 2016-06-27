@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ItemConfig>
+  <GradeRates>
+    <GreenRate>100;50</GreenRate>
+    <BlueRate>100;50;25;13;6</BlueRate>
+    <YellowRate>100;50;25;13;6;</YellowRate>
+  </GradeRates>
+  <GradeRanks>
+    <GradeRank>0;0;0;0</GradeRank>
+    <GradeRank>90;10;0;0</GradeRank>
+    <GradeRank>10;90;5;0</GradeRank>
+    <GradeRank>1;5;89;5</GradeRank>
+  </GradeRanks>
+  <SlotOptions>
+    <SlotOption>2;2;31;80;3;3;30</SlotOption>
+    <SlotOption>2;2;34;20;1;1;10</SlotOption>
+    <SlotOption>2;3;18;20;0.5;1;5</SlotOption>
+    <SlotOption>2;3;19;20;0.5;1;5</SlotOption>
+    <SlotOption>2;3;20;20;0.5;1;5</SlotOption>
+    <SlotOption>2;3;21;20;0.5;1;5</SlotOption>
+    <SlotOption>2;3;22;20;0.5;1;5</SlotOption>
+    <SlotOption>2;4;25;12;0.5;1;5</SlotOption>
+    <SlotOption>2;4;17;12;0.30;1;3</SlotOption>
+    <SlotOption>2;4;24;10;0.30;1;3</SlotOption>
+    <SlotOption>2;4;32;5;0.5;1;5</SlotOption>
+    <SlotOption>2;4;10;10;0.30;1;3</SlotOption>
+    <SlotOption>2;4;33;5;0.5;1;5</SlotOption>
+    <SlotOption>2;4;37;12;0.80;1;8</SlotOption>
+    <SlotOption>2;4;36;5;0.5;1;5</SlotOption>
+    <SlotOption>2;4;38;12;1;1;10</SlotOption>
+    <SlotOption>2;4;44;12;0.5;1;5</SlotOption>
+    <SlotOption>2;4;39;5;0.5;1;5</SlotOption>
+    <SlotOption>3;2;26;60;1.5;1.5;15</SlotOption>
+    <SlotOption>3;2;35;40;10;10;100</SlotOption>
+    <SlotOption>3;3;18;20;0.5;1;5</SlotOption>
+    <SlotOption>3;3;19;20;0.5;1;5</SlotOption>
+    <SlotOption>3;3;20;20;0.5;1;5</SlotOption>
+    <SlotOption>3;3;21;20;0.5;1;5</SlotOption>
+    <SlotOption>3;3;22;20;0.5;1;5</SlotOption>
+    <SlotOption>3;4;25;12;0.5;1;5</SlotOption>
+    <SlotOption>2;4;17;12;0.30;1;3</SlotOption>
+    <SlotOption>3;4;24;10;0.30;1;3</SlotOption>
+    <SlotOption>3;4;32;5;0.5;1;5</SlotOption>
+    <SlotOption>3;4;10;10;0.30;1;3</SlotOption>
+    <SlotOption>3;4;33;5;0.5;1;5</SlotOption>
+    <SlotOption>3;4;37;12;0.80;1;8</SlotOption>
+    <SlotOption>3;4;36;5;0.5;1;5</SlotOption>
+    <SlotOption>3;4;38;12;1;1;10</SlotOption>
+    <SlotOption>3;4;44;12;0.5;1;5</SlotOption>
+    <SlotOption>3;4;39;5;0.5;1;5</SlotOption>
+    <SlotOption>4;2;12;30;0.5;1;5</SlotOption>
+    <SlotOption>4;2;13;70;0.5;1;5</SlotOption>
+    <SlotOption>4;3;18;20;0.5;1;5</SlotOption>
+    <SlotOption>4;3;19;20;0.5;1;5</SlotOption>
+    <SlotOption>4;3;20;20;0.5;1;5</SlotOption>
+    <SlotOption>4;3;21;20;0.5;1;5</SlotOption>
+    <SlotOption>4;3;22;20;0.5;1;5</SlotOption>
+    <SlotOption>4;4;25;12;0.5;1;5</SlotOption>
+    <SlotOption>2;4;17;12;0.30;1;3</SlotOption>
+    <SlotOption>4;4;24;10;0.30;1;3</SlotOption>
+    <SlotOption>4;4;32;5;0.5;1;5</SlotOption>
+    <SlotOption>4;4;10;10;0.30;1;3</SlotOption>
+    <SlotOption>4;4;33;5;0.5;1;5</SlotOption>
+    <SlotOption>4;4;37;12;0.80;1;8</SlotOption>
+    <SlotOption>4;4;36;5;0.5;1;5</SlotOption>
+    <SlotOption>4;4;38;12;1;1;10</SlotOption>
+    <SlotOption>4;4;44;12;0.5;1;5</SlotOption>
+    <SlotOption>4;4;39;5;0.5;1;5</SlotOption>
+  </SlotOptions>
+  <ItemUpgrades LevelCount="10">
+    <NoGoldRate>100;95;90;85;80;75;70;65;60;55</NoGoldRate>
+    <Material Grade="White">52;3;53;3;54;3;55;3;56;3;57;3;58;3;59;3;60;3;61;3</Material>
+    <Material Grade="Green">87;3;88;3;89;3;90;3;91;3;92;3;93;3;94;3;95;3;96;3</Material>
+    <Material Grade="Blue">97;3;98;3;99;3;100;3;101;3;102;3;103;3;104;3;105;3;106;3</Material>
+    <Material Grade="Yellow">107;3;108;3;109;3;110;3;111;3;112;3;113;3;114;3;115;3;116;3</Material>
+    <UpgradeFee ItemLevel="1">
+      <Silver>100;250;500;850;1300;1850;2500;3250;4100;5050</Silver>
+      <Gold>0;1;2;3;4;5;6;7;8;9</Gold>
+    </UpgradeFee>
+    <UpgradeFee ItemLevel="2">
+      <Silver>600;1500;3000;5100;7800;11100;15000;19500;24600;30300</Silver>
+      <Gold>0;6;12;18;24;30;36;42;48;54</Gold>
+    </UpgradeFee>
+    <UpgradeFee ItemLevel="3">
+      <Silver>1100;2750;5500;9350;14300;20350;27500;35750;45100;55550</Silver>
+      <Gold>0;11;22;33;44;55;66;77;88;99</Gold>
+    </UpgradeFee>
+    <UpgradeFee ItemLevel="4">
+      <Silver>1600;4000;8000;13600;20800;29600;40000;52000;65600;80800</Silver>
+      <Gold>0;16;32;48;64;80;96;112;128;144</Gold>
+    </UpgradeFee>
+    <UpgradeFee ItemLevel="5">
+      <Silver>2100;5250;10500;17850;27300;38850;52500;68250;86100;106050</Silver>
+      <Gold>0;21;42;63;84;105;126;147;168;189</Gold>
+    </UpgradeFee>
+    <UpgradeFee ItemLevel="6">
+      <Silver>2600;6500;13000;22100;33800;48100;65000;84500;106600;131300</Silver>
+      <Gold>0;26;52;78;104;130;156;182;208;234</Gold>
+    </UpgradeFee>
+    <UpgradeFee ItemLevel="7">
+      <Silver>3100;7750;15500;26350;40300;57350;77500;100750;127100;156550</Silver>
+      <Gold>0;31;62;93;124;155;186;217;248;279</Gold>
+    </UpgradeFee>
+    <UpgradeFee ItemLevel="8">
+      <Silver>3600;9000;18000;30600;46800;66600;90000;117000;147600;181800</Silver>
+      <Gold>0;36;72;108;144;180;216;252;288;324</Gold>
+    </UpgradeFee>
+    <UpgradeFee ItemLevel="9">
+      <Silver>4100;10250;20500;34850;53300;75850;102500;133250;168100;207050</Silver>
+      <Gold>0;41;82;123;164;205;246;287;328;369</Gold>
+    </UpgradeFee>
+    <UpgradeFee ItemLevel="10">
+      <Silver>4600;11500;23000;39100;59800;85100;115000;149500;188600;232300</Silver>
+      <Gold>0;46;92;138;184;230;276;322;368;414</Gold>
+    </UpgradeFee>
+  </ItemUpgrades>
+</ItemConfig>

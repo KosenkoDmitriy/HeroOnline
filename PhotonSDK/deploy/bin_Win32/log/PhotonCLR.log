@@ -1,0 +1,62 @@
+2015-02-25 15:39:58,550 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2015-02-25 15:39:58,562 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2015-02-25 15:39:58,563 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2015-02-25 15:39:59,072 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Expiration: never; floating license: yes; max connections: 100; valid IPs: any
+2015-02-25 15:40:00,817 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'HeroWorld' , assemblyName = 'DEngine.HeroServer'
+2015-02-25 15:40:00,818 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy'
+2015-02-25 15:40:00,818 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\HeroOnline;bin_Win32;Shared;'
+2015-02-25 15:40:00,818 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\HeroOnline\DEngine.HeroServer.dll.config'
+2015-02-25 15:40:00,818 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\HeroOnline\Cache'
+2015-02-25 15:40:00,863 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\HeroOnline'
+2015-02-25 15:40:00,863 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\HeroOnline'
+2015-02-25 15:40:00,864 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy'
+2015-02-25 15:40:00,864 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Win32\log'
+2015-02-25 15:40:00,873 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: DEngine.HeroServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Projects_BlueSky/tt/PhotonSDK/deploy/HeroOnline/DEngine.HeroServer.DLL
+2015-02-25 15:40:00,873 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:3.4.22.6309
+2015-02-25 15:40:00,877 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: DEngine.PhotonFX, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Projects_BlueSky/tt/PhotonSDK/deploy/HeroOnline/DEngine.PhotonFX.DLL
+2015-02-25 15:40:00,883 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=3.4.22.6309, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/Projects_BlueSky/tt/PhotonSDK/deploy/HeroOnline/Photon.SocketServer.DLL
+2015-02-25 15:40:00,892 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.1.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Projects_BlueSky/tt/PhotonSDK/deploy/HeroOnline/ExitGamesLibs.DLL
+2015-02-25 15:40:00,897 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll
+2015-02-25 15:40:00,912 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Data.Linq/v4.0_4.0.0.0__b77a5c561934e089/System.Data.Linq.dll
+2015-02-25 15:40:00,922 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll
+2015-02-25 15:40:00,938 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.Transactions/v4.0_4.0.0.0__b77a5c561934e089/System.Transactions.dll
+2015-02-25 15:40:00,941 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a from file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.EnterpriseServices/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll
+2015-02-25 15:40:01,926 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: NCrontab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Projects_BlueSky/tt/PhotonSDK/deploy/HeroOnline/NCrontab.DLL
+2015-02-25 15:40:01,989 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2015-02-25 15:40:01,990 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers'
+2015-02-25 15:40:04,587 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2015-02-25 15:40:04,587 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers'
+2015-02-25 15:40:04,600 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2015-02-25 15:40:04,600 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers'
+2015-02-25 15:40:17,757 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2015-02-25 15:44:39,110 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2015-02-25 15:44:39,122 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2015-02-25 15:44:39,123 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2015-02-25 15:44:39,560 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Expiration: never; floating license: yes; max connections: 100; valid IPs: any
+2015-02-25 15:44:41,408 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'HeroWorld' , assemblyName = 'DEngine.HeroServer'
+2015-02-25 15:44:41,408 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy'
+2015-02-25 15:44:41,409 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\HeroOnline;bin_Win32;Shared;'
+2015-02-25 15:44:41,409 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\HeroOnline\DEngine.HeroServer.dll.config'
+2015-02-25 15:44:41,409 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\HeroOnline\Cache'
+2015-02-25 15:44:41,454 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\HeroOnline'
+2015-02-25 15:44:41,455 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\HeroOnline'
+2015-02-25 15:44:41,455 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy'
+2015-02-25 15:44:41,455 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Win32\log'
+2015-02-25 15:44:41,464 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: DEngine.HeroServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Projects_BlueSky/tt/PhotonSDK/deploy/HeroOnline/DEngine.HeroServer.DLL
+2015-02-25 15:44:41,464 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:3.4.22.6309
+2015-02-25 15:44:41,468 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: DEngine.PhotonFX, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Projects_BlueSky/tt/PhotonSDK/deploy/HeroOnline/DEngine.PhotonFX.DLL
+2015-02-25 15:44:41,475 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=3.4.22.6309, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/Projects_BlueSky/tt/PhotonSDK/deploy/HeroOnline/Photon.SocketServer.DLL
+2015-02-25 15:44:41,482 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.1.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Projects_BlueSky/tt/PhotonSDK/deploy/HeroOnline/ExitGamesLibs.DLL
+2015-02-25 15:44:41,488 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll
+2015-02-25 15:44:41,502 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Data.Linq/v4.0_4.0.0.0__b77a5c561934e089/System.Data.Linq.dll
+2015-02-25 15:44:41,512 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll
+2015-02-25 15:44:41,528 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.Transactions/v4.0_4.0.0.0__b77a5c561934e089/System.Transactions.dll
+2015-02-25 15:44:41,530 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a from file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.EnterpriseServices/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll
+2015-02-25 15:44:42,510 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: NCrontab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Projects_BlueSky/tt/PhotonSDK/deploy/HeroOnline/NCrontab.DLL
+2015-02-25 15:44:42,567 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2015-02-25 15:44:42,569 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers'
+2015-02-25 15:44:56,178 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2015-02-25 15:44:56,179 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers'
+2015-02-25 15:44:56,191 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2015-02-25 15:44:56,192 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'HeroWorld', DomainId='2', args.Name='DEngine.HeroServer.XmlSerializers'
+2015-02-25 15:44:58,346 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'

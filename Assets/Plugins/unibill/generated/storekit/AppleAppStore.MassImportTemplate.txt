@@ -1,0 +1,7 @@
+SKU	Product ID	Reference Name	Type	Cleared For Sale	Wholesale Price Tier	Displayed Name	Description	Screenshot Path
+supermanVN	gold20_ios	gold20_ios	Consumable	yes	2	Gold 20 Package	Gold 20 Package	
+supermanVN	gold50_ios	gold50_ios	Consumable	yes	5	Gold 50 Package	Gold 50 Package	
+supermanVN	gold100_ios	gold100_ios	Consumable	yes	10	Gold 100 Package	Gold 100 Package	
+supermanVN	gold200_ios	gold200_ios	Consumable	yes	20	Gold 200 Package	Gold 200 Package	
+supermanVN	gold500_ios	gold500_ios	Consumable	yes	50	Gold 500 Package	Gold 500 Package	
+supermanVN	silver25000_ios	silver25000_ios	Consumable	yes	10	Silver 25000 Package	Silver 25000 Package	

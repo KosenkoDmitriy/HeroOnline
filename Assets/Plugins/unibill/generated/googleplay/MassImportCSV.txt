@@ -1,0 +1,7 @@
+Product ID,Published State,Purchase Type,Auto Translate,Locale; Title; Description,Auto Fill Prices,Price
+gold20,published,managed_by_android,false,"en_US;Gold 20 Package;Gold 20 Package",true,21000000000
+gold50,published,managed_by_android,false,"en_US;Gold 50 Package;Gold 50 Package",true,50000000000
+gold100,published,managed_by_android,false,"en_US;Gold 100 Package;Gold 100 Package",true,100000000000
+gold200,published,managed_by_android,false,"en_US;Gold 200 Package;Gold 200 Package",true,200000000000
+gold500,published,managed_by_android,false,"en_US;Gold 500 Package;Gold 500 Package",true,500000000000
+silver25000,published,managed_by_android,false,"en_US;Silver 25000 Package;Silver 25000 Package",true,100000000000

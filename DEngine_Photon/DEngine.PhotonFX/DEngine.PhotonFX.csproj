@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B4B4F51E-C2EE-4963-9599-AC332388F419}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DEngine.PhotonFX</RootNamespace>
+    <AssemblyName>DEngine.PhotonFX</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\_Bin\</OutputPath>
+    <IntermediateOutputPath>..\_Obj\$(AssemblyName)\</IntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\_Bin\</OutputPath>
+    <IntermediateOutputPath>..\_Obj\$(AssemblyName)\</IntermediateOutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExitGames.Logging.Log4Net">
+      <HintPath>..\..\PhotonSDK\lib\ExitGames.Logging.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="ExitGamesLibs">
+      <HintPath>..\..\PhotonSDK\lib\ExitGamesLibs.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zlib, Version=1.9.1.8, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Lib\Ionic.Zlib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\PhotonSDK\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon.SocketServer">
+      <HintPath>..\..\PhotonSDK\lib\Photon.SocketServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonHostRuntimeInterfaces">
+      <HintPath>..\..\PhotonSDK\lib\PhotonHostRuntimeInterfaces.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Lib\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\DEngine.Common\BinSerializer.cs">
+      <Link>Common\Client\BinSerializer.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\ErrorCode.cs">
+      <Link>Common\Client\ErrorCode.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\EventCode.cs">
+      <Link>Common\Client\EventCode.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameClock.cs">
+      <Link>Common\Client\GameClock.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\OperationCode.cs">
+      <Link>Common\Client\OperationCode.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\ParameterCode.cs">
+      <Link>Common\Client\ParameterCode.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Serialization.cs">
+      <Link>Common\Client\Serialization.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\StringMap.cs">
+      <Link>Common\Client\StringMap.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\SubCode.cs">
+      <Link>Common\Client\SubCode.cs</Link>
+    </Compile>
+    <Compile Include="Common\SignInOperation.cs" />
+    <Compile Include="Common\ServerEventCode.cs" />
+    <Compile Include="Common\IPhotonHandler.cs" />
+    <Compile Include="Common\PhotonApplication.cs" />
+    <Compile Include="Common\PhotonHandler.cs" />
+    <Compile Include="Common\ServerErrorCode.cs" />
+    <Compile Include="Common\ServerOperationCode.cs" />
+    <Compile Include="Common\SlaveRegOperation.cs" />
+    <Compile Include="Master\DefaultHandlerMaster.cs" />
+    <Compile Include="Master\MasterClientPeer.cs" />
+    <Compile Include="Master\MasterCollections.cs" />
+    <Compile Include="Master\MasterServer.cs" />
+    <Compile Include="Master\MasterSlavePeer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Slave\DefaultHandlerSlave.cs" />
+    <Compile Include="Slave\SlaveMasterPeer.cs" />
+    <Compile Include="Slave\SlaveServer.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /D /Y $(OutDir)$(TargetFileName) $(SolutionDir)..\PhotonSDK\deploy\HeroOnline</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

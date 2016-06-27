@@ -1,0 +1,2634 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Google.Apis.AndroidPublisher.v2</name>
+    </assembly>
+    <members>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Apk.Binary">
+            <summary>Information about the binary payload of this APK.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Apk.VersionCode">
+            <summary>The version code of the APK, as specified in the APK's manifest file.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Apk.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.Data.ApkBinary">
+            <summary>Represents the binary payload of an APK.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ApkBinary.Sha1">
+            <summary>A sha1 hash of the APK payload, encoded as a hex string and matching the output of the sha1sum
+            command.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ApkBinary.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ApkListing.Language">
+            <summary>The language code, in BCP 47 format (eg "en-US").</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ApkListing.RecentChanges">
+            <summary>Describe what's new in your APK.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ApkListing.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ApkListingsListResponse.Kind">
+            <summary>Identifies what kind of resource this is. Value: the fixed string
+            "androidpublisher#apkListingsListResponse".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ApkListingsListResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ApksListResponse.Kind">
+            <summary>Identifies what kind of resource this is. Value: the fixed string
+            "androidpublisher#apksListResponse".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ApksListResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.AppDetails.ContactEmail">
+            <summary>The user-visible support email for this app.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.AppDetails.ContactPhone">
+            <summary>The user-visible support telephone number for this app.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.AppDetails.ContactWebsite">
+            <summary>The user-visible website for this app.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.AppDetails.DefaultLanguage">
+            <summary>Default language code, in BCP 47 format (eg "en-US").</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.AppDetails.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.Data.AppEdit">
+            <summary>Represents an edit of an app. An edit allows clients to make multiple changes before committing them in
+            one operation.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.AppEdit.ExpiryTimeSeconds">
+            <summary>The time at which the edit will expire and will be no longer valid for use in any subsequent API
+            calls (encoded as seconds since the Epoch).</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.AppEdit.Id">
+            <summary>The ID of the edit that can be used in subsequent API calls.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.AppEdit.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ExpansionFile.FileSize">
+            <summary>If set this field indicates that this APK has an Expansion File uploaded to it: this APK does not
+            reference another APK's Expansion File. The field's value is the size of the uploaded Expansion File in
+            bytes.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ExpansionFile.ReferencesVersion">
+            <summary>If set this APK's Expansion File references another APK's Expansion File. The file_size field will
+            not be set.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ExpansionFile.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ExpansionFilesUploadResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Image.Id">
+            <summary>A unique id representing this image.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Image.Sha1">
+            <summary>A sha1 hash of the image that was uploaded.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Image.Url">
+            <summary>A URL that will serve a preview of the image.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Image.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ImagesDeleteAllResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ImagesListResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ImagesUploadResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.DefaultLanguage">
+            <summary>The default language of the localized data, as defined by BCP 47. e.g. "en-US", "en-GB".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.DefaultPrice">
+            <summary>Default price cannot be zero. In-app products can never be free. Default price is always in the
+            developer's Checkout merchant currency.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.Listings">
+            <summary>List of localized title and description data.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.PackageName">
+            <summary>The package name of the parent app.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.Prices">
+            <summary>Prices per buyer region. None of these prices should be zero. In-app products can never be
+            free.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.PurchaseType">
+            <summary>Purchase type enum value. Unmodifiable after creation.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.Season">
+            <summary>Definition of a season for a seasonal subscription. Can be defined only for yearly
+            subscriptions.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.Sku">
+            <summary>The stock-keeping-unit (SKU) of the product, unique within an app.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.SubscriptionPeriod">
+            <summary>The period of the subscription (if any), i.e. period at which payments must happen. Defined as ISO
+            8601 duration, i.e. "P1M" for 1 month period.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.TrialPeriod">
+            <summary>Trial period, specified in ISO 8601 format. Acceptable values are anything between "P7D" (seven
+            days) and "P999D" (999 days). Seasonal subscriptions cannot have a trial period.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProduct.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InAppProductListing.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsBatchRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsBatchRequestEntry.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsBatchResponse.Kind">
+            <summary>Identifies what kind of resource this is. Value: the fixed string
+            "androidpublisher#inappproductsBatchResponse".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsBatchResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsBatchResponseEntry.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsInsertRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsInsertResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsListResponse.Kind">
+            <summary>Identifies what kind of resource this is. Value: the fixed string
+            "androidpublisher#inappproductsListResponse".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsListResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsUpdateRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.InappproductsUpdateResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Listing.FullDescription">
+            <summary>Full description of the app; this may be up to 4000 characters in length.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Listing.Language">
+            <summary>Language localization code (for example, "de-AT" for Austrian German).</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Listing.ShortDescription">
+            <summary>Short description of the app (previously known as promo text); this may be up to 80 characters in
+            length.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Listing.Title">
+            <summary>App's localized title.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Listing.Video">
+            <summary>URL of a promotional YouTube video for the app.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Listing.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ListingsListResponse.Kind">
+            <summary>Identifies what kind of resource this is. Value: the fixed string
+            "androidpublisher#listingsListResponse".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ListingsListResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.MonthDay.Day">
+            <summary>Day of a month, value in [1, 31] range. Valid range depends on the specified month.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.MonthDay.Month">
+            <summary>Month of a year. e.g. 1 = JAN, 2 = FEB etc.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.MonthDay.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.PageInfo.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Price.Currency">
+            <summary>3 letter Currency code, as defined by ISO 4217.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Price.PriceMicros">
+            <summary>The price in millionths of the currency base unit represented as a string.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Price.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.Data.ProductPurchase">
+            <summary>A ProductPurchase resource indicates the status of a user's inapp product purchase.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ProductPurchase.ConsumptionState">
+            <summary>The consumption state of the inapp product. Possible values are: - Yet to be consumed -
+            Consumed</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ProductPurchase.DeveloperPayload">
+            <summary>A developer-specified string that contains supplemental information about an order.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ProductPurchase.Kind">
+            <summary>This kind represents an inappPurchase object in the androidpublisher service.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ProductPurchase.PurchaseState">
+            <summary>The purchase state of the order. Possible values are: - Purchased - Cancelled</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ProductPurchase.PurchaseTimeMillis">
+            <summary>The time the product was purchased, in milliseconds since the epoch (Jan 1, 1970).</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.ProductPurchase.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Season.End">
+            <summary>Inclusive end date of the recurrence period.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Season.Start">
+            <summary>Inclusive start date of the recurrence period.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Season.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.Data.SubscriptionDeferralInfo">
+            <summary>A SubscriptionDeferralInfo contains the data needed to defer a subscription purchase to a future expiry
+            time.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionDeferralInfo.DesiredExpiryTimeMillis">
+            <summary>The desired next expiry time for the subscription in milliseconds since Epoch. The given time must
+            be after the current expiry time for the subscription.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionDeferralInfo.ExpectedExpiryTimeMillis">
+            <summary>The expected expiry time for the subscription. If the current expiry time for the subscription is
+            not the value specified here, the deferral will not occur.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionDeferralInfo.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchase">
+            <summary>A SubscriptionPurchase resource indicates the status of a user's subscription purchase.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchase.AutoRenewing">
+            <summary>Whether the subscription will automatically be renewed when it reaches its current expiry
+            time.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchase.ExpiryTimeMillis">
+            <summary>Time at which the subscription will expire, in milliseconds since Epoch.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchase.Kind">
+            <summary>This kind represents a subscriptionPurchase object in the androidpublisher service.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchase.StartTimeMillis">
+            <summary>Time at which the subscription was granted, in milliseconds since Epoch.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchase.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchasesDeferRequest.DeferralInfo">
+            <summary>The information about the new desired expiry time for the subscription.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchasesDeferRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchasesDeferResponse.NewExpiryTimeMillis">
+            <summary>The new expiry time for the subscription in milliseconds since the Epoch.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchasesDeferResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Testers.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.TokenPagination.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.Track.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.TracksListResponse.Kind">
+            <summary>Identifies what kind of resource this is. Value: the fixed string
+            "androidpublisher#tracksListResponse".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.Data.TracksListResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.AndroidPublisherService">
+            <summary>The AndroidPublisher Service.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.Version">
+            <summary>The API version.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.DiscoveryVersionUsed">
+            <summary>The discovery version used to generate this service.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.#ctor">
+            <summary>Constructs a new service.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.#ctor(Google.Apis.Services.BaseClientService.Initializer)">
+            <summary>Constructs a new service.</summary>
+            <param name="initializer">The service initializer.</param>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.Features">
+            <summary>Gets the service supported features.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.Name">
+            <summary>Gets the service name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.BaseUri">
+            <summary>Gets the service base URI.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.BasePath">
+            <summary>Gets the service base path.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.Edits">
+            <summary>Gets the Edits resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.Inappproducts">
+            <summary>Gets the Inappproducts resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.Purchases">
+            <summary>Gets the Purchases resource.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.Scope">
+            <summary>Available OAuth 2.0 scopes for use with the Google Play Android Developer API.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.AndroidPublisherService.Scope.Androidpublisher">
+            <summary>View and manage your Google Play Android Developer account</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1">
+            <summary>A base abstract class for AndroidPublisher requests.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new AndroidPublisherBaseServiceRequest instance.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.InitParameters">
+            <summary>Initializes AndroidPublisher parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.Alt">
+            <summary>Data format for the response.</summary>
+            [default: json]
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.Fields">
+            <summary>Selector specifying which fields to include in a partial response.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.Key">
+            <summary>API key. Your API key identifies your project and provides you with API access, quota, and reports.
+            Required unless you provide an OAuth 2.0 token.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.OauthToken">
+            <summary>OAuth 2.0 token for the current user.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.PrettyPrint">
+            <summary>Returns response with indentations and line breaks.</summary>
+            [default: true]
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.QuotaUser">
+            <summary>Available to use for quota purposes for server-side applications. Can be any arbitrary string
+            assigned to a user, but should not exceed 40 characters. Overrides userIp if both are provided.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.UserIp">
+            <summary>IP address of the site where the request originates. Use this if you want to enforce per-user
+            limits.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.AltEnum">
+            <summary>Data format for the response.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.AndroidPublisherBaseServiceRequest`1.AltEnum.Json">
+            <summary>Responses with Content-Type of application/json</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource">
+            <summary>The "edits" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.Commit(System.String,System.String)">
+            <summary>Commits/applies the changes made in this edit back to the app.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.Delete(System.String,System.String)">
+            <summary>Deletes an edit for an app. Creating a new edit will automatically delete any of your previous
+            edits so this method need only be called if you want to preemptively abandon an edit.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.Get(System.String,System.String)">
+            <summary>Returns information about the edit specified. Calls will fail if the edit is no long active (e.g.
+            has been deleted, superseded or expired).</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.Insert(Google.Apis.AndroidPublisher.v2.Data.AppEdit,System.String)">
+            <summary>Creates a new edit for an app, populated with the app's current state.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.Validate(System.String,System.String)">
+            <summary>Checks that the edit can be successfully committed. The edit's changes are not applied to the live
+            app.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.Apklistings">
+            <summary>Gets the Apklistings resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.Apks">
+            <summary>Gets the Apks resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.Details">
+            <summary>Gets the Details resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.Expansionfiles">
+            <summary>Gets the Expansionfiles resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.Images">
+            <summary>Gets the Images resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.Listings">
+            <summary>Gets the Listings resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.Testers">
+            <summary>Gets the Testers resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.Tracks">
+            <summary>Gets the Tracks resource.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource">
+            <summary>The "apklistings" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.Delete(System.String,System.String,System.Int32,System.String)">
+             <summary>Deletes the APK-specific localized listing for a specified APK and language code.</summary>
+             <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+             "com.spiffygame".</param>
+             <param name="editId">Unique identifier for this edit.</param>
+             <param
+             name="apkVersionCode">The APK version code whose APK-specific listings should be read or modified.</param>
+            
+             <param name="language">The language code (a BCP-47 language tag) of the APK-specific localized listing to read or
+             modify. For example, to select Austrian German, pass "de-AT".</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.Deleteall(System.String,System.String,System.Int32)">
+            <summary>Deletes all the APK-specific localized listings for a specified APK.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="apkVersionCode">The APK version code whose APK-specific listings should be read or modified.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.Get(System.String,System.String,System.Int32,System.String)">
+             <summary>Fetches the APK-specific localized listing for a specified APK and language code.</summary>
+             <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+             "com.spiffygame".</param>
+             <param name="editId">Unique identifier for this edit.</param>
+             <param
+             name="apkVersionCode">The APK version code whose APK-specific listings should be read or modified.</param>
+            
+             <param name="language">The language code (a BCP-47 language tag) of the APK-specific localized listing to read or
+             modify. For example, to select Austrian German, pass "de-AT".</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.List(System.String,System.String,System.Int32)">
+            <summary>Lists all the APK-specific localized listings for a specified APK.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="apkVersionCode">The APK version code whose APK-specific listings should be read or modified.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.Patch(Google.Apis.AndroidPublisher.v2.Data.ApkListing,System.String,System.String,System.Int32,System.String)">
+             <summary>Updates or creates the APK-specific localized listing for a specified APK and language code.
+             This method supports patch semantics.</summary>
+             <param name="body">The body of the request.</param>
+             <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+             "com.spiffygame".</param>
+             <param name="editId">Unique identifier for this edit.</param>
+             <param
+             name="apkVersionCode">The APK version code whose APK-specific listings should be read or modified.</param>
+            
+             <param name="language">The language code (a BCP-47 language tag) of the APK-specific localized listing to read or
+             modify. For example, to select Austrian German, pass "de-AT".</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.Update(Google.Apis.AndroidPublisher.v2.Data.ApkListing,System.String,System.String,System.Int32,System.String)">
+             <summary>Updates or creates the APK-specific localized listing for a specified APK and language
+             code.</summary>
+             <param name="body">The body of the request.</param>
+             <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+             "com.spiffygame".</param>
+             <param name="editId">Unique identifier for this edit.</param>
+             <param
+             name="apkVersionCode">The APK version code whose APK-specific listings should be read or modified.</param>
+            
+             <param name="language">The language code (a BCP-47 language tag) of the APK-specific localized listing to read or
+             modify. For example, to select Austrian German, pass "de-AT".</param>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteRequest">
+            <summary>Deletes the APK-specific localized listing for a specified APK and language code.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.Int32,System.String)">
+            <summary>Constructs a new Delete request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteRequest.InitParameters">
+            <summary>Initializes Delete parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteRequest.ApkVersionCode">
+            <summary>The APK version code whose APK-specific listings should be read or modified.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the APK-specific localized listing to read or
+            modify. For example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteallRequest">
+            <summary>Deletes all the APK-specific localized listings for a specified APK.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteallRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.Int32)">
+            <summary>Constructs a new Deleteall request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteallRequest.InitParameters">
+            <summary>Initializes Deleteall parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteallRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteallRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteallRequest.ApkVersionCode">
+            <summary>The APK version code whose APK-specific listings should be read or modified.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteallRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteallRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.DeleteallRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.GetRequest">
+            <summary>Fetches the APK-specific localized listing for a specified APK and language code.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.Int32,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.GetRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.GetRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.GetRequest.ApkVersionCode">
+            <summary>The APK version code whose APK-specific listings should be read or modified.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.GetRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the APK-specific localized listing to read or
+            modify. For example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.ListRequest">
+            <summary>Lists all the APK-specific localized listings for a specified APK.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.Int32)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.ListRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.ListRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.ListRequest.ApkVersionCode">
+            <summary>The APK version code whose APK-specific listings should be read or modified.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest">
+            <summary>Updates or creates the APK-specific localized listing for a specified APK and language code.
+            This method supports patch semantics.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.ApkListing,System.String,System.String,System.Int32,System.String)">
+            <summary>Constructs a new Patch request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.InitParameters">
+            <summary>Initializes Patch parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.ApkVersionCode">
+            <summary>The APK version code whose APK-specific listings should be read or modified.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the APK-specific localized listing to read or
+            modify. For example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.PatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest">
+            <summary>Updates or creates the APK-specific localized listing for a specified APK and language
+            code.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.ApkListing,System.String,System.String,System.Int32,System.String)">
+            <summary>Constructs a new Update request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.InitParameters">
+            <summary>Initializes Update parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.ApkVersionCode">
+            <summary>The APK version code whose APK-specific listings should be read or modified.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the APK-specific localized listing to read or
+            modify. For example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApklistingsResource.UpdateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource">
+            <summary>The "apks" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.List(System.String,System.String)">
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.Upload(System.String,System.String)">
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.Upload(System.String,System.String,System.IO.Stream,System.String)">
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param name="stream">The stream to upload.</param>
+            <param name="contentType">The content type of the stream to upload.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.ListRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.ListRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new Upload request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadRequest.InitParameters">
+            <summary>Initializes Upload parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload">
+            <summary>Upload media upload which supports resumable upload.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.IO.Stream,System.String)">
+            <summary>Constructs a new Upload media upload instance.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.Alt">
+            <summary>Data format for the response.</summary>
+            [default: json]
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.Fields">
+            <summary>Selector specifying which fields to include in a partial response.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.Key">
+            <summary>API key. Your API key identifies your project and provides you with API access, quota, and
+            reports. Required unless you provide an OAuth 2.0 token.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.OauthToken">
+            <summary>OAuth 2.0 token for the current user.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.PrettyPrint">
+            <summary>Returns response with indentations and line breaks.</summary>
+            [default: true]
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.QuotaUser">
+            <summary>Available to use for quota purposes for server-side applications. Can be any arbitrary
+            string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are
+            provided.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.UserIp">
+            <summary>IP address of the site where the request originates. Use this if you want to enforce per-
+            user limits.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.AltEnum">
+            <summary>Data format for the response.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.ApksResource.UploadMediaUpload.AltEnum.Json">
+            <summary>Responses with Content-Type of application/json</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource">
+            <summary>The "details" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.Get(System.String,System.String)">
+            <summary>Fetches app details for this edit. This includes the default language and developer support
+            contact information.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.Patch(Google.Apis.AndroidPublisher.v2.Data.AppDetails,System.String,System.String)">
+            <summary>Updates app details for this edit. This method supports patch semantics.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.Update(Google.Apis.AndroidPublisher.v2.Data.AppDetails,System.String,System.String)">
+            <summary>Updates app details for this edit.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.GetRequest">
+            <summary>Fetches app details for this edit. This includes the default language and developer support
+            contact information.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.GetRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.GetRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.PatchRequest">
+            <summary>Updates app details for this edit. This method supports patch semantics.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.PatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.AppDetails,System.String,System.String)">
+            <summary>Constructs a new Patch request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.PatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.PatchRequest.InitParameters">
+            <summary>Initializes Patch parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.PatchRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.PatchRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.PatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.PatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.PatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.PatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.UpdateRequest">
+            <summary>Updates app details for this edit.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.UpdateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.AppDetails,System.String,System.String)">
+            <summary>Constructs a new Update request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.UpdateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.UpdateRequest.InitParameters">
+            <summary>Initializes Update parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.UpdateRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.UpdateRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.UpdateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.UpdateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.UpdateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DetailsResource.UpdateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource">
+            <summary>The "expansionfiles" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.Get(System.String,System.String,System.Int32,Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest.ExpansionFileTypeEnum)">
+            <summary>Fetches the Expansion File configuration for the APK specified.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="apkVersionCode">The version code of the APK whose Expansion File configuration is being read or
+            modified.</param>
+            <param name="expansionFileType"></param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.Patch(Google.Apis.AndroidPublisher.v2.Data.ExpansionFile,System.String,System.String,System.Int32,Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.ExpansionFileTypeEnum)">
+            <summary>Updates the APK's Expansion File configuration to reference another APK's Expansion Files. To
+            add a new Expansion File use the Upload method. This method supports patch semantics.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="apkVersionCode">The version code of the APK whose Expansion File configuration is being read or
+            modified.</param>
+            <param name="expansionFileType"></param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.Update(Google.Apis.AndroidPublisher.v2.Data.ExpansionFile,System.String,System.String,System.Int32,Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.ExpansionFileTypeEnum)">
+            <summary>Updates the APK's Expansion File configuration to reference another APK's Expansion Files. To
+            add a new Expansion File use the Upload method.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="apkVersionCode">The version code of the APK whose Expansion File configuration is being read or
+            modified.</param>
+            <param name="expansionFileType"></param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.Upload(System.String,System.String,System.Int32,Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest.ExpansionFileTypeEnum)">
+            <summary>Uploads and attaches a new Expansion File to the APK specified.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="apkVersionCode">The version code of the APK whose Expansion File configuration is being read or
+            modified.</param>
+            <param name="expansionFileType"></param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.Upload(System.String,System.String,System.Int32,Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.ExpansionFileTypeEnum,System.IO.Stream,System.String)">
+            <summary>Uploads and attaches a new Expansion File to the APK specified.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="apkVersionCode">The version code of the APK whose Expansion File configuration is being read or
+            modified.</param>
+            <param name="expansionFileType"></param>
+            <param name="stream">The stream to upload.</param>
+            <param name="contentType">The content type of the stream to upload.</param>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest">
+            <summary>Fetches the Expansion File configuration for the APK specified.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.Int32,Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest.ExpansionFileTypeEnum)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest.ApkVersionCode">
+            <summary>The version code of the APK whose Expansion File configuration is being read or
+            modified.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest">
+            <summary>Updates the APK's Expansion File configuration to reference another APK's Expansion Files. To
+            add a new Expansion File use the Upload method. This method supports patch semantics.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.ExpansionFile,System.String,System.String,System.Int32,Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.ExpansionFileTypeEnum)">
+            <summary>Constructs a new Patch request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.InitParameters">
+            <summary>Initializes Patch parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.ApkVersionCode">
+            <summary>The version code of the APK whose Expansion File configuration is being read or
+            modified.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.PatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest">
+            <summary>Updates the APK's Expansion File configuration to reference another APK's Expansion Files. To
+            add a new Expansion File use the Upload method.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.ExpansionFile,System.String,System.String,System.Int32,Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.ExpansionFileTypeEnum)">
+            <summary>Constructs a new Update request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.InitParameters">
+            <summary>Initializes Update parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.ApkVersionCode">
+            <summary>The version code of the APK whose Expansion File configuration is being read or
+            modified.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UpdateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest">
+            <summary>Uploads and attaches a new Expansion File to the APK specified.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.Int32,Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest.ExpansionFileTypeEnum)">
+            <summary>Constructs a new Upload request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest.InitParameters">
+            <summary>Initializes Upload parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest.ApkVersionCode">
+            <summary>The version code of the APK whose Expansion File configuration is being read or
+            modified.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload">
+            <summary>Upload media upload which supports resumable upload.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.Int32,Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.ExpansionFileTypeEnum,System.IO.Stream,System.String)">
+            <summary>Constructs a new Upload media upload instance.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.Alt">
+            <summary>Data format for the response.</summary>
+            [default: json]
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.Fields">
+            <summary>Selector specifying which fields to include in a partial response.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.Key">
+            <summary>API key. Your API key identifies your project and provides you with API access, quota, and
+            reports. Required unless you provide an OAuth 2.0 token.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.OauthToken">
+            <summary>OAuth 2.0 token for the current user.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.PrettyPrint">
+            <summary>Returns response with indentations and line breaks.</summary>
+            [default: true]
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.QuotaUser">
+            <summary>Available to use for quota purposes for server-side applications. Can be any arbitrary
+            string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are
+            provided.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.UserIp">
+            <summary>IP address of the site where the request originates. Use this if you want to enforce per-
+            user limits.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.ApkVersionCode">
+            <summary>The version code of the APK whose Expansion File configuration is being read or
+            modified.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.AltEnum">
+            <summary>Data format for the response.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.ExpansionfilesResource.UploadMediaUpload.AltEnum.Json">
+            <summary>Responses with Content-Type of application/json</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource">
+            <summary>The "images" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.Delete(System.String,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.ImageTypeEnum,System.String)">
+            <summary>Deletes the image (specified by id) from the edit.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="language">The language code (a BCP-47 language tag) of the localized listing whose images are to read or
+            modified. For example, to select Austrian German, pass "de-AT".</param>
+            <param
+            name="imageType"></param>
+            <param name="imageId">Unique identifier an image within the set of images attached
+            to this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.Deleteall(System.String,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest.ImageTypeEnum)">
+            <summary>Deletes all images for the specified language and image type.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="language">The language code (a BCP-47 language tag) of the localized listing whose images are to read or
+            modified. For example, to select Austrian German, pass "de-AT".</param>
+            <param
+            name="imageType"></param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.List(System.String,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest.ImageTypeEnum)">
+            <summary>Lists all images for the specified language and image type.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="language">The language code (a BCP-47 language tag) of the localized listing whose images are to read or
+            modified. For example, to select Austrian German, pass "de-AT".</param>
+            <param
+            name="imageType"></param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.Upload(System.String,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest.ImageTypeEnum)">
+            <summary>Uploads a new image and adds it to the list of images for the specified language and image
+            type.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="language">The language code (a BCP-47 language tag) of the localized listing whose images are to read or
+            modified. For example, to select Austrian German, pass "de-AT".</param>
+            <param
+            name="imageType"></param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.Upload(System.String,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.ImageTypeEnum,System.IO.Stream,System.String)">
+            <summary>Uploads a new image and adds it to the list of images for the specified language and image
+            type.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="language">The language code (a BCP-47 language tag) of the localized listing whose images are to read or
+            modified. For example, to select Austrian German, pass "de-AT".</param>
+            <param
+            name="imageType"></param>
+            <param name="stream">The stream to upload.</param>
+            <param name="contentType">The content type of the stream to upload.</param>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest">
+            <summary>Deletes the image (specified by id) from the edit.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.ImageTypeEnum,System.String)">
+            <summary>Constructs a new Delete request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.InitParameters">
+            <summary>Initializes Delete parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the localized listing whose images are to read
+            or modified. For example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.ImageId">
+            <summary>Unique identifier an image within the set of images attached to this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest">
+            <summary>Deletes all images for the specified language and image type.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest.ImageTypeEnum)">
+            <summary>Constructs a new Deleteall request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest.InitParameters">
+            <summary>Initializes Deleteall parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the localized listing whose images are to read
+            or modified. For example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.DeleteallRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest">
+            <summary>Lists all images for the specified language and image type.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest.ImageTypeEnum)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the localized listing whose images are to read
+            or modified. For example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest">
+            <summary>Uploads a new image and adds it to the list of images for the specified language and image
+            type.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest.ImageTypeEnum)">
+            <summary>Constructs a new Upload request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest.InitParameters">
+            <summary>Initializes Upload parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the localized listing whose images are to read
+            or modified. For example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload">
+            <summary>Upload media upload which supports resumable upload.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.ImageTypeEnum,System.IO.Stream,System.String)">
+            <summary>Constructs a new Upload media upload instance.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.Alt">
+            <summary>Data format for the response.</summary>
+            [default: json]
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.Fields">
+            <summary>Selector specifying which fields to include in a partial response.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.Key">
+            <summary>API key. Your API key identifies your project and provides you with API access, quota, and
+            reports. Required unless you provide an OAuth 2.0 token.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.OauthToken">
+            <summary>OAuth 2.0 token for the current user.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.PrettyPrint">
+            <summary>Returns response with indentations and line breaks.</summary>
+            [default: true]
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.QuotaUser">
+            <summary>Available to use for quota purposes for server-side applications. Can be any arbitrary
+            string assigned to a user, but should not exceed 40 characters. Overrides userIp if both are
+            provided.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.UserIp">
+            <summary>IP address of the site where the request originates. Use this if you want to enforce per-
+            user limits.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.Language">
+            <summary>The language code (a BCP-47 language tag) of the localized listing whose images are to read
+            or modified. For example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.AltEnum">
+            <summary>Data format for the response.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.ImagesResource.UploadMediaUpload.AltEnum.Json">
+            <summary>Responses with Content-Type of application/json</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource">
+            <summary>The "listings" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.Delete(System.String,System.String,System.String)">
+            <summary>Deletes the specified localized store listing from an edit.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="language">The language code (a BCP-47 language tag) of the localized listing to read or modify. For example,
+            to select Austrian German, pass "de-AT".</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.Deleteall(System.String,System.String)">
+            <summary>Deletes all localized listings from an edit.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.Get(System.String,System.String,System.String)">
+            <summary>Fetches information about a localized store listing.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="language">The language code (a BCP-47 language tag) of the localized listing to read or modify. For example,
+            to select Austrian German, pass "de-AT".</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.List(System.String,System.String)">
+            <summary>Returns all of the localized store listings attached to this edit.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.Patch(Google.Apis.AndroidPublisher.v2.Data.Listing,System.String,System.String,System.String)">
+            <summary>Creates or updates a localized store listing. This method supports patch semantics.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="language">The language code (a BCP-47 language tag) of the localized listing to read or modify. For example,
+            to select Austrian German, pass "de-AT".</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.Update(Google.Apis.AndroidPublisher.v2.Data.Listing,System.String,System.String,System.String)">
+            <summary>Creates or updates a localized store listing.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="language">The language code (a BCP-47 language tag) of the localized listing to read or modify. For example,
+            to select Austrian German, pass "de-AT".</param>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteRequest">
+            <summary>Deletes the specified localized store listing from an edit.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String)">
+            <summary>Constructs a new Delete request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteRequest.InitParameters">
+            <summary>Initializes Delete parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the localized listing to read or modify. For
+            example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteallRequest">
+            <summary>Deletes all localized listings from an edit.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteallRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new Deleteall request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteallRequest.InitParameters">
+            <summary>Initializes Deleteall parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteallRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteallRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteallRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteallRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.DeleteallRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.GetRequest">
+            <summary>Fetches information about a localized store listing.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.GetRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.GetRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.GetRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the localized listing to read or modify. For
+            example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.ListRequest">
+            <summary>Returns all of the localized store listings attached to this edit.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.ListRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.ListRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest">
+            <summary>Creates or updates a localized store listing. This method supports patch semantics.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.Listing,System.String,System.String,System.String)">
+            <summary>Constructs a new Patch request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest.InitParameters">
+            <summary>Initializes Patch parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the localized listing to read or modify. For
+            example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.PatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest">
+            <summary>Creates or updates a localized store listing.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.Listing,System.String,System.String,System.String)">
+            <summary>Constructs a new Update request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest.InitParameters">
+            <summary>Initializes Update parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest.Language">
+            <summary>The language code (a BCP-47 language tag) of the localized listing to read or modify. For
+            example, to select Austrian German, pass "de-AT".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ListingsResource.UpdateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource">
+            <summary>The "testers" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.Get(System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.GetRequest.TrackEnum)">
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="track"></param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.Patch(Google.Apis.AndroidPublisher.v2.Data.Testers,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.TrackEnum)">
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="track"></param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.Update(Google.Apis.AndroidPublisher.v2.Data.Testers,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.TrackEnum)">
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="track"></param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.GetRequest.TrackEnum)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.GetRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.GetRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.Testers,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.TrackEnum)">
+            <summary>Constructs a new Patch request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.InitParameters">
+            <summary>Initializes Patch parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.PatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.Testers,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.TrackEnum)">
+            <summary>Constructs a new Update request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.InitParameters">
+            <summary>Initializes Update parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TestersResource.UpdateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource">
+            <summary>The "tracks" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.Get(System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.TrackEnum)">
+            <summary>Fetches the track configuration for the specified track type. Includes the APK version codes
+            that are in this track.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="track">The track type to read or modify.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.List(System.String,System.String)">
+            <summary>Lists all the track configurations for this edit.</summary>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.Patch(Google.Apis.AndroidPublisher.v2.Data.Track,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.TrackEnum)">
+            <summary>Updates the track configuration for the specified track type. This method supports patch
+            semantics.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="track">The track type to read or modify.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.Update(Google.Apis.AndroidPublisher.v2.Data.Track,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.TrackEnum)">
+            <summary>Updates the track configuration for the specified track type.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</param>
+            <param name="editId">Unique identifier for this edit.</param>
+            <param
+            name="track">The track type to read or modify.</param>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest">
+            <summary>Fetches the track configuration for the specified track type. Includes the APK version codes
+            that are in this track.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.TrackEnum)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.Track">
+            <summary>The track type to read or modify.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.GetRequest.TrackEnum">
+            <summary>The track type to read or modify.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.ListRequest">
+            <summary>Lists all the track configurations for this edit.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.ListRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.ListRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest">
+            <summary>Updates the track configuration for the specified track type. This method supports patch
+            semantics.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.Track,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.TrackEnum)">
+            <summary>Constructs a new Patch request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.InitParameters">
+            <summary>Initializes Patch parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.Track">
+            <summary>The track type to read or modify.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.PatchRequest.TrackEnum">
+            <summary>The track type to read or modify.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest">
+            <summary>Updates the track configuration for the specified track type.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.Track,System.String,System.String,Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.TrackEnum)">
+            <summary>Constructs a new Update request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.InitParameters">
+            <summary>Initializes Update parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.Track">
+            <summary>The track type to read or modify.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.TracksResource.UpdateRequest.TrackEnum">
+            <summary>The track type to read or modify.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.CommitRequest">
+            <summary>Commits/applies the changes made in this edit back to the app.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.CommitRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new Commit request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.CommitRequest.InitParameters">
+            <summary>Initializes Commit parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.CommitRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.CommitRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.CommitRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.CommitRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.CommitRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.DeleteRequest">
+            <summary>Deletes an edit for an app. Creating a new edit will automatically delete any of your previous
+            edits so this method need only be called if you want to preemptively abandon an edit.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DeleteRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new Delete request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.DeleteRequest.InitParameters">
+            <summary>Initializes Delete parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DeleteRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DeleteRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DeleteRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DeleteRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.DeleteRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.GetRequest">
+            <summary>Returns information about the edit specified. Calls will fail if the edit is no long active (e.g.
+            has been deleted, superseded or expired).</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.GetRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.GetRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.InsertRequest">
+            <summary>Creates a new edit for an app, populated with the app's current state.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.InsertRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.AppEdit,System.String)">
+            <summary>Constructs a new Insert request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.InsertRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.InsertRequest.InitParameters">
+            <summary>Initializes Insert parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.InsertRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.InsertRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.InsertRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.InsertRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.InsertRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.EditsResource.ValidateRequest">
+            <summary>Checks that the edit can be successfully committed. The edit's changes are not applied to the live
+            app.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ValidateRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new Validate request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.EditsResource.ValidateRequest.InitParameters">
+            <summary>Initializes Validate parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ValidateRequest.PackageName">
+            <summary>Unique identifier for the Android app that is being updated; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ValidateRequest.EditId">
+            <summary>Unique identifier for this edit.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ValidateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ValidateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.EditsResource.ValidateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.InappproductsResource">
+            <summary>The "inappproducts" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.InappproductsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.Batch(Google.Apis.AndroidPublisher.v2.Data.InappproductsBatchRequest)">
+            <param name="body">The body of the request.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.Delete(System.String,System.String)">
+            <summary>Delete an in-app product for an app.</summary>
+            <param name="packageName">Unique identifier for the Android app with the in-app product; for example,
+            "com.spiffygame".</param>
+            <param name="sku">Unique identifier for the in-app product.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.Get(System.String,System.String)">
+            <summary>Returns information about the in-app product specified.</summary>
+            <param name="packageName"></param>
+            <param name="sku">Unique identifier for the in-app product.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.Insert(Google.Apis.AndroidPublisher.v2.Data.InAppProduct,System.String)">
+            <summary>Creates a new in-app product for an app.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app; for example, "com.spiffygame".</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.List(System.String)">
+            <summary>List all the in-app products for an Android app, both subscriptions and managed in-app
+            products..</summary>
+            <param name="packageName">Unique identifier for the Android app with in-app products; for example,
+            "com.spiffygame".</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.Patch(Google.Apis.AndroidPublisher.v2.Data.InAppProduct,System.String,System.String)">
+            <summary>Updates the details of an in-app product. This method supports patch semantics.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app with the in-app product; for example,
+            "com.spiffygame".</param>
+            <param name="sku">Unique identifier for the in-app product.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.Update(Google.Apis.AndroidPublisher.v2.Data.InAppProduct,System.String,System.String)">
+            <summary>Updates the details of an in-app product.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">Unique identifier for the Android app with the in-app product; for example,
+            "com.spiffygame".</param>
+            <param name="sku">Unique identifier for the in-app product.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.BatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.InappproductsBatchRequest)">
+            <summary>Constructs a new Batch request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.BatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.BatchRequest.InitParameters">
+            <summary>Initializes Batch parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.BatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.BatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.BatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.BatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.InappproductsResource.DeleteRequest">
+            <summary>Delete an in-app product for an app.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.DeleteRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new Delete request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.DeleteRequest.InitParameters">
+            <summary>Initializes Delete parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.DeleteRequest.PackageName">
+            <summary>Unique identifier for the Android app with the in-app product; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.DeleteRequest.Sku">
+            <summary>Unique identifier for the in-app product.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.DeleteRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.DeleteRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.DeleteRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.InappproductsResource.GetRequest">
+            <summary>Returns information about the in-app product specified.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.GetRequest.Sku">
+            <summary>Unique identifier for the in-app product.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.InappproductsResource.InsertRequest">
+            <summary>Creates a new in-app product for an app.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.InsertRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.InAppProduct,System.String)">
+            <summary>Constructs a new Insert request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.InsertRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.InsertRequest.InitParameters">
+            <summary>Initializes Insert parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.InsertRequest.PackageName">
+            <summary>Unique identifier for the Android app; for example, "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.InsertRequest.AutoConvertMissingPrices">
+            <summary>If true the prices for all regions targeted by the parent app that don't have a price specified
+            for this in-app product will be auto converted to the target currency based on the default price.
+            Defaults to false.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.InsertRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.InsertRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.InsertRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.InsertRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.InappproductsResource.ListRequest">
+            <summary>List all the in-app products for an Android app, both subscriptions and managed in-app
+            products..</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.ListRequest.PackageName">
+            <summary>Unique identifier for the Android app with in-app products; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest">
+            <summary>Updates the details of an in-app product. This method supports patch semantics.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.InAppProduct,System.String,System.String)">
+            <summary>Constructs a new Patch request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest.InitParameters">
+            <summary>Initializes Patch parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest.PackageName">
+            <summary>Unique identifier for the Android app with the in-app product; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest.Sku">
+            <summary>Unique identifier for the in-app product.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest.AutoConvertMissingPrices">
+            <summary>If true the prices for all regions targeted by the parent app that don't have a price specified
+            for this in-app product will be auto converted to the target currency based on the default price.
+            Defaults to false.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.PatchRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest">
+            <summary>Updates the details of an in-app product.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.InAppProduct,System.String,System.String)">
+            <summary>Constructs a new Update request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest.InitParameters">
+            <summary>Initializes Update parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest.PackageName">
+            <summary>Unique identifier for the Android app with the in-app product; for example,
+            "com.spiffygame".</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest.Sku">
+            <summary>Unique identifier for the in-app product.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest.AutoConvertMissingPrices">
+            <summary>If true the prices for all regions targeted by the parent app that don't have a price specified
+            for this in-app product will be auto converted to the target currency based on the default price.
+            Defaults to false.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.InappproductsResource.UpdateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.PurchasesResource">
+            <summary>The "purchases" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.PurchasesResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.Products">
+            <summary>Gets the Products resource.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.Subscriptions">
+            <summary>Gets the Subscriptions resource.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource">
+            <summary>The "products" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.Get(System.String,System.String,System.String)">
+            <summary>Checks the purchase and consumption status of an inapp item.</summary>
+            <param name="packageName">The package name of the application the inapp product was sold in (for example,
+            'com.some.thing').</param>
+            <param name="productId">The inapp product SKU (for example,
+            'com.some.thing.inapp1').</param>
+            <param name="token">The token provided to the user's device when the inapp
+            product was purchased.</param>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.GetRequest">
+            <summary>Checks the purchase and consumption status of an inapp item.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.GetRequest.PackageName">
+            <summary>The package name of the application the inapp product was sold in (for example,
+            'com.some.thing').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.GetRequest.ProductId">
+            <summary>The inapp product SKU (for example, 'com.some.thing.inapp1').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.GetRequest.Token">
+            <summary>The token provided to the user's device when the inapp product was purchased.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.ProductsResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource">
+            <summary>The "subscriptions" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.Cancel(System.String,System.String,System.String)">
+            <summary>Cancels a user's subscription purchase. The subscription remains valid until its expiration
+            time.</summary>
+            <param name="packageName">The package name of the application for which this subscription was purchased (for
+            example, 'com.some.thing').</param>
+            <param name="subscriptionId">The purchased subscription ID (for example,
+            'monthly001').</param>
+            <param name="token">The token provided to the user's device when the subscription was
+            purchased.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.Defer(Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchasesDeferRequest,System.String,System.String,System.String)">
+            <summary>Defers a user's subscription purchase until a specified future expiration time.</summary>
+            <param name="body">The body of the request.</param>
+            <param name="packageName">The package name of the application for which this subscription was purchased (for
+            example, 'com.some.thing').</param>
+            <param name="subscriptionId">The purchased subscription ID (for example,
+            'monthly001').</param>
+            <param name="token">The token provided to the user's device when the subscription was
+            purchased.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.Get(System.String,System.String,System.String)">
+            <summary>Checks whether a user's subscription purchase is valid and returns its expiry time.</summary>
+            <param name="packageName">The package name of the application for which this subscription was purchased (for
+            example, 'com.some.thing').</param>
+            <param name="subscriptionId">The purchased subscription ID (for example,
+            'monthly001').</param>
+            <param name="token">The token provided to the user's device when the subscription was
+            purchased.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.Refund(System.String,System.String,System.String)">
+            <summary>Refunds a user's subscription purchase, but the subscription remains valid until its expiration
+            time and it will continue to recur.</summary>
+            <param name="packageName">The package name of the application for which this subscription was purchased (for
+            example, 'com.some.thing').</param>
+            <param name="subscriptionId">The purchased subscription ID (for example,
+            'monthly001').</param>
+            <param name="token">The token provided to the user's device when the subscription was
+            purchased.</param>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.Revoke(System.String,System.String,System.String)">
+            <summary>Refunds and immediately revokes a user's subscription purchase. Access to the subscription will
+            be terminated immediately and it will stop recurring.</summary>
+            <param name="packageName">The package name of the application for which this subscription was purchased (for
+            example, 'com.some.thing').</param>
+            <param name="subscriptionId">The purchased subscription ID (for example,
+            'monthly001').</param>
+            <param name="token">The token provided to the user's device when the subscription was
+            purchased.</param>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.CancelRequest">
+            <summary>Cancels a user's subscription purchase. The subscription remains valid until its expiration
+            time.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.CancelRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String)">
+            <summary>Constructs a new Cancel request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.CancelRequest.InitParameters">
+            <summary>Initializes Cancel parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.CancelRequest.PackageName">
+            <summary>The package name of the application for which this subscription was purchased (for example,
+            'com.some.thing').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.CancelRequest.SubscriptionId">
+            <summary>The purchased subscription ID (for example, 'monthly001').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.CancelRequest.Token">
+            <summary>The token provided to the user's device when the subscription was purchased.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.CancelRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.CancelRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.CancelRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest">
+            <summary>Defers a user's subscription purchase until a specified future expiration time.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.AndroidPublisher.v2.Data.SubscriptionPurchasesDeferRequest,System.String,System.String,System.String)">
+            <summary>Constructs a new Defer request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest.InitParameters">
+            <summary>Initializes Defer parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest.PackageName">
+            <summary>The package name of the application for which this subscription was purchased (for example,
+            'com.some.thing').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest.SubscriptionId">
+            <summary>The purchased subscription ID (for example, 'monthly001').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest.Token">
+            <summary>The token provided to the user's device when the subscription was purchased.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.DeferRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.GetRequest">
+            <summary>Checks whether a user's subscription purchase is valid and returns its expiry time.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.GetRequest.PackageName">
+            <summary>The package name of the application for which this subscription was purchased (for example,
+            'com.some.thing').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.GetRequest.SubscriptionId">
+            <summary>The purchased subscription ID (for example, 'monthly001').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.GetRequest.Token">
+            <summary>The token provided to the user's device when the subscription was purchased.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RefundRequest">
+            <summary>Refunds a user's subscription purchase, but the subscription remains valid until its expiration
+            time and it will continue to recur.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RefundRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String)">
+            <summary>Constructs a new Refund request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RefundRequest.InitParameters">
+            <summary>Initializes Refund parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RefundRequest.PackageName">
+            <summary>The package name of the application for which this subscription was purchased (for example,
+            'com.some.thing').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RefundRequest.SubscriptionId">
+            <summary>The purchased subscription ID (for example, 'monthly001').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RefundRequest.Token">
+            <summary>The token provided to the user's device when the subscription was purchased.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RefundRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RefundRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RefundRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="T:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RevokeRequest">
+            <summary>Refunds and immediately revokes a user's subscription purchase. Access to the subscription will
+            be terminated immediately and it will stop recurring.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RevokeRequest.#ctor(Google.Apis.Services.IClientService,System.String,System.String,System.String)">
+            <summary>Constructs a new Revoke request.</summary>
+        </member>
+        <member name="M:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RevokeRequest.InitParameters">
+            <summary>Initializes Revoke parameter list.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RevokeRequest.PackageName">
+            <summary>The package name of the application for which this subscription was purchased (for example,
+            'com.some.thing').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RevokeRequest.SubscriptionId">
+            <summary>The purchased subscription ID (for example, 'monthly001').</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RevokeRequest.Token">
+            <summary>The token provided to the user's device when the subscription was purchased.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RevokeRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RevokeRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.AndroidPublisher.v2.PurchasesResource.SubscriptionsResource.RevokeRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52C1CEE0-E250-4714-BB54-82E572600E2D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DEngine.HeroServer</RootNamespace>
+    <AssemblyName>DEngine.HeroServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\_Bin\</OutputPath>
+    <IntermediateOutputPath>..\_Obj\$(AssemblyName)\</IntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE;_SERVER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\_Bin\</OutputPath>
+    <IntermediateOutputPath>..\_Obj\$(AssemblyName)\</IntermediateOutputPath>
+    <DefineConstants>TRACE;_SERVER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExitGames.Logging.Log4Net, Version=1.0.1.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PhotonSDK\lib\ExitGames.Logging.Log4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="ExitGamesLibs, Version=1.0.1.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PhotonSDK\lib\ExitGamesLibs.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zlib, Version=1.9.1.8, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\_Lib\Ionic.Zlib.dll</HintPath>
+    </Reference>
+    <Reference Include="NCrontab">
+      <HintPath>..\_Lib\NCrontab.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon.SocketServer, Version=3.4.22.6309, Culture=neutral, PublicKeyToken=48c2fa3b6988090e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PhotonSDK\lib\Photon.SocketServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonHostRuntimeInterfaces, Version=3.56.0.0, Culture=neutral, PublicKeyToken=6cb1467adaa73020, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\PhotonSDK\lib\PhotonHostRuntimeInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\DEngine.Common\Config\BattleConfig.cs">
+      <Link>Config\BattleConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\DungeonConfig.cs">
+      <Link>Config\DungeonConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\ItemConfig.cs">
+      <Link>Config\ItemConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\LandConfig.cs">
+      <Link>Config\LandConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\MissionConfig.cs">
+      <Link>Config\MissionConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\RoleConfig.cs">
+      <Link>Config\RoleConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\ServerConfig.cs">
+      <Link>Config\ServerConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\SkillConfig.cs">
+      <Link>Config\SkillConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\GameConfig.cs">
+      <Link>Config\GameConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\UserConfig.cs">
+      <Link>Config\UserConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Config\Utilities.cs">
+      <Link>Config\Utilities.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameAward.cs">
+      <Link>GameLogic\GameAward.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameBattle.cs">
+      <Link>GameLogic\GameBattle.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameEnums.cs">
+      <Link>GameLogic\GameEnums.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameItem.cs">
+      <Link>GameLogic\GameItem.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameObj.cs">
+      <Link>GameLogic\GameObj.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameRole.cs">
+      <Link>GameLogic\GameRole.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameSkill.cs">
+      <Link>GameLogic\GameSkill.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameUser.cs">
+      <Link>GameLogic\GameUser.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\GameZone.cs">
+      <Link>GameLogic\GameZone.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\Global.cs">
+      <Link>GameLogic\Global.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\RoleSkill.cs">
+      <Link>GameLogic\RoleSkill.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\ShopItem.cs">
+      <Link>GameLogic\ShopItem.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\UserItem.cs">
+      <Link>GameLogic\UserItem.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\GameLogic\UserRole.cs">
+      <Link>GameLogic\UserRole.cs</Link>
+    </Compile>
+    <Compile Include="..\DEngine.Common\Services\CommandInfo.cs">
+      <Link>Services\CommandInfo.cs</Link>
+    </Compile>
+    <Compile Include="BattlePvA.cs" />
+    <Compile Include="BattlePvE.cs" />
+    <Compile Include="BattlePvP.cs" />
+    <Compile Include="Services\BattleService.cs" />
+    <Compile Include="GameData\Helpers.cs" />
+    <Compile Include="GameData\HeroDB.cs" />
+    <Compile Include="GameData\HeroDB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HeroDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Services\GamePlayService.cs" />
+    <Compile Include="Handlers\BattleHandler.cs" />
+    <Compile Include="Handlers\ChargeCashHandler.cs" />
+    <Compile Include="Handlers\DefaultHandlerZone.cs" />
+    <Compile Include="Handlers\UserUpdateHandler.cs" />
+    <Compile Include="Handlers\RolesListHandler.cs" />
+    <Compile Include="Handlers\UsersListHandler.cs" />
+    <Compile Include="Handlers\SignOutHandler.cs" />
+    <Compile Include="Handlers\RoleUpdateHandler.cs" />
+    <Compile Include="Handlers\ShopBuyHandler.cs" />
+    <Compile Include="Handlers\SendChatHandler.cs" />
+    <Compile Include="Handlers\DefaultHandlerWorld.cs" />
+    <Compile Include="Handlers\SignInHandler.cs" />
+    <Compile Include="Services\HttpService.cs" />
+    <Compile Include="ItemScript.cs" />
+    <Compile Include="Services\MissionService.cs" />
+    <Compile Include="Operations\BattleOperation.cs" />
+    <Compile Include="Operations\ChargeCashOperation.cs" />
+    <Compile Include="Operations\UserUpdateOperation.cs" />
+    <Compile Include="Operations\RolesListOperation.cs" />
+    <Compile Include="Operations\UsersListOperation.cs" />
+    <Compile Include="Operations\RoleUpdateOperation.cs" />
+    <Compile Include="Operations\ShopBuyOperation.cs" />
+    <Compile Include="Operations\SendChatOperation.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="WorldService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZoneService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="GameData\HeroDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>HeroDB.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DEngine.PhotonFX\DEngine.PhotonFX.csproj">
+      <Project>{b4b4f51e-c2ee-4963-9599-ac332388f419}</Project>
+      <Name>DEngine.PhotonFX</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameData\HeroDB.dbml.layout">
+      <DependentUpon>HeroDB.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /D /Y $(OutDir)$(TargetFileName) $(SolutionDir)..\PhotonSDK\deploy\HeroOnline
+xcopy /D /Y $(OutDir)$(TargetFileName).config $(SolutionDir)..\PhotonSDK\deploy\HeroOnline</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

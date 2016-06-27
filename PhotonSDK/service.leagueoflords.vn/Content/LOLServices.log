@@ -1,0 +1,195 @@
+2015-02-05 17:12:38 - Common Initialized!
+2015-02-05 21:05:43: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-05 22:29:13: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-06 06:21:18 - Common Initialized!
+2015-02-06 06:21:21: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-06 22:58:03: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-06 22:58:32: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-07 11:34:37 - Common Initialized!
+2015-02-10 00:12:59 - Common Initialized!
+2015-02-10 20:49:18 - Common Initialized!
+2015-02-10 20:49:20: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-10 20:49:40: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-11 18:24:36 - Common Initialized!
+2015-02-12 18:44:13 - Common Initialized!
+2015-02-12 18:44:15: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-12 18:47:15: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-13 04:32:05: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-13 04:32:41: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-13 12:44:10 - Common Initialized!
+2015-02-13 23:32:07: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-13 23:32:29: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-14 08:50:50: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-02-14 08:50:57: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-03-01 06:17:58 - Common Initialized!
+2015-03-01 06:18:00: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-03-01 06:18:05: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-03-01 06:18:12: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-03-03 01:00:19 - Common Initialized!
+2015-03-03 01:00:22: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-03-03 01:00:43: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-03-12 12:47:11 - Common Initialized!
+2015-03-12 12:47:14: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-03-12 12:47:40: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2015-03-12 12:47:57: Google.Apis.Requests.RequestError
+Invalid Value [400]
+Errors [
+	Message[Invalid Value] Location[ - ] Reason[invalid] Domain[global]
+]
+.
+   at Google.Apis.Requests.ClientServiceRequest`1.Execute()
+   at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)

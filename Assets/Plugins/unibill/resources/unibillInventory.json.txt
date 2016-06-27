@@ -1,0 +1,162 @@
+{
+  "iOSSKU": "supermanVN",
+  "macAppStoreSKU": "",
+  "androidBillingPlatform": "GooglePlay",
+  "GooglePlayPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvZLqHYH+0x8/HeMseh3uZ3VMeZtiVOym1VB5ZIPHT1Ah6gCI7wuc3yf0yXPYw43EOkvVAaFkapFo+sjVR9aRIrh1tYkisWhHftFUbOyZiL3K8FdbKiUMKSGiUN2XoY3IpcU9wEw1JTdUVbWDfLHHf+7IAQVEf30jthecrRe8JdpWhsnwPPhE6i/xgIWYOpJovncU3lTtXxI4teUKLM8OWOR1cqMUQxpLHC1lqSNHZqn2CEkJeua2xfztpWFHIr4TNW6Dz7iVXzU3rTWl32v8c1FYwopngdvhJqLg03DsN54y+kC+JV2Tm0qMXk+MXladSuGH7P/bT6ZfCOqGFF7C4wIDAQAB",
+  "useAmazonSandbox": true,
+  "UseWP8MockingFramework": false,
+  "useHostedConfig": false,
+  "hostedConfigUrl": null,
+  "UseWin8_1Sandbox": true,
+  "samsungAppsMode": "PRODUCTION",
+  "samsungAppsItemGroupId": "",
+  "unibillAnalyticsAppId": "",
+  "unibillAnalyticsAppSecret": "",
+  "purchasableItems": {
+    "gold20": {
+      "@id": "gold20",
+      "@purchaseType": "Consumable",
+      "name": "Gold 20 Package",
+      "description": "Gold 20 Package",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "priceInLocalCurrency": 21000.0,
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "appleAppStorePriceTier": 2,
+          "screenshotPath": "",
+          "AppleAppStore.Id": "gold20_ios"
+        },
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "gold50": {
+      "@id": "gold50",
+      "@purchaseType": "Consumable",
+      "name": "Gold 50 Package",
+      "description": "Gold 50 Package",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "priceInLocalCurrency": 50000.0,
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "appleAppStorePriceTier": 5,
+          "screenshotPath": "",
+          "AppleAppStore.Id": "gold50_ios"
+        },
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "gold100": {
+      "@id": "gold100",
+      "@purchaseType": "Consumable",
+      "name": "Gold 100 Package",
+      "description": "Gold 100 Package",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "priceInLocalCurrency": 100000.0,
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "appleAppStorePriceTier": 10,
+          "screenshotPath": "",
+          "AppleAppStore.Id": "gold100_ios"
+        },
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "gold200": {
+      "@id": "gold200",
+      "@purchaseType": "Consumable",
+      "name": "Gold 200 Package",
+      "description": "Gold 200 Package",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "priceInLocalCurrency": 200000.0,
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "appleAppStorePriceTier": 20,
+          "screenshotPath": "",
+          "AppleAppStore.Id": "gold200_ios"
+        },
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "gold500": {
+      "@id": "gold500",
+      "@purchaseType": "Consumable",
+      "name": "Gold 500 Package",
+      "description": "Gold 500 Package",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "priceInLocalCurrency": 500000.0,
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "appleAppStorePriceTier": 50,
+          "screenshotPath": "",
+          "AppleAppStore.Id": "gold500_ios"
+        },
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    },
+    "silver25000": {
+      "@id": "silver25000",
+      "@purchaseType": "Consumable",
+      "name": "Silver 25000 Package",
+      "description": "Silver 25000 Package",
+      "downloadableContentId": null,
+      "platforms": {
+        "GooglePlay": {
+          "priceInLocalCurrency": 100000.0,
+          "defaultLocale": "en_US"
+        },
+        "AmazonAppstore": {},
+        "SamsungApps": {},
+        "AppleAppStore": {
+          "appleAppStorePriceTier": 10,
+          "screenshotPath": "",
+          "AppleAppStore.Id": "silver25000_ios"
+        },
+        "MacAppStore": {},
+        "WindowsPhone8": {},
+        "Windows8_1": {},
+        "UnityEditor": {}
+      }
+    }
+  },
+  "currencies": {}
+}

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\0-HeroGame\DEngine_Photon\_Web</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/1Pay.dll">
+      <publishTime>12/25/2014 16:58:16</publishTime>
+    </File>
+    <File Include="bin/Content/GoogleStore_BlueSky.p12">
+      <publishTime>01/07/2015 14:37:23</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.AndroidPublisher.v2.dll">
+      <publishTime>01/06/2015 10:55:47</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.dll">
+      <publishTime>01/06/2015 10:55:47</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Auth.PlatformServices.dll">
+      <publishTime>01/06/2015 10:55:47</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Core.dll">
+      <publishTime>01/06/2015 10:55:46</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.dll">
+      <publishTime>01/06/2015 10:55:47</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.PlatformServices.dll">
+      <publishTime>01/06/2015 10:55:47</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>01/06/2015 10:55:47</publishTime>
+    </File>
+    <File Include="bin/LOLServices.dll">
+      <publishTime>02/05/2015 17:08:02</publishTime>
+    </File>
+    <File Include="bin/LukeSkywalker.IPNetwork.dll">
+      <publishTime>01/02/2015 15:43:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.dll">
+      <publishTime>12/31/2014 14:45:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.Desktop.dll">
+      <publishTime>12/31/2014 14:45:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.dll">
+      <publishTime>12/31/2014 14:45:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>12/19/2014 16:06:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>01/02/2015 08:32:16</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/26/2015 08:25:34</publishTime>
+    </File>
+    <File Include="bin/Recaptcha.Web.dll">
+      <publishTime>12/31/2014 16:38:15</publishTime>
+    </File>
+    <File Include="bin/System.IO.dll">
+      <publishTime>12/19/2014 17:18:06</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>01/06/2015 10:55:46</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Extensions.dll">
+      <publishTime>01/06/2015 10:55:46</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/06/2015 10:56:02</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Primitives.dll">
+      <publishTime>01/06/2015 10:55:46</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>01/06/2015 10:55:46</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.dll">
+      <publishTime>12/19/2014 17:18:06</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.dll">
+      <publishTime>12/19/2014 17:18:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/02/2015 08:32:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/02/2015 08:32:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/02/2015 08:32:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/02/2015 08:32:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/02/2015 08:32:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/02/2015 08:32:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/02/2015 08:32:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/02/2015 08:32:15</publishTime>
+    </File>
+    <File Include="bin/Zlib.Portable.dll">
+      <publishTime>01/06/2015 10:55:47</publishTime>
+    </File>
+    <File Include="Content/GoogleStore.p12">
+      <publishTime>01/06/2015 11:15:12</publishTime>
+    </File>
+    <File Include="Content/GoogleStore_BlueSky.p12">
+      <publishTime>01/07/2015 14:37:23</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/13/2015 16:18:51</publishTime>
+    </File>
+    <File Include="crossdomain.xml">
+      <publishTime>01/06/2015 11:35:14</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/02/2015 08:32:14</publishTime>
+    </File>
+    <File Include="Images/icon_cal.gif">
+      <publishTime>01/02/2015 08:32:45</publishTime>
+    </File>
+    <File Include="Images/icon_edit.gif">
+      <publishTime>01/02/2015 08:32:45</publishTime>
+    </File>
+    <File Include="Images/icon_first.gif">
+      <publishTime>01/02/2015 08:32:45</publishTime>
+    </File>
+    <File Include="Images/icon_go.gif">
+      <publishTime>01/02/2015 08:32:45</publishTime>
+    </File>
+    <File Include="Images/icon_last.gif">
+      <publishTime>01/02/2015 08:32:45</publishTime>
+    </File>
+    <File Include="Images/icon_lol.png">
+      <publishTime>01/02/2015 08:32:45</publishTime>
+    </File>
+    <File Include="Images/icon_next.gif">
+      <publishTime>01/02/2015 08:32:45</publishTime>
+    </File>
+    <File Include="Images/icon_prev.gif">
+      <publishTime>01/02/2015 08:32:45</publishTime>
+    </File>
+    <File Include="Images/icon_user.gif">
+      <publishTime>01/02/2015 08:32:45</publishTime>
+    </File>
+    <File Include="Models/GameDB_01.dbml">
+      <publishTime>01/13/2015 14:16:47</publishTime>
+    </File>
+    <File Include="Models/MainDB.dbml">
+      <publishTime>01/09/2015 16:20:16</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/26/2015 08:25:36</publishTime>
+    </File>
+    <File Include="RecaptchaNet.ReadMe.txt">
+      <publishTime>01/02/2015 08:35:29</publishTime>
+    </File>
+    <File Include="Scripts/calendar-setup.js">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/calendar.js">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.0.2.min.js">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/lang/calendar-en.js">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/lang/calendar-vi.js">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/skins/aqua/active-bg.gif">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/skins/aqua/dark-bg.gif">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/skins/aqua/hover-bg.gif">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/skins/aqua/menuarrow.gif">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/skins/aqua/normal-bg.gif">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/skins/aqua/rowhover-bg.gif">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/skins/aqua/status-bg.gif">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/skins/aqua/theme.css">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/skins/aqua/title-bg.gif">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Scripts/skins/aqua/today-bg.gif">
+      <publishTime>01/02/2015 08:33:01</publishTime>
+    </File>
+    <File Include="Views/Home/Index.aspx">
+      <publishTime>01/20/2015 14:38:57</publishTime>
+    </File>
+    <File Include="Views/Home/InvalidRight.aspx">
+      <publishTime>01/02/2015 15:33:59</publishTime>
+    </File>
+    <File Include="Views/Home/Register.aspx">
+      <publishTime>01/02/2015 14:37:36</publishTime>
+    </File>
+    <File Include="Views/Home/SignIn.aspx">
+      <publishTime>01/02/2015 14:30:05</publishTime>
+    </File>
+    <File Include="Views/Manager/GetCommands.aspx">
+      <publishTime>01/06/2015 16:58:37</publishTime>
+    </File>
+    <File Include="Views/Manager/Index.aspx">
+      <publishTime>01/06/2015 16:58:22</publishTime>
+    </File>
+    <File Include="Views/Manager/SetCommand.aspx">
+      <publishTime>01/07/2015 09:18:51</publishTime>
+    </File>
+    <File Include="Views/Manager/ViewReports.aspx">
+      <publishTime>01/13/2015 16:17:41</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.aspx">
+      <publishTime>01/02/2015 08:36:21</publishTime>
+    </File>
+    <File Include="Views/Shared/LeftMenu.ascx">
+      <publishTime>01/13/2015 16:04:34</publishTime>
+    </File>
+    <File Include="Views/Shared/LoginName.ascx">
+      <publishTime>01/07/2015 09:36:35</publishTime>
+    </File>
+    <File Include="Views/Shared/PageNavigator.ascx">
+      <publishTime>01/02/2015 08:36:21</publishTime>
+    </File>
+    <File Include="Views/Shared/Site.Master">
+      <publishTime>01/02/2015 14:14:07</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>01/02/2015 08:32:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/05/2015 16:46:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GameDB_01" Class="GameDB_01DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=LOLMASTER;Initial Catalog=GameDB_01;Persist Security Info=True;User ID=hero_admin" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GameDB_01ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.OnlineLog" Member="OnlineLogs">
+    <Type Name="OnlineLog">
+      <Column Name="LogId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LogTime" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TotalCCU" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ZonesCCU" Type="System.Data.Linq.Binary" DbType="VarBinary(32)" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>

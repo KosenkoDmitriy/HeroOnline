@@ -1,0 +1,8 @@
+D:\0-HeroGame\DEngine_Photon\LOLClient\bin\Release\LOLClient.exe
+D:\0-HeroGame\DEngine_Photon\LOLClient\bin\Release\LOLClient.pdb
+D:\0-HeroGame\DEngine_Photon\LOLClient\bin\Release\Ionic.Zlib.dll
+D:\0-HeroGame\DEngine_Photon\LOLClient\bin\Release\Photon3DotNet.dll
+D:\0-HeroGame\DEngine_Photon\LOLClient\bin\Release\UnityEngine.dll
+D:\0-HeroGame\DEngine_Photon\LOLClient\obj\Release\LOLClient.csprojResolveAssemblyReference.cache
+D:\0-HeroGame\DEngine_Photon\LOLClient\obj\Release\LOLClient.exe
+D:\0-HeroGame\DEngine_Photon\LOLClient\obj\Release\LOLClient.pdb
