@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: b2f85ffeaa9821d49b1ccea259dda9fb
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01_Footsteps
+    100004: Bip01_Head
+    100006: Bip01_L_Calf
+    100008: Bip01_L_Clavicle
+    100010: Bip01_L_Finger0
+    100012: Bip01_L_Finger01
+    100014: Bip01_L_Foot
+    100016: Bip01_L_Forearm
+    100018: Bip01_L_Hand
+    100020: Bip01_L_Thigh
+    100022: Bip01_L_Toe0
+    100024: Bip01_L_UpperArm
+    100026: Bip01_Neck
+    100028: Bip01_Pelvis
+    100030: Bip01_R_Calf
+    100032: Bip01_R_Clavicle
+    100034: Bip01_R_Finger0
+    100036: Bip01_R_Finger01
+    100038: Bip01_R_Foot
+    100040: Bip01_R_Forearm
+    100042: Bip01_R_Hand
+    100044: Bip01_R_Thigh
+    100046: Bip01_R_Toe0
+    100048: Bip01_R_UpperArm
+    100050: Bip01_Spine
+    100052: Bip01_Spine1
+    100054: Bone01
+    100056: Bone02
+    100058: Bone03
+    100060: Bone04
+    100062: Dummy01
+    100064: //RootNode
+    100066: monk-node
+    400000: Bip01
+    400002: Bip01_Footsteps
+    400004: Bip01_Head
+    400006: Bip01_L_Calf
+    400008: Bip01_L_Clavicle
+    400010: Bip01_L_Finger0
+    400012: Bip01_L_Finger01
+    400014: Bip01_L_Foot
+    400016: Bip01_L_Forearm
+    400018: Bip01_L_Hand
+    400020: Bip01_L_Thigh
+    400022: Bip01_L_Toe0
+    400024: Bip01_L_UpperArm
+    400026: Bip01_Neck
+    400028: Bip01_Pelvis
+    400030: Bip01_R_Calf
+    400032: Bip01_R_Clavicle
+    400034: Bip01_R_Finger0
+    400036: Bip01_R_Finger01
+    400038: Bip01_R_Foot
+    400040: Bip01_R_Forearm
+    400042: Bip01_R_Hand
+    400044: Bip01_R_Thigh
+    400046: Bip01_R_Toe0
+    400048: Bip01_R_UpperArm
+    400050: Bip01_Spine
+    400052: Bip01_Spine1
+    400054: Bone01
+    400056: Bone02
+    400058: Bone03
+    400060: Bone04
+    400062: Dummy01
+    400064: //RootNode
+    400066: monk-node
+    4300000: monk-node
+    7400000: tancongvatly
+    7400002: Attack_01
+    7400004: Attack_02
+    7400006: chet
+    7400008: Hit
+    7400010: hoisinh
+    7400012: di
+    7400014: dung
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: monk-node
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack_01
+      takeName: 
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_02
+      takeName: 
+      firstFrame: 65
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: chet
+      takeName: 
+      firstFrame: 116
+      lastFrame: 171
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: 
+      firstFrame: 186
+      lastFrame: 204
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hoisinh
+      takeName: 
+      firstFrame: 219
+      lastFrame: 279
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: di
+      takeName: 
+      firstFrame: 294
+      lastFrame: 318
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: dung
+      takeName: 
+      firstFrame: 333
+      lastFrame: 391
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: tancongvatly
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip01
+        weight: 1
+      - path: Bip01/Bip01_Footsteps
+        weight: 1
+      - path: Bip01/Bip01_Pelvis
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_L_Thigh
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_L_Thigh/Bip01_L_Calf
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_L_Thigh/Bip01_L_Calf/Bip01_L_Foot
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_L_Thigh/Bip01_L_Calf/Bip01_L_Foot/Bip01_L_Toe0
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_R_Thigh
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_R_Thigh/Bip01_R_Calf
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_R_Thigh/Bip01_R_Calf/Bip01_R_Foot
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_R_Thigh/Bip01_R_Calf/Bip01_R_Foot/Bip01_R_Toe0
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_Head
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_L_Clavicle
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/Bip01_L_Finger0
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_L_Clavicle/Bip01_L_UpperArm/Bip01_L_Forearm/Bip01_L_Hand/Bip01_L_Finger0/Bip01_L_Finger01
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_R_Clavicle
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/Bip01_R_Finger0
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bip01_Neck/Bip01_R_Clavicle/Bip01_R_UpperArm/Bip01_R_Forearm/Bip01_R_Hand/Bip01_R_Finger0/Bip01_R_Finger01
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bone02
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Bone02/Bone03
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Dummy01
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Dummy01/Bone01
+        weight: 1
+      - path: Bip01/Bip01_Pelvis/Bip01_Spine/Bip01_Spine1/Dummy01/Bone01/Bone04
+        weight: 1
+      - path: monk-node
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
