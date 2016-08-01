@@ -8,3 +8,12 @@ D:\LOL_Sell\EditLOLSell\DEngine_Photon\_Bin\DEngine.PhotonFX.pdb
 D:\LOL_Sell\EditLOLSell\DEngine_Photon\_Obj\DEngine.PhotonFX\DEngine.PhotonFX.csprojResolveAssemblyReference.cache
 D:\LOL_Sell\EditLOLSell\DEngine_Photon\_Obj\DEngine.PhotonFX\DEngine.PhotonFX.dll
 D:\LOL_Sell\EditLOLSell\DEngine_Photon\_Obj\DEngine.PhotonFX\DEngine.PhotonFX.pdb
+C:\dev\unity\Demigods\DEngine_Photon\_Bin\DEngine.PhotonFX.dll
+C:\dev\unity\Demigods\DEngine_Photon\_Bin\DEngine.PhotonFX.pdb
+C:\dev\unity\Demigods\DEngine_Photon\_Obj\DEngine.PhotonFX\DEngine.PhotonFX.csprojResolveAssemblyReference.cache
+C:\dev\unity\Demigods\DEngine_Photon\_Obj\DEngine.PhotonFX\DEngine.PhotonFX.dll
+C:\dev\unity\Demigods\DEngine_Photon\_Obj\DEngine.PhotonFX\DEngine.PhotonFX.pdb
+C:\dev\unity\HeroOnline\DEngine_Photon\_Bin\DEngine.PhotonFX.dll
+C:\dev\unity\HeroOnline\DEngine_Photon\_Bin\DEngine.PhotonFX.pdb
+C:\dev\unity\HeroOnline\DEngine_Photon\_Obj\DEngine.PhotonFX\DEngine.PhotonFX.dll
+C:\dev\unity\HeroOnline\DEngine_Photon\_Obj\DEngine.PhotonFX\DEngine.PhotonFX.pdb

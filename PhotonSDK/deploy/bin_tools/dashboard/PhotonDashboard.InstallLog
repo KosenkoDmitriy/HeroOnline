@@ -13,3 +13,26 @@ Affected parameters are:
    assemblypath = E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe
    i = 
    logfile = E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.InstallLog
+Выполняется удаление сборки 'C:\dev\unity\Demigods\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\dev\unity\Demigods\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe
+   logfile = C:\dev\unity\Demigods\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.InstallLog
+Выполняется удаление источника EventLog PhontonDashboardService.
+Выполняется удаление службы PhontonDashboardService из системы...
+Служба PhontonDashboardService успешно удалена из системы.
+Installing assembly 'C:\dev\unity\Demigods\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\dev\unity\Demigods\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe
+   i = 
+   logfile = C:\dev\unity\Demigods\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.InstallLog
+Installing service PhontonDashboardService...
+Service PhontonDashboardService has been successfully installed.
+Creating EventLog source PhontonDashboardService in log Application...
+Committing assembly 'C:\dev\unity\Demigods\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\dev\unity\Demigods\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.exe
+   i = 
+   logfile = C:\dev\unity\Demigods\PhotonSDK\deploy\bin_Tools\dashboard\PhotonDashboard.InstallLog

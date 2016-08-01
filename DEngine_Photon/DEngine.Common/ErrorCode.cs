@@ -37,5 +37,6 @@
         DuplicateNickName,
         BattleNotAvailable,
         AppleStoreChargeFailed,
+        SetBalanceError,
     }
 }

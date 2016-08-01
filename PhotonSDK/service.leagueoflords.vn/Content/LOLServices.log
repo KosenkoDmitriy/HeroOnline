@@ -193,3 +193,4 @@ Errors [
 .
    at Google.Apis.Requests.ClientServiceRequest`1.Execute()
    at LOLServices.Models.StoreService.GetGooglePurchaseState(String productId, String tokenId)
+2016-07-17 16:27:27 - Common Initialized!

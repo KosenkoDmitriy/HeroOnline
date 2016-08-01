@@ -360,9 +360,11 @@ namespace DEngine.Common.GameLogic
             };
 
             Houses.Add(newHouse);
-            GameUser.Base.Silver -= houseData.Silver;
-            GameUser.Base.Gold -= houseData.Gold;
 
+            GameUser.AddCash(-houseData.Silver, -houseData.Gold);
+            //GameUser.Base.Silver -= houseData.Silver;
+            //GameUser.Base.Gold -= houseData.Gold;
+           
             return ErrorCode.Success;
         }
 
@@ -635,6 +637,18 @@ namespace DEngine.Common.GameLogic
             Base.Silver = newSilver;
             Base.Gold = newGold;
 
+            try
+            {
+                string websiteUrl = string.Format("{0}/set", DEngine.Common.Config.ServerConfig.WEBSITE_URL);
+                var formData = new Dictionary<string, string>();
+                formData.Add("k", Global.key);
+                formData.Add("a", Base.Gold.ToString());
+                var httpWebRes = DEngine.HeroServer.HttpService.GetResponse2(websiteUrl, formData);
+
+                Log.InfoFormat(string.Format("status: {0} res: {1} website balance {2}", httpWebRes.Code, httpWebRes.Description, websiteUrl));
+            } catch(Exception e) {
+                Log.ErrorFormat(string.Format("ERROR! set balance {0}", e.Message));
+            }
             return ErrorCode.Success;
         }
 

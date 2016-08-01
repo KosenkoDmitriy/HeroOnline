@@ -15,6 +15,8 @@ namespace DEngine.Common.GameLogic
         public static GameObjList GameMobs;
         public static GameObjList[] TopUsers;
 
+        public static string key = "";
+
         static Global()
         {
             Random = new Random();

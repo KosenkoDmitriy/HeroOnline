@@ -525,6 +525,27 @@ namespace DEngine.HeroServer.GameData
             }
         }
 
+        public ErrorCode UserSetCash(GameUser gameUser) {
+            try {
+                using (HeroDBDataContext dbContext = new HeroDBDataContext())
+                {
+                    UserEx theUser = dbContext.UserExes.Where(u => u.UserId == gameUser.Id).FirstOrDefault();
+                    if (theUser != null)
+                    {
+                        theUser.Silver = gameUser.Base.Silver;
+                        theUser.Gold = gameUser.Base.Gold;
+                    }
+
+                    dbContext.SubmitChanges();
+                    return ErrorCode.Success;
+                }
+            } catch (Exception ex) {
+                Log.Warn(ex.Message);
+                Log.Warn(ex.StackTrace);
+                return ErrorCode.InvalidParams;
+            }
+        }
+
         public ErrorCode UserGetCash(GameUser gameUser)
         {
             try

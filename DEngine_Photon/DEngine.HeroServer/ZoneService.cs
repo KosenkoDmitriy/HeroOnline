@@ -82,11 +82,36 @@ namespace DEngine.HeroServer
         //call in SigninHandler.cs
         public ErrorCode OnSignIn(string userName, string password, string remoteIp, out GameUser gameUser)
         {
+            double balance = 0;
+
+            try {
+            string websiteUrl = string.Format("{0}/login", ServerConfig.WEBSITE_URL);
+            Dictionary<string, string> formData = new Dictionary<string, string>();
+            formData.Add("e", userName);
+            formData.Add("p", password);
+            HttpResult httpWebRes = HttpService.GetResponse2(websiteUrl, formData);
+            Log.InfoFormat(string.Format("status: {0} res: {1} website login {2}", httpWebRes.Code, httpWebRes.Description, websiteUrl));
+            string key = httpWebRes.Description;
+            Global.key = key;
+
+            websiteUrl = string.Format("{0}/get", ServerConfig.WEBSITE_URL);
+            formData = new Dictionary<string, string>();
+            formData.Add("k", key);
+            httpWebRes = HttpService.GetResponse2(websiteUrl, formData);
+            Log.InfoFormat(string.Format("status: {0} res: {1} website balance {2}", httpWebRes.Code, httpWebRes.Description, websiteUrl));
+
+            string balanceString = httpWebRes.Description;
+            double.TryParse(balanceString, out balance);
+            Log.InfoFormat(string.Format("balance: {0} {1}", balance, (long)balance));
+            }
+            catch (Exception e)
+            {
+                Log.ErrorFormat(string.Format("ERROR! get balance {0}", e.Message));
+            }
+
             string serviceUrl = string.Format("{0}/Account/SignIn?username={1}&password={2}", ServerConfig.SERVICE_URL, userName, password);
             HttpResult httpRes = HttpService.GetResponse(serviceUrl);
-
             Log.InfoFormat("serviceUrl login " + serviceUrl);
-
 
             gameUser = null;
 
@@ -112,6 +137,9 @@ namespace DEngine.HeroServer
                     Log.InfoFormat("{0}: ZoneCCU = {1}", ApplicationName, userCount);
                 else
                     Log.InfoFormat("{0}: Duplicate SignIn for {1}", ApplicationName, userName);
+
+                gameUser.Base.Gold = (long)balance;
+                HeroDatabase.UserSetCash(gameUser);
 
                 return ErrorCode.Success;
             }

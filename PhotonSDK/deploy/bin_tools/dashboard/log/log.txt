@@ -1,4 +1,8 @@
-2015-02-25 14:14:33,112 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service is starting
-2015-02-25 14:14:33,413 [4] INFO  ExitGames.Counter.Service.Graphs.GraphTemplateFactory [(null)] - Initalizing graph templates from E:\Projects_BlueSky\tt\PhotonSDK\deploy\bin_Tools\dashboard\GraphTemplates.xml
-2015-02-25 14:14:33,806 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Created web server listening on 127.0.0.1:8088
-2015-02-25 14:14:33,807 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service started successfully.
+2016-07-24 17:09:22,794 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service is starting
+2016-07-24 17:09:27,927 [4] INFO  ExitGames.Counter.Service.Graphs.GraphTemplateFactory [(null)] - Initalizing graph templates from C:\dev\unity\HeroOnline\PhotonSDK\deploy\bin_Tools\dashboard\GraphTemplates.xml
+2016-07-24 17:09:33,418 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Created web server listening on 127.0.0.1:8088
+2016-07-24 17:09:33,418 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service started successfully.
+2016-07-26 14:59:03,940 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service is starting
+2016-07-26 14:59:07,294 [4] INFO  ExitGames.Counter.Service.Graphs.GraphTemplateFactory [(null)] - Initalizing graph templates from C:\dev\unity\HeroOnline\PhotonSDK\deploy\bin_Tools\dashboard\GraphTemplates.xml
+2016-07-26 14:59:10,382 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Created web server listening on 127.0.0.1:8088
+2016-07-26 14:59:10,382 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service started successfully.

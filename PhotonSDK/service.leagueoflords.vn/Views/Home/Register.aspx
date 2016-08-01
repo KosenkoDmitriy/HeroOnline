@@ -34,7 +34,7 @@
         <tr>
             <td></td>
             <td>
-                <%= Html.Recaptcha(theme:Recaptcha.Web.RecaptchaTheme.White) %>
+                <%--= Html.Recaptcha(theme:Recaptcha.Web.RecaptchaTheme.White) --%>
             </td>
         </tr>
         <tr>

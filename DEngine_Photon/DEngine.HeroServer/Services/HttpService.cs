@@ -137,5 +137,57 @@ namespace DEngine.HeroServer
 
             return result;
         }
+
+        public static HttpResult GetResponse2(string requestUrl, Dictionary<string, string> formData)
+        {
+            HttpResult result = new HttpResult();
+
+            try
+            {
+                NameValueCollection formValues = HttpUtility.ParseQueryString(String.Empty);
+                foreach (var item in formData)
+                    formValues.Add(item.Key, item.Value);
+
+                ASCIIEncoding ascii = new ASCIIEncoding();
+                byte[] postBytes = ascii.GetBytes(formValues.ToString());
+
+                HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(requestUrl);
+                webRequest.UserAgent = @"DEngine.HeroServer HttpWebRequest Client";
+                webRequest.Method = "POST";
+                webRequest.ContentType = "application/x-www-form-urlencoded";
+                webRequest.ContentLength = postBytes.Length;
+
+                using (Stream postStream = webRequest.GetRequestStream())
+                {
+                    postStream.Write(postBytes, 0, postBytes.Length);
+                    postStream.Flush();
+                }
+
+                using (HttpWebResponse webResponse = (HttpWebResponse)webRequest.GetResponse())
+                {
+                    using (Stream resStream = webResponse.GetResponseStream())
+                    {
+                        using (StreamReader resReader = new StreamReader(resStream))
+                        {
+                            string resStr = resReader.ReadToEnd();
+                            result.Description = resStr;
+                            //string[] allLines = resStr.Split('\n');
+                            //if (allLines.Length >= 2)
+                            //{
+                            //    Int32.TryParse(allLines[0], out result.Code);
+                            //    result.Description = allLines[1];
+                            //}
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Warn(ex.Message);
+                Log.Warn(ex.StackTrace);
+            }
+
+            return result;
+        }
     }
 }

@@ -8,3 +8,8 @@ D:\LOL_Sell\EditLOLSell\DEngine_Photon\_Bin\DEngine.Unity.pdb
 D:\LOL_Sell\EditLOLSell\DEngine_Photon\_Obj\DEngine.Unity\DEngine.Unity.csprojResolveAssemblyReference.cache
 D:\LOL_Sell\EditLOLSell\DEngine_Photon\_Obj\DEngine.Unity\DEngine.Unity.dll
 D:\LOL_Sell\EditLOLSell\DEngine_Photon\_Obj\DEngine.Unity\DEngine.Unity.pdb
+C:\dev\unity\HeroOnline\DEngine_Photon\_Bin\DEngine.Unity.dll
+C:\dev\unity\HeroOnline\DEngine_Photon\_Bin\DEngine.Unity.pdb
+C:\dev\unity\HeroOnline\DEngine_Photon\_Obj\DEngine.Unity\DEngine.Unity.csprojResolveAssemblyReference.cache
+C:\dev\unity\HeroOnline\DEngine_Photon\_Obj\DEngine.Unity\DEngine.Unity.dll
+C:\dev\unity\HeroOnline\DEngine_Photon\_Obj\DEngine.Unity\DEngine.Unity.pdb

@@ -19,3 +19,17 @@ D:\LOL_Sell\EditLOLSell\Hero_fullVersion_sell\DEngine_Photon\_Bin\DEngine.HeroSe
 D:\LOL_Sell\EditLOLSell\Hero_fullVersion_sell\DEngine_Photon\_Bin\DEngine.HeroServer.dll
 D:\LOL_Sell\EditLOLSell\Hero_fullVersion_sell\DEngine_Photon\_Bin\DEngine.HeroServer.pdb
 D:\LOL_Sell\EditLOLSell\Hero_fullVersion_sell\DEngine_Photon\_Obj\DEngine.HeroServer\DEngine.HeroServer.pdb
+C:\dev\unity\Demigods\DEngine_Photon\_Bin\log4net.config
+C:\dev\unity\Demigods\DEngine_Photon\_Bin\DEngine.HeroServer.dll.config
+C:\dev\unity\Demigods\DEngine_Photon\_Bin\DEngine.HeroServer.dll
+C:\dev\unity\Demigods\DEngine_Photon\_Bin\DEngine.HeroServer.pdb
+C:\dev\unity\Demigods\DEngine_Photon\_Obj\DEngine.HeroServer\DEngine.HeroServer.csprojResolveAssemblyReference.cache
+C:\dev\unity\Demigods\DEngine_Photon\_Obj\DEngine.HeroServer\DEngine.HeroServer.dll
+C:\dev\unity\Demigods\DEngine_Photon\_Obj\DEngine.HeroServer\DEngine.HeroServer.pdb
+C:\dev\unity\HeroOnline\DEngine_Photon\_Bin\log4net.config
+C:\dev\unity\HeroOnline\DEngine_Photon\_Bin\DEngine.HeroServer.dll.config
+C:\dev\unity\HeroOnline\DEngine_Photon\_Bin\DEngine.HeroServer.dll
+C:\dev\unity\HeroOnline\DEngine_Photon\_Bin\DEngine.HeroServer.pdb
+C:\dev\unity\HeroOnline\DEngine_Photon\_Obj\DEngine.HeroServer\DEngine.HeroServer.csprojResolveAssemblyReference.cache
+C:\dev\unity\HeroOnline\DEngine_Photon\_Obj\DEngine.HeroServer\DEngine.HeroServer.dll
+C:\dev\unity\HeroOnline\DEngine_Photon\_Obj\DEngine.HeroServer\DEngine.HeroServer.pdb

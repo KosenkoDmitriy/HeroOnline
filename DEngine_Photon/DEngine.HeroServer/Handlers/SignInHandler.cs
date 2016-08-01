@@ -26,7 +26,7 @@ namespace DEngine.HeroServer.Handlers
         protected override void OnHandleRequest(OperationRequest request, PeerBase peer)
         {
             SignInOperation requestData = new SignInOperation(peer.Protocol, request);
-
+            
             OperationResponse response = new OperationResponse(request.OperationCode, new object());
             response[(byte)ParameterCode.ClientId] = requestData.ClientId.ToByteArray();
             response[(byte)ParameterCode.UserName] = requestData.UserName;
@@ -47,6 +47,7 @@ namespace DEngine.HeroServer.Handlers
                 if (errCode == ErrorCode.Success)
                 {
                     gameUser.ClientId = requestData.ClientId;
+
                     response[(byte)ParameterCode.UserId] = gameUser.Id;
                     response[(byte)ParameterCode.UserData] = Serialization.Save(gameUser, true);
                     response[(byte)ParameterCode.GameRoles] = Serialization.Save(Global.GameRoles);

@@ -66,5 +66,6 @@ namespace DEngine.Common
         WorldMessage,
         UserLand,
         HireRoles,
+        Balance,
     }
 }

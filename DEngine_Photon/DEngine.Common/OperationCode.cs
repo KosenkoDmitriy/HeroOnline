@@ -24,5 +24,7 @@
         Dungeon,
         ChargeCash,
         Zone_End,
+
+        SetBalance,
     }
 }

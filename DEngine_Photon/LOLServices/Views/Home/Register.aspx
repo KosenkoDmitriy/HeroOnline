@@ -3,7 +3,7 @@
 <%@ Import Namespace="Recaptcha.Web.Mvc" %>
 <asp:Content ID="Main" ContentPlaceHolderID="MainContent" runat="server">
     <span class="title1">League of Lords - Register</span><hr />
-    <% using (Html.BeginForm(null, null, FormMethod.Post, new { @id = "mainForm", @name = "mainForm", @autocomplete = "off", onsubmit = "return check_submit();" }))
+    <% using (Html.BeginForm(null, null, FormMethod.Post, new { @id = "mainForm", @name = "mainForm", @autocomplete = "off", onsubmit = "" }))
        { %>
     <table class="tableform">
         <tr>
@@ -34,7 +34,7 @@
         <tr>
             <td></td>
             <td>
-                <%= Html.Recaptcha(theme:Recaptcha.Web.RecaptchaTheme.White) %>
+                <!-- Html.Recaptcha(theme:Recaptcha.Web.RecaptchaTheme.White) -->
             </td>
         </tr>
         <tr>
@@ -50,8 +50,8 @@
         var theForm = document.forms['mainForm'];
         if (!theForm) theForm = document.mainForm;
 
-        function check_submit() {
-            return true;
-        }
+        //function check_submit() {
+        //    return true;
+        //}
     </script>
 </asp:Content>
