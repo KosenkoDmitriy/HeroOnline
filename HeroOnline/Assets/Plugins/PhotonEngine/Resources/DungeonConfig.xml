@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DungeonConfig>
+  <EventMin>4</EventMin>
+  <EventMax>6</EventMax>
+  <WinAwards>
+    <WinAward Level="1" Gold="0" Silver="20" UserExp="200" RoleExp="500"  />
+    <WinAward Level="2" Gold="0" Silver="40" UserExp="400" RoleExp="560"  />
+    <WinAward Level="3" Gold="0" Silver="60" UserExp="600" RoleExp="620"  />
+    <WinAward Level="4" Gold="0" Silver="80" UserExp="800" RoleExp="680"  />
+    <WinAward Level="5" Gold="0" Silver="100" UserExp="1000" RoleExp="740"  />
+    <WinAward Level="6" Gold="0" Silver="120" UserExp="1200" RoleExp="800"  />
+    <WinAward Level="7" Gold="0" Silver="140" UserExp="1400" RoleExp="860"  />
+    <WinAward Level="8" Gold="0" Silver="160" UserExp="1600" RoleExp="920"  />
+    <WinAward Level="9" Gold="0" Silver="180" UserExp="1800" RoleExp="980"  />
+    <WinAward Level="10" Gold="0" Silver="200" UserExp="2000" RoleExp="1040"  />
+    <WinAward Level="11" Gold="0" Silver="440" UserExp="2200" RoleExp="1100"  />
+    <WinAward Level="12" Gold="0" Silver="480" UserExp="2400" RoleExp="1160"  />
+    <WinAward Level="13" Gold="0" Silver="520" UserExp="2600" RoleExp="1220"  />
+    <WinAward Level="14" Gold="0" Silver="560" UserExp="2800" RoleExp="1280"  />
+    <WinAward Level="15" Gold="0" Silver="600" UserExp="3000" RoleExp="1340"  />
+    <WinAward Level="16" Gold="1" Silver="640" UserExp="3200" RoleExp="1400"  />
+    <WinAward Level="17" Gold="1" Silver="680" UserExp="3400" RoleExp="1460"  />
+    <WinAward Level="18" Gold="1" Silver="720" UserExp="3600" RoleExp="1520"  />
+    <WinAward Level="19" Gold="1" Silver="760" UserExp="3800" RoleExp="1580"  />
+    <WinAward Level="20" Gold="1" Silver="800" UserExp="4000" RoleExp="1640"  />
+    <WinAward Level="21" Gold="1" Silver="1260" UserExp="4200" RoleExp="1700"  />
+    <WinAward Level="22" Gold="1" Silver="1320" UserExp="4400" RoleExp="1760"  />
+    <WinAward Level="23" Gold="1" Silver="1380" UserExp="4600" RoleExp="1820"  />
+    <WinAward Level="24" Gold="1" Silver="1440" UserExp="4800" RoleExp="1880"  />
+    <WinAward Level="25" Gold="1" Silver="1500" UserExp="5000" RoleExp="1940"  />
+    <WinAward Level="26" Gold="1" Silver="1560" UserExp="5200" RoleExp="2000"  />
+    <WinAward Level="27" Gold="1" Silver="1620" UserExp="5400" RoleExp="2060"  />
+    <WinAward Level="28" Gold="1" Silver="1680" UserExp="5600" RoleExp="2120"  />
+    <WinAward Level="29" Gold="1" Silver="1740" UserExp="5800" RoleExp="2180"  />
+    <WinAward Level="30" Gold="1" Silver="1800" UserExp="6000" RoleExp="2240"  />
+    <WinAward Level="31" Gold="1" Silver="2480" UserExp="6200" RoleExp="2300"  />
+    <WinAward Level="32" Gold="1" Silver="2560" UserExp="6400" RoleExp="2360"  />
+    <WinAward Level="33" Gold="1" Silver="2640" UserExp="6600" RoleExp="2420"  />
+    <WinAward Level="34" Gold="1" Silver="2720" UserExp="6800" RoleExp="2480"  />
+    <WinAward Level="35" Gold="1" Silver="2800" UserExp="7000" RoleExp="2540"  />
+    <WinAward Level="36" Gold="1" Silver="2880" UserExp="7200" RoleExp="2600"  />
+    <WinAward Level="37" Gold="1" Silver="2960" UserExp="7400" RoleExp="2660"  />
+    <WinAward Level="38" Gold="1" Silver="3040" UserExp="7600" RoleExp="2720"  />
+    <WinAward Level="39" Gold="1" Silver="3120" UserExp="7800" RoleExp="2780"  />
+    <WinAward Level="40" Gold="1" Silver="3200" UserExp="8000" RoleExp="2840"  />
+    <WinAward Level="41" Gold="1" Silver="4100" UserExp="8200" RoleExp="2900"  />
+    <WinAward Level="42" Gold="1" Silver="4200" UserExp="8400" RoleExp="2960"  />
+    <WinAward Level="43" Gold="1" Silver="4300" UserExp="8600" RoleExp="3020"  />
+    <WinAward Level="44" Gold="1" Silver="4400" UserExp="8800" RoleExp="3080"  />
+    <WinAward Level="45" Gold="1" Silver="4500" UserExp="9000" RoleExp="3140"  />
+    <WinAward Level="46" Gold="1" Silver="4600" UserExp="9200" RoleExp="3200"  />
+    <WinAward Level="47" Gold="1" Silver="4700" UserExp="9400" RoleExp="3260"  />
+    <WinAward Level="48" Gold="1" Silver="4800" UserExp="9600" RoleExp="3320"  />
+    <WinAward Level="49" Gold="1" Silver="4900" UserExp="9800" RoleExp="3380"  />
+    <WinAward Level="50" Gold="1" Silver="5000" UserExp="10000" RoleExp="3440"  />
+  </WinAwards>
+  <Dungeons>
+    <Dungeon Id="0" Name="Sunday" Energy="2000" PvERate="45" PvARate="10" LootRate="45" StatusRate="0">
+      <PvEWaves>
+        <Wave Grade="1" Time="0" Mob1="2;4;1007;1003" Mob2="1;1;1006" Mob3="2;2;1001"/>
+        <Wave Grade="1" Time="0" Mob1="4;5;1007;1005" Mob2="1;1;1026;1027;1028;1029;1030;1031" Mob3="1;1;1006"/>
+        <Wave Grade="1" Time="0" Mob1="1;2;1016;1017;1018;1019;1020" Mob2="3;3;1007;1003" Mob3="2;2;1026;1027;1028;1029;1030;1031"/>
+      </PvEWaves>
+      <BossWaves>
+        <Wave Grade="1" Time="0" Mob1="1;3;1016;1017;1018;1019;1020" Mob2="1;1;1016;1017;1018;1019;1020" Mob3=""/>
+      </BossWaves>
+      <PvEDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>56.67;17.9;9.68;1.78;2;2;2;2;2;0;0;0;0;0;0;0;0;0;0;2;0.67;0.22;0.08;1</Rates>
+      </PvEDrops>
+      <BossDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;-1</Items>
+        <Quantity>1;5;2;1;2;1;1;2;1;1;2;1;1;2;1;1;2;1;1;3</Quantity>
+        <Rates>10;50;25;10;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5</Rates>
+      </BossDrops>
+      <LootDrops>
+        <Items>31;32;33;36;37;38;41;42;43;49;50;51;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>16.08;5;4;7;5;4;7;6;5;20;9;5;4;1.32;0.44;0.16;1</Rates>
+      </LootDrops>
+    </Dungeon>
+    <Dungeon Id="1" Name="Monday" Energy="2000" PvERate="60" PvARate="10" LootRate="30" StatusRate="0">
+      <PvEWaves>
+        <Wave Grade="1" Time="0" Mob1="2;2;1007;1003;1001" Mob2="1;1;1006" Mob3="2;2;1001"/>
+        <Wave Grade="1" Time="0" Mob1="4;4;1007;1005;1012" Mob2="1;1;1026;1027;1028;1029;1030;1031" Mob3="1;1;1006"/>
+        <Wave Grade="1" Time="0" Mob1="1;1;1016;1017;1018;1019;1020" Mob2="3;3;1007;1003;1012" Mob3="2;2;1026;1027;1028;1029;1030;1031"/>
+      </PvEWaves>
+      <BossWaves>
+        <Wave Grade="1" Time="0" Mob1="1;2;1016;1017;1018;1019;1020" Mob2="1;1;1016;1017;1018;1019;1020" Mob3=""/>
+      </BossWaves>
+      <PvEDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>66.34;8.95;4.84;0.89;10;5;2.5;0;0;0;0;0;0;0;0;0;0;0;0;1;0.33;0.11;0.04;0</Rates>
+      </PvEDrops>
+      <BossDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;-1</Items>
+        <Quantity>1;5;2;1;2;1;1;2;1;1;2;1;1;2;1;1;2;1;1;3</Quantity>
+        <Rates>10;30;10;3;32;12;3;0;0;0;0;0;0;0;0;0;0;0;0;0</Rates>
+      </BossDrops>
+      <LootDrops>
+        <Items>31;32;33;36;37;38;41;42;43;49;50;51;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>21.04;8;4;10;8;4;10;7;5;15;4;1;2;0.66;0.22;0.08;0</Rates>
+      </LootDrops>
+    </Dungeon>
+    <Dungeon Id="2" Name="Tuesday" Energy="2000" PvERate="30" PvARate="10" LootRate="60" StatusRate="0">
+      <PvEWaves>
+        <Wave Grade="1" Time="0" Mob1="2;3;1007;1003;1001" Mob2="1;1;1006" Mob3="2;2;1001"/>
+        <Wave Grade="1" Time="0" Mob1="4;5;1007;1005;1012" Mob2="1;1;1026;1027;1028;1029;1030;1031" Mob3="1;1;1006"/>
+        <Wave Grade="1" Time="0" Mob1="1;1;1016;1017;1018;1019;1020" Mob2="3;5;1007;1003;1012" Mob3="2;2;1026;1027;1028;1029;1030;1031"/>
+      </PvEWaves>
+      <BossWaves>
+        <Wave Grade="1" Time="0" Mob1="1;2;1016;1017;1018;1019;1020" Mob2="1;1;1016;1017;1018;1019;1020" Mob3=""/>
+      </BossWaves>
+      <PvEDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>66.34;8.95;4.84;0.89;0;0;0;10;5;2.5;0;0;0;0;0;0;0;0;0;1;0.33;0.11;0.04;0</Rates>
+      </PvEDrops>
+      <BossDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;-1</Items>
+        <Quantity>1;5;2;1;2;1;1;2;1;1;2;1;1;2;1;1;2;1;1;3</Quantity>
+        <Rates>10;30;10;3;0;0;0;32;12;3;0;0;0;0;0;0;0;0;0;0</Rates>
+      </BossDrops>
+      <LootDrops>
+        <Items>31;32;33;36;37;38;41;42;43;49;50;51;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>21.04;8;4;10;8;4;10;7;5;15;4;1;2;0.66;0.22;0.08;0</Rates>
+      </LootDrops>
+    </Dungeon>
+    <Dungeon Id="3" Name="Wednesday" Energy="2000" PvERate="60" PvARate="10" LootRate="30" StatusRate="0">
+      <PvEWaves>
+        <Wave Grade="1" Time="0" Mob1="2;2;1007;1003;1001" Mob2="1;1;1006" Mob3="2;2;1001"/>
+        <Wave Grade="1" Time="0" Mob1="4;4;1007;1005;1012" Mob2="1;1;1026;1027;1028;1029;1030;1031" Mob3="1;1;1006"/>
+        <Wave Grade="1" Time="0" Mob1="1;1;1016;1017;1018;1019;1020" Mob2="3;3;1007;1003;1012" Mob3="2;2;1026;1027;1028;1029;1030;1031"/>
+      </PvEWaves>
+      <BossWaves>
+        <Wave Grade="1" Time="0" Mob1="1;1;1016;1017;1018;1019;1020" Mob2="1;1;1016;1017;1018;1019;1020" Mob3=""/>
+      </BossWaves>
+      <PvEDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>66.34;8.95;4.84;0.89;0;0;0;0;0;0;10;5;2.5;0;0;0;0;0;0;1;0.33;0.11;0.04;0</Rates>
+      </PvEDrops>
+      <BossDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;-1</Items>
+        <Quantity>1;5;2;1;2;1;1;2;1;1;2;1;1;2;1;1;2;1;1;3</Quantity>
+        <Rates>10;30;10;3;0;0;0;0;0;0;32;12;3;0;0;0;0;0;0;0</Rates>
+      </BossDrops>
+      <LootDrops>
+        <Items>31;32;33;36;37;38;41;42;43;49;50;51;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>21.04;8;4;10;8;4;10;7;5;15;4;1;2;0.66;0.22;0.08;0</Rates>
+      </LootDrops>
+    </Dungeon>
+    <Dungeon Id="4" Name="Thursday" Energy="2000" PvERate="30" PvARate="10" LootRate="60" StatusRate="0">
+      <PvEWaves>
+       <Wave Grade="1" Time="0" Mob1="2;2;1007;1003;1001" Mob2="1;1;1006" Mob3="2;2;1001"/>
+        <Wave Grade="1" Time="0" Mob1="4;5;1007;1005;1012" Mob2="1;1;1026;1027;1028;1029;1030;1031" Mob3="1;1;1006"/>
+        <Wave Grade="1" Time="0" Mob1="1;2;1016;1017;1018;1019;1020" Mob2="3;4;1007;1003;1012" Mob3="2;2;1026;1027;1028;1029;1030;1031"/>
+      </PvEWaves>
+      <BossWaves>
+        <Wave Grade="1" Time="0" Mob1="1;3;1016;1017;1018;1019;1020" Mob2="1;1;1016;1017;1018;1019;1020" Mob3=""/>
+      </BossWaves>
+      <PvEDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>66.34;8.95;4.84;0.89;0;0;0;0;0;0;0;0;0;10;5;2.5;0;0;0;1;0.33;0.11;0.04;0</Rates>
+      </PvEDrops>
+      <BossDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;-1</Items>
+        <Quantity>1;5;2;1;2;1;1;2;1;1;2;1;1;2;1;1;2;1;1;3</Quantity>
+        <Rates>10;30;10;3;0;0;0;0;0;0;0;0;0;32;12;3;0;0;0;0</Rates>
+      </BossDrops>
+      <LootDrops>
+        <Items>31;32;33;36;37;38;41;42;43;49;50;51;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>21.04;8;4;10;8;4;10;7;5;15;4;1;2;0.66;0.22;0.08;0</Rates>
+      </LootDrops>
+    </Dungeon>
+    <Dungeon Id="5" Name="Friday" Energy="2000" PvERate="60" PvARate="10" LootRate="30" StatusRate="0">
+      <PvEWaves>
+         <Wave Grade="1" Time="0" Mob1="2;2;1007;1003;1001" Mob2="1;1;1006" Mob3="2;2;1001"/>
+        <Wave Grade="1" Time="0" Mob1="4;4;1007;1005;1012" Mob2="1;1;1026;1027;1028;1029;1030;1031" Mob3="1;1;1006"/>
+        <Wave Grade="1" Time="0" Mob1="1;1;1016;1017;1018;1019;1020" Mob2="3;3;1007;1003;1012" Mob3="2;2;1026;1027;1028;1029;1030;1031"/>
+      </PvEWaves>
+      <BossWaves>
+        <Wave Grade="1" Time="0" Mob1="1;1;1016;1017;1018;1019;1020" Mob2="1;1;1016;1017;1018;1019;1020" Mob3="2;4;1007;1005"/>
+      </BossWaves>
+      <PvEDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>66.34;8.95;4.84;0.89;0;0;0;0;0;0;0;0;0;0;0;0;10;5;2.5;1;0.33;0.11;0.04;0</Rates>
+      </PvEDrops>
+      <BossDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;-1</Items>
+        <Quantity>1;5;2;1;2;1;1;2;1;1;2;1;1;2;1;1;2;1;1;3</Quantity>
+        <Rates>10;30;10;3;0;0;0;0;0;0;0;0;0;0;0;0;32;12;3;0</Rates>
+      </BossDrops>
+      <LootDrops>
+        <Items>31;32;33;36;37;38;41;42;43;49;50;51;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>21.04;8;4;10;8;4;10;7;5;15;4;1;2;0.66;0.22;0.08;0</Rates>
+      </LootDrops>
+    </Dungeon>
+    <Dungeon Id="6" Name="Saturday" Energy="2000" PvERate="45" PvARate="10" LootRate="45" StatusRate="0">
+      <PvEWaves>
+        <Wave Grade="1" Time="0" Mob1="2;2;1007;1003;1001" Mob2="1;1;1006" Mob3="2;2;1001"/>
+        <Wave Grade="1" Time="0" Mob1="4;4;1007;1005;1012" Mob2="1;1;1026;1027;1028;1029;1030;1031" Mob3="1;1;1006"/>
+        <Wave Grade="1" Time="0" Mob1="1;1;1016;1017;1018;1019;1020" Mob2="3;3;1007;1003;1012" Mob3="2;2;1026;1027;1028;1029;1030;1031"/>
+      </PvEWaves>
+      <BossWaves>
+        <Wave Grade="1" Time="0" Mob1="1;1;1016;1017;1018;1019;1020" Mob2="1;1;1016;1017;1018;1019;1020" Mob3=""/>
+      </BossWaves>
+      <PvEDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>66.67;17.9;9.68;1.78;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0.67;0.22;0.08;1</Rates>
+      </PvEDrops>
+      <BossDrops>
+        <Items>0;49;50;51;72;73;74;75;76;77;85;79;82;78;83;84;86;81;80;-1</Items>
+        <Quantity>1;5;2;1;2;1;1;2;1;1;2;1;1;2;1;1;2;1;1;3</Quantity>
+        <Rates>10;50;25;10;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5</Rates>
+      </BossDrops>
+      <LootDrops>
+        <Items>31;32;33;36;37;38;41;42;43;49;50;51;52;87;97;107;-1</Items>
+        <Quantity>1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1</Quantity>
+        <Rates>16.08;5;4;7;5;4;7;6;5;20;9;5;4;1.32;0.44;0.16;1</Rates>
+      </LootDrops>
+    </Dungeon>
+  </Dungeons>
+</DungeonConfig>

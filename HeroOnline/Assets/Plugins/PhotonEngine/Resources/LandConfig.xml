@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LandConfig>
+  <ExpandLand>20;0</ExpandLand>
+  <OpenLand>0;300</OpenLand>
+  <Houses>
+    <House Id="1" Name="Bank" Gold="20" SizeX="5" SizeY="5" Lost="8" MaxCount="1" />
+    <House Id="2" Name="Market" Silver="5000" SizeX="4" SizeY="4" Lost="5" MaxCount="3" />
+    <House Id="3" Name="Tower" Silver="500" SizeX="2" SizeY="2" Lost="2" MaxCount="10" />
+    <House Id="4" Name="Barracks" Silver="500" SizeX="2" SizeY="2" Lost="2" MaxCount="10" />
+
+    <House Id="11" Name="Peach Tree" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="12" Name="Apricot Tree" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="13" Name="Pine Tree" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+
+    <House Id="21" Name="Stone" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="22" Name="Rune" Silver="100" SizeX="2" SizeY="2" Lost="2" MaxCount="0" />
+    <House Id="23" Name="Happy New Year" Silver="100" SizeX="2" SizeY="2" Lost="2" MaxCount="0" />
+
+    <House Id="31" Name="Warrior Wizard" Silver="8000" SizeX="3" SizeY="3" Lost="3" MaxCount="3" />
+    <House Id="32" Name="Tanker Wizard" Silver="8000" SizeX="3" SizeY="3" Lost="3" MaxCount="3" />
+    <House Id="33" Name="Ranger Wizard" Silver="8000" SizeX="3" SizeY="3" Lost="3" MaxCount="3" />
+    <House Id="34" Name="Mage Wizard" Silver="8000" SizeX="3" SizeY="3" Lost="3" MaxCount="3" />
+    <House Id="35" Name="Healer Wizard" Silver="8000" SizeX="3" SizeY="3" Lost="3" MaxCount="3" />
+
+    <House Id="65" Name="Letter A" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="66" Name="Letter B" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="67" Name="Letter C" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="68" Name="Letter D" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="69" Name="Letter E" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="70" Name="Letter F" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="71" Name="Letter G" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="72" Name="Letter H" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="73" Name="Letter I" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="74" Name="Letter J" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="75" Name="Letter K" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="76" Name="Letter L" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="77" Name="Letter M" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="78" Name="Letter N" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="79" Name="Letter O" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="80" Name="Letter P" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="81" Name="Letter Q" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="82" Name="Letter R" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="83" Name="Letter S" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="84" Name="Letter T" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="85" Name="Letter U" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="86" Name="Letter V" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="87" Name="Letter W" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="88" Name="Letter X" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="89" Name="Letter Y" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+    <House Id="90" Name="Letter Z" Silver="100" SizeX="1" SizeY="1" Lost="1" MaxCount="0" />
+  </Houses>
+</LandConfig>

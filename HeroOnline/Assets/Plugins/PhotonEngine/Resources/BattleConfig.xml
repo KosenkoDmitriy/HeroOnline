@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BattleConfig>
+  <RoleSpace>2.5</RoleSpace>
+  <MaxTime>300</MaxTime>
+  <ItemTake>3</ItemTake>
+  <ItemDelay>40</ItemDelay>
+</BattleConfig>
