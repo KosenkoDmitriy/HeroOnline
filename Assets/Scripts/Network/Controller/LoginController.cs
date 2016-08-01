@@ -24,9 +24,9 @@ public class LoginController : PhotonController
         parameters.Add((byte)ParameterCode.UserType, (int)UserType.Default);
         parameters.Add((byte)ParameterCode.UserName, username);
         parameters.Add((byte)ParameterCode.Password, password);
-        parameters.Add((byte)ParameterCode.ZoneId, GameManager.ZoneID.ToByteArray());
+		parameters.Add((byte)ParameterCode.ZoneId, GameManager.ZoneID.ToByteArray());
 
-        //send 
+		//send 
         SendOperation((byte)OperationCode.SignIn, parameters);
     }
 
@@ -45,6 +45,16 @@ public class LoginController : PhotonController
     {
         SendOperation((byte)OperationCode.SignOut);
     }
+
+	public void SendSetBalance (string username, string password, string balance)
+	{
+		//Debug.Log("SendSetBalance");
+		Dictionary<byte, object> parameters = new Dictionary<byte, object>();
+		parameters.Add((byte)ParameterCode.UserName, username);
+		parameters.Add((byte)ParameterCode.Password, password);
+		parameters.Add((byte)ParameterCode.Balance, balance);
+		SendOperation((byte)OperationCode.SetBalance, parameters);
+	}
 
     public void SendRequestZones()
     {
@@ -79,20 +89,21 @@ public class LoginController : PhotonController
             if (errCode == ErrorCode.DuplicateLogin)
             {
                 _uiLoginManager.OnResponeDuplicate();
-            }
-            else
+            } else if (errCode == ErrorCode.UserNotFound) {
+				_uiLoginManager.OnButtonWebsiteReg_Click ();
+			} else 
                 this.HandleErrorCode(errCode);
 
             return;
         }
-        
+		Debug.Log(string.Format("OK ResponseReceived, OperationCode = {0}, ReturnCode = {1}, DebugMsg = {2}", opCode, errCode, response.DebugMessage));
+
         switch (opCode)
         {
             case OperationCode.Register:
                 _uiLoginManager.OnRegisterSuccess();
                 break;
             case OperationCode.SignIn:
-
                 //Login succecss
                 OnSignIn(response);
                 break;
@@ -129,7 +140,7 @@ public class LoginController : PhotonController
                 objData = (byte[])response[(byte)ParameterCode.UserData];
                 GameManager.InitGameUser(objData);
 
-                _uiLoginManager.OnPhotonLoginSuccess();
+				_uiLoginManager.OnPhotonLoginSuccess();
             }
         }
         else
@@ -144,8 +155,6 @@ public class LoginController : PhotonController
 
     private void OnZonesList(OperationResponse response)
     {
-
-        //Debug.Log("OnZonesList ");
         object zoneList;
         if (response.Parameters.TryGetValue((byte)ParameterCode.ZoneList, out zoneList))
         {

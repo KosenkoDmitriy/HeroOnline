@@ -1,0 +1,48 @@
+*.meta
+# =============== #
+# Unity generated #
+# =============== #
+/HeroOnline/[Tt]emp/
+/HeroOnline/[Oo]bj/
+/HeroOnline/[Bb]uild
+/HeroOnline/[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+HeroOnline.vs/
+HeroOnline/*.userprefs
+HeroOnline/*.csproj
+HeroOnline/*.pidb
+HeroOnline/*.suoHeroOnline
+HeroOnline/*.sln
+HeroOnline/*.user
+HeroOnline/*.unityproj
+HeroOnline/*.booproj
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+*.log
+PhotonSDK/deploy/HeroOnline/Cache/HeroWorld/assembly/dl3/7c32707d/5d3ba711_1050d001/__AssemblyInfo__.ini
+PhotonSDK/deploy/HeroOnline/Cache/HeroWorld/assembly/dl3/7c32707d/5d3ba711_1050d001/UnityEngine.DLL
+PhotonSDK/deploy/HeroOnline/Cache/HeroWorld/assembly/dl3/0a92fa67/7f89a711_1050d001/Ionic.Zlib.DLL
+DEngine_Photon/_Obj/DEngine.HeroServer/TempPE/GameData.HeroDB.designer.cs.dll
+DEngine_Photon/DEngine.Common/DEngine.Common.csproj.user
+PhotonSDK/deploy/HeroOnline/Cache/HeroWorld/assembly/dl3/0a92fa67/7f89a711_1050d001/__AssemblyInfo__.ini
+[Cc]ache
+[Dd]ebug
+*.userprefs
+*.sln
+*.cproj

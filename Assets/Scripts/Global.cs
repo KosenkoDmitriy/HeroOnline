@@ -25,6 +25,18 @@ public class Global
     public static int version = 12;//khi muon user update ver moi , nang gia tri ver nay len va trong ban database cung nang giong;
     //va build thi nang bunble code trong settting build
 
-    public static Language language = Language.ENGLISH;
+	public static string host = 
+		"https://yourplaceforfun.com"
+			//"http://th2.shopomob.ru"
+			;
+
+
+	public static object actionFacebookLogin = "flogin";
+	public static string actionLogin = "login";
+	public static string actionGetReg = "get_reg";
+	public static string actionSignUp = "sign_in_up";
+
+
+	public static Language language = Language.ENGLISH;
 }
     
