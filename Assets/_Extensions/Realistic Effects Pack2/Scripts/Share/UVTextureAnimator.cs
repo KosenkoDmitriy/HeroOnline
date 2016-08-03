@@ -58,15 +58,15 @@ internal class UVTextureAnimator : MonoBehaviour
         }
       }
     else {
-      renderer.material.SetTextureScale("_MainTex", size);
-      renderer.material.SetTextureOffset("_MainTex", offset);
+      GetComponent<Renderer>().material.SetTextureScale("_MainTex", size);
+      GetComponent<Renderer>().material.SetTextureOffset("_MainTex", offset);
       if (IsBump) {
-        renderer.material.SetTextureScale("_BumpMap", size);
-        renderer.material.SetTextureOffset("_BumpMap", offset);
+        GetComponent<Renderer>().material.SetTextureScale("_BumpMap", size);
+        GetComponent<Renderer>().material.SetTextureOffset("_BumpMap", offset);
       }
       if (IsBump) {
-        renderer.material.SetTextureScale("_HeightMap", size);
-        renderer.material.SetTextureOffset("_HeightMap", offset);
+        GetComponent<Renderer>().material.SetTextureScale("_HeightMap", size);
+        GetComponent<Renderer>().material.SetTextureOffset("_HeightMap", offset);
       }
     }
   }
@@ -148,11 +148,11 @@ internal class UVTextureAnimator : MonoBehaviour
       else
         offset = new Vector2((float) index / Columns - (index / Columns),
           1 - (index / Columns) / (float) Rows);
-      renderer.material.SetTextureOffset("_MainTex", offset);
+      GetComponent<Renderer>().material.SetTextureOffset("_MainTex", offset);
       if (IsBump)
-        renderer.material.SetTextureOffset("_BumpMap", offset);
+        GetComponent<Renderer>().material.SetTextureOffset("_BumpMap", offset);
       if (IsHeight)
-        renderer.material.SetTextureOffset("_HeightMap", offset);
+        GetComponent<Renderer>().material.SetTextureOffset("_HeightMap", offset);
     }
   }
 

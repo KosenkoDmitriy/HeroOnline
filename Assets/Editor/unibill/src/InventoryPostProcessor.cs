@@ -47,7 +47,7 @@ public class InventoryPostProcessor : AssetPostprocessor {
 	}
 
     private static void MoveZipLibIfNecessary() {
-        if (EditorUserBuildSettings.activeBuildTarget == BuildTarget.WP8Player || EditorUserBuildSettings.activeBuildTarget == BuildTarget.MetroPlayer) {
+        if (EditorUserBuildSettings.activeBuildTarget == BuildTarget.WP8Player || EditorUserBuildSettings.activeBuildTarget == BuildTarget.WSAPlayer) {
             if (File.Exists(SHARPZIPLIB_PATH)) {
                 if (File.Exists (SHARPZIPLIB_RENAME_PATH)) {
                     File.Delete (SHARPZIPLIB_PATH);

@@ -14,7 +14,7 @@ timeWentY += Time.deltaTime*speedY;
 timeWentX += Time.deltaTime*speedX;
 
 
-renderer.materials[targetMaterialSlot].SetTextureOffset ("_MainTex", Vector2(timeWentX, timeWentY));
+GetComponent.<Renderer>().materials[targetMaterialSlot].SetTextureOffset ("_MainTex", Vector2(timeWentX, timeWentY));
 
 
 }

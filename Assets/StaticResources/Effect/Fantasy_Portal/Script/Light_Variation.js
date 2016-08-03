@@ -14,13 +14,13 @@ function Update () {
 
 	if (enableVariation == true){
 		if (increase == true)
-			light.intensity += variationSpeed*Time.deltaTime;
+			GetComponent.<Light>().intensity += variationSpeed*Time.deltaTime;
 		if (decrease == true)
-			light.intensity -= variationSpeed*Time.deltaTime;
+			GetComponent.<Light>().intensity -= variationSpeed*Time.deltaTime;
 	}
 	
-	if (light.intensity >= maxIntensity)
+	if (GetComponent.<Light>().intensity >= maxIntensity)
 		increase = false;
-	if (light.intensity <= minIntensity)
+	if (GetComponent.<Light>().intensity <= minIntensity)
 		increase = true;
 }

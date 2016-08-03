@@ -42,7 +42,7 @@ public class FadeInOutShaderColor : MonoBehaviour
     if (effectSettings!=null)
       effectSettings.CollisionEnter += prefabSettings_CollisionEnter;
 
-    mat = UseSharedMaterial ? renderer.sharedMaterial : renderer.material;
+    mat = UseSharedMaterial ? GetComponent<Renderer>().sharedMaterial : GetComponent<Renderer>().material;
     oldColor = mat.GetColor(ShaderColorName);
     isStartDelay = StartDelay > 0.001f;
     isIn = FadeInSpeed > 0.001f;

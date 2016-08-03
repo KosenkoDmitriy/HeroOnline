@@ -625,8 +625,8 @@ public class SkillManager : MonoBehaviour
             if (wind != null)
                 wind.gameObject.SetActive(true);
 
-            controller.animation.CrossFade("BeginFly");
-            yield return new WaitForSeconds(controller.animation["BeginFly"].length);
+            controller.GetComponent<Animation>().CrossFade("BeginFly");
+            yield return new WaitForSeconds(controller.GetComponent<Animation>()["BeginFly"].length);
 
             Vector3 startPos = controller.transform.position;
             float time = Time.time;
@@ -634,7 +634,7 @@ public class SkillManager : MonoBehaviour
             if (controller == null || controller.target == null)
             {
                 if (controller != null)
-                    controller.animation.CrossFade("EndFlying");
+                    controller.GetComponent<Animation>().CrossFade("EndFlying");
 
                 yield return null;
             }
@@ -650,11 +650,11 @@ public class SkillManager : MonoBehaviour
 
                 if (dir.magnitude > 6)
                 {
-                    controller.animation.CrossFade("Flying");
+                    controller.GetComponent<Animation>().CrossFade("Flying");
                 }
                 else
                 {
-                    controller.animation.CrossFade("EndFlying");
+                    controller.GetComponent<Animation>().CrossFade("EndFlying");
                 }
                 float distCovered = (Time.time - time) * controller.speedMove * 4;
                 float fracJourney = distCovered / journeyLength;

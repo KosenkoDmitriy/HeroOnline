@@ -15,10 +15,10 @@ function Update () {
 animName=anims[next].name;
 time+=Time.deltaTime;
 
-if (!animation.IsPlaying(animName))
+if (!GetComponent.<Animation>().IsPlaying(animName))
 {
 time=0;
-animation.Play(animName);
+GetComponent.<Animation>().Play(animName);
 }
 
 if (time>anims[next].length)

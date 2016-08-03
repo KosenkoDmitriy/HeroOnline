@@ -20,7 +20,7 @@ public class CameraPathController : EditorWindow {
 		CameraPathBezierAnimator animator = newPath.AddComponent<CameraPathBezierAnimator>();
 		newPath.AddComponent<CameraPathBezier>();
 		
-		if(Camera.mainCamera)
-			animator.animationTarget = Camera.mainCamera.transform;
+		if(Camera.main)
+			animator.animationTarget = Camera.main.transform;
 	}
 }

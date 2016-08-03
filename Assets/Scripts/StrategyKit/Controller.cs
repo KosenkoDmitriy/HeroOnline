@@ -179,7 +179,7 @@ public class Controller : MonoBehaviour
             {
                 if (UIBattleManager.Instance.heroFirst == null || this != UIBattleManager.Instance.heroFirst.controller)
                 {
-                    animation.CrossFade(idle.name);
+                    GetComponent<Animation>().CrossFade(idle.name);
                     return;
                 }
             }
@@ -188,7 +188,7 @@ public class Controller : MonoBehaviour
                 if (actionStat != ActionStat.Move)
                 {
                     if (idle != null)
-                        animation.CrossFade(idle.name);
+                        GetComponent<Animation>().CrossFade(idle.name);
                     return;
                 }
             }
@@ -278,7 +278,7 @@ public class Controller : MonoBehaviour
 
                     oldSkillIndexSend = -1;
                     curSkillIndexSelect = -1;
-                    animation.CrossFade(idle.name);
+                    GetComponent<Animation>().CrossFade(idle.name);
 
                 }
                 break;
@@ -294,7 +294,7 @@ public class Controller : MonoBehaviour
                     //Debug.Log(name + " move");
                     if (checkDistance >= 0.5f)
                     {
-                        animation.CrossFade(walk.name);
+                        GetComponent<Animation>().CrossFade(walk.name);
                         transform.Translate(Vector3.forward * speedMove * Time.deltaTime);
                     }
                     else
@@ -323,7 +323,7 @@ public class Controller : MonoBehaviour
 
                         if (checkDistance >= distanceAction)
                         {
-                            animation.CrossFade(walk.name);
+                            GetComponent<Animation>().CrossFade(walk.name);
                             transform.Translate(Vector3.forward * speedMove * Time.deltaTime);
 
                             //hanlde save =default Action_1 , prepare for this action
@@ -383,9 +383,9 @@ public class Controller : MonoBehaviour
                                 if (checkDistance >= curSkill.CastRange)
                                 {
                                     //Debug.Log("Ok CastRange " + curSkill.CastRange);
-                                    if (animation[action.name].normalizedTime <= 0)
+                                    if (GetComponent<Animation>()[action.name].normalizedTime <= 0)
                                     {
-                                        animation.CrossFade(walk.name);
+                                        GetComponent<Animation>().CrossFade(walk.name);
                                         transform.Translate(Vector3.forward * speedMove * Time.deltaTime);
                                         break;
                                     }
@@ -407,16 +407,16 @@ public class Controller : MonoBehaviour
 
             case ActionStat.Dead:
                 {
-                    if (animation.IsPlaying(dead.name)) return;
-                    if (!animation.enabled)
-                        animation.enabled = true;
-                    animation.CrossFade(dead.name);
+                    if (GetComponent<Animation>().IsPlaying(dead.name)) return;
+                    if (!GetComponent<Animation>().enabled)
+                        GetComponent<Animation>().enabled = true;
+                    GetComponent<Animation>().CrossFade(dead.name);
                     this.enabled = false;                
                 }
                 break;
             case ActionStat.hit:
                 if (hit != null)
-                    animation.CrossFade(hit.name);
+                    GetComponent<Animation>().CrossFade(hit.name);
                 break;
         }
     }
@@ -425,7 +425,7 @@ public class Controller : MonoBehaviour
     private void Action_1()
     {
         //when  this time, Wait for next attack
-        animation.CrossFade(idle.name);
+        GetComponent<Animation>().CrossFade(idle.name);
 
         //countAction (time start idle to now) , when time of the next attack came 
         if (countAction >= actionSpeed - CalculatorTimeAnim(action))
@@ -451,7 +451,7 @@ public class Controller : MonoBehaviour
     private void Action_2()
     {
         //play animation default skill
-        animation.CrossFade(action.name);
+        GetComponent<Animation>().CrossFade(action.name);
 
         _timerAnim += Time.deltaTime;
         //attack is completed 
@@ -489,7 +489,7 @@ public class Controller : MonoBehaviour
     {
         
         //Skill 1
-        animation.CrossFade(skill_1.name);
+        GetComponent<Animation>().CrossFade(skill_1.name);
         _timerAnim += Time.deltaTime;
 
         //attack is completed 
@@ -531,7 +531,7 @@ public class Controller : MonoBehaviour
     {
         
         //Skill 2
-        animation.CrossFade(skill_2.name);
+        GetComponent<Animation>().CrossFade(skill_2.name);
         _timerAnim += Time.deltaTime;
         if (_timerAnim >= CalculatorTimeAnim(skill_2) * 0.9f)// if (animation[skill_2.name].normalizedTime > 0.9f)
         {
@@ -563,7 +563,7 @@ public class Controller : MonoBehaviour
         {
             if (objMeshAndSkinMesh[index] != null)
             {
-                foreach (Material mat in objMeshAndSkinMesh[index].renderer.materials)
+                foreach (Material mat in objMeshAndSkinMesh[index].GetComponent<Renderer>().materials)
                     mat.color = Color.white;
             }
             index++;
@@ -602,7 +602,7 @@ public class Controller : MonoBehaviour
         {
             if (objMeshAndSkinMesh[index] != null)
             {
-                foreach (Material mat in objMeshAndSkinMesh[index].renderer.materials)
+                foreach (Material mat in objMeshAndSkinMesh[index].GetComponent<Renderer>().materials)
                 {
                     colorDef[index] = mat.color;
                     mat.color = colorTakeDamage;
@@ -614,7 +614,7 @@ public class Controller : MonoBehaviour
         index = 0;
         while (index < objMeshAndSkinMesh.Length)
         {
-            foreach (Material mat in objMeshAndSkinMesh[index].renderer.materials)
+            foreach (Material mat in objMeshAndSkinMesh[index].GetComponent<Renderer>().materials)
             {
                 mat.color = colorDef[index];
             }
@@ -943,41 +943,41 @@ public class Controller : MonoBehaviour
         if (skill_1 != null)
         {
             if (skill_1.length > 1)
-                animation[skill_1.name].speed = skill_1.length * 0.5f;
+                GetComponent<Animation>()[skill_1.name].speed = skill_1.length * 0.5f;
         }
 
         if (skill_2 != null)
         {
             if (skill_2.length > 1)
-                animation[skill_2.name].speed = skill_2.length * 0.5f;
+                GetComponent<Animation>()[skill_2.name].speed = skill_2.length * 0.5f;
         }
 
         if (walk != null)
         {
             if (walk.length > 1)
-                animation[walk.name].speed = walk.length * 0.6f;
-            _moveAnimSpeed = animation[walk.name].speed;
+                GetComponent<Animation>()[walk.name].speed = walk.length * 0.6f;
+            _moveAnimSpeed = GetComponent<Animation>()[walk.name].speed;
         }
 
         if (action != null)
         {
             if (action.length > 1)
-                animation[action.name].speed = action.length;
-            _actionAnimSpeed = animation[action.name].speed;
+                GetComponent<Animation>()[action.name].speed = action.length;
+            _actionAnimSpeed = GetComponent<Animation>()[action.name].speed;
         }
 
         if (action1 != null)
         {
             if (action1.length > 1)
-                animation[action1.name].speed = action1.length;
-            _skill1AnimSpeed = animation[action1.name].speed;
+                GetComponent<Animation>()[action1.name].speed = action1.length;
+            _skill1AnimSpeed = GetComponent<Animation>()[action1.name].speed;
         }
 
         if (action2 != null)
         {
             if (action2.length > 1)
-                animation[action2.name].speed = action2.length;
-            _skill2AnimSpeed = animation[action2.name].speed;
+                GetComponent<Animation>()[action2.name].speed = action2.length;
+            _skill2AnimSpeed = GetComponent<Animation>()[action2.name].speed;
         }
 
         if (roleType != RoleType.Building)
@@ -987,7 +987,7 @@ public class Controller : MonoBehaviour
         if (hit != null)
         {
             if (hit.length > 0.8f)
-                animation[hit.name].speed = hit.length / 0.8f;
+                GetComponent<Animation>()[hit.name].speed = hit.length / 0.8f;
         }
      
     }
@@ -1053,7 +1053,7 @@ public class Controller : MonoBehaviour
         {
             if (go != null)
             {
-                foreach (Material mat in go.renderer.materials)
+                foreach (Material mat in go.GetComponent<Renderer>().materials)
                 {
                     mat.shader = Resources.Load<Shader>("Shaders/Toony-BasicOutline");
                     if (tag == GameManager.PlayerTagName)
@@ -1074,7 +1074,7 @@ public class Controller : MonoBehaviour
         {
             if (go != null)
             {
-                foreach (Material mat in go.renderer.materials)
+                foreach (Material mat in go.GetComponent<Renderer>().materials)
                 {
                     mat.shader = Resources.Load<Shader>("Shaders/Toony-Basic");
                 }
@@ -1168,7 +1168,7 @@ public class Controller : MonoBehaviour
 
         if (dead != null)
         {
-            timeDestroy += animation[dead.name].length;
+            timeDestroy += GetComponent<Animation>()[dead.name].length;
         }     
         
         SoundManager.Instance.PlayDeath(this);
@@ -1270,7 +1270,7 @@ public class Controller : MonoBehaviour
     {
         if (time < CalculatorTimeAnim(action))
         {
-            animation[action.name].speed /= time; 
+            GetComponent<Animation>()[action.name].speed /= time; 
         }
         actionSpeed = time;
     }
@@ -1354,21 +1354,21 @@ public class Controller : MonoBehaviour
                         case EffectType.ATSup:
                             {
                                 float percent = magicAttrib.AffectValue / 100.0f;
-                                animation[action.name].speed = _actionAnimSpeed * (1 + percent);
+                                GetComponent<Animation>()[action.name].speed = _actionAnimSpeed * (1 + percent);
                                 Invoke("RestoreAnimationSpeed", magicAttrib.RemainTime);
                             }
                             break;
                         case EffectType.ATSdown:
                             {
                                 float percent = magicAttrib.AffectValue / 100.0f;
-                                animation[action.name].speed = _actionAnimSpeed * (1 - percent);
+                                GetComponent<Animation>()[action.name].speed = _actionAnimSpeed * (1 - percent);
                                 Invoke("RestoreAnimationSpeed", magicAttrib.RemainTime);
                             }
                             break;
                         case EffectType.MVSup:
                             {
                                 float percent = magicAttrib.AffectValue / 100.0f;
-                                animation[walk.name].speed = _moveAnimSpeed * (1 + percent);
+                                GetComponent<Animation>()[walk.name].speed = _moveAnimSpeed * (1 + percent);
                                 Invoke("RestoreAnimationSpeed", magicAttrib.RemainTime);
                             }
                             break;
@@ -1451,12 +1451,12 @@ public class Controller : MonoBehaviour
     }
     private float CalculatorTimeAnim(AnimationClip clip)
     {
-        return clip.length / animation[clip.name].speed;
+        return clip.length / GetComponent<Animation>()[clip.name].speed;
     }
     private void PauseAnim()
     {
-        if (animation != null)
-            animation.enabled = false;
+        if (GetComponent<Animation>() != null)
+            GetComponent<Animation>().enabled = false;
     }
     private void DePauseAnim()
     {
@@ -1467,8 +1467,8 @@ public class Controller : MonoBehaviour
         }
         speedMove = _oldMoveSpeed;
         actionSpeed = _oldActionSpeed;
-        if (animation != null)
-            animation.enabled = true;
+        if (GetComponent<Animation>() != null)
+            GetComponent<Animation>().enabled = true;
     }
     private void DeHit()
     {
@@ -1481,24 +1481,24 @@ public class Controller : MonoBehaviour
     private void Slow(float percent)
     {
         if (walk != null)
-            animation[walk.name].speed = _moveAnimSpeed * (1 - percent);
+            GetComponent<Animation>()[walk.name].speed = _moveAnimSpeed * (1 - percent);
         if (action != null)
-            animation[action.name].speed = _actionAnimSpeed * (1 - percent);
+            GetComponent<Animation>()[action.name].speed = _actionAnimSpeed * (1 - percent);
         if (action1 != null)
-            animation[action1.name].speed = _skill1AnimSpeed * (1 - percent);
+            GetComponent<Animation>()[action1.name].speed = _skill1AnimSpeed * (1 - percent);
         if (action2 != null)
-            animation[action2.name].speed = _skill2AnimSpeed * (1 - percent);
+            GetComponent<Animation>()[action2.name].speed = _skill2AnimSpeed * (1 - percent);
     }
     private void RestoreAnimationSpeed()
     {
         if (walk != null)
-            animation[walk.name].speed = _moveAnimSpeed;
+            GetComponent<Animation>()[walk.name].speed = _moveAnimSpeed;
         if (action != null)
-            animation[action.name].speed = _actionAnimSpeed;
+            GetComponent<Animation>()[action.name].speed = _actionAnimSpeed;
         if (action1 != null)
-            animation[action1.name].speed = _skill1AnimSpeed;
+            GetComponent<Animation>()[action1.name].speed = _skill1AnimSpeed;
         if (action2 != null)
-            animation[action2.name].speed = _skill2AnimSpeed;
+            GetComponent<Animation>()[action2.name].speed = _skill2AnimSpeed;
     }
     #endregion
 

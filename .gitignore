@@ -1,0 +1,8 @@
+Library
+Temp
+*.meta
+*.userprefs
+/*.sln
+/*.csproj
+/Builds
+Assets/StaticResources/lolModels.rar

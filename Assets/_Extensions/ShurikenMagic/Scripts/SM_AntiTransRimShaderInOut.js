@@ -9,7 +9,7 @@ private var timeGoes:float=0;
 private var currStr:float=0;
 
 function Start () {
-renderer.material.SetFloat( "_RimPower", currStr );
+GetComponent.<Renderer>().material.SetFloat( "_RimPower", currStr );
 }
 
 function Update () {
@@ -35,7 +35,7 @@ currStr=str-((timeGoes-(fadeIn+stay))*(1/fadeOut));
 
 //currStr=startStr-timeGoes;
 
-renderer.material.SetFloat( "_RimPower", currStr );
+GetComponent.<Renderer>().material.SetFloat( "_RimPower", currStr );
 
 
 }

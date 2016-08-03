@@ -29,6 +29,6 @@ ColB=Mathf.Min(color1.b,color2.b)+(Mathf.Abs(color1.b-color2.b)*rnd);
 
 
 //renderer.material.SetColor("_TintColor", Color(ColR,ColG,ColB,ColA));
-renderer.material.color=Color(ColR,ColG,ColB,ColA);
+GetComponent.<Renderer>().material.color=Color(ColR,ColG,ColB,ColA);
 
 }

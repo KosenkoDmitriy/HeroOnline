@@ -185,7 +185,7 @@ public class UIEmpireMap : MonoBehaviour {
         entry.callback = new EventTrigger.TriggerEvent();
         UnityAction<BaseEventData> callBack = new UnityAction<BaseEventData>(OnCellClick);
         entry.callback.AddListener(callBack);
-        eventTrigger.delegates.Add(entry);
+        eventTrigger.triggers.Add(entry);
     }
     private void OnCellClick(UnityEngine.EventSystems.BaseEventData baseEvent)
     {

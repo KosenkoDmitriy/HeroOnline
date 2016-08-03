@@ -13,7 +13,7 @@ public class TextDamageLableController : MonoBehaviour
         Destroy(gameObject, timeDestroy);
         if (speedUp <= 0)
         {
-            rigidbody.AddForce((Vector3.up + Vector3.right) * 200f);
+            GetComponent<Rigidbody>().AddForce((Vector3.up + Vector3.right) * 200f);
         }
     }
 

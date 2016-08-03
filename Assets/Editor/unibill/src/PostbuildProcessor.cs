@@ -15,7 +15,7 @@ public static class PostbuildProcessor
 {
     [PostProcessBuild]
     public static void OnPostProcessBuild (BuildTarget target, string path) {
-        if (BuildTarget.iPhone == target) {
+        if (BuildTarget.iOS == target) {
             PBXModifier mod = new PBXModifier();
             string pbxproj = Path.Combine(path, "Unity-iPhone.xcodeproj/project.pbxproj");
             if (!File.Exists(pbxproj)) {

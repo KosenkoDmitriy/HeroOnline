@@ -57,11 +57,11 @@ public class SettingAction : MonoBehaviour {
                 {
                     if (preview)
                     {
-                        gameObject.SampleAnimation(eventSet[activeIndex].animations, eventSet[activeIndex].time);
+                        eventSet[activeIndex].animations.SampleAnimation(gameObject, eventSet[activeIndex].time);
                     }
                     else
                     {
-                        gameObject.SampleAnimation(eventSet[activeIndex].animations, 0);
+                        eventSet[activeIndex].animations.SampleAnimation(gameObject, 0);
                     }
                 }
             }
@@ -74,8 +74,8 @@ public class SettingAction : MonoBehaviour {
                 maxTime = eventSet[i].time + 0.1f;
                 if (eventSet[i].animations != null && eventSet[i].methodName != "")
                 {                  
-                    if (animation[eventSet[i].animations.name].time > eventSet[i].time
-                        && animation[eventSet[i].animations.name].time < maxTime)
+                    if (GetComponent<Animation>()[eventSet[i].animations.name].time > eventSet[i].time
+                        && GetComponent<Animation>()[eventSet[i].animations.name].time < maxTime)
                     {
                         if (eventSet[i].oneTime == false)
                         {

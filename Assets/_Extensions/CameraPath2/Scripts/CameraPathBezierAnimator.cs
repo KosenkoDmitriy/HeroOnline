@@ -318,7 +318,7 @@ public class CameraPathBezierAnimator : MonoBehaviour
 
         animationTarget.position = bezier.GetPathPosition(usePercentage);
         if (isCamera)
-            animationTarget.camera.fov = bezier.GetPathFOV(usePercentage);
+            animationTarget.GetComponent<Camera>().fov = bezier.GetPathFOV(usePercentage);
 
         Vector3 minusPoint, plusPoint;
         switch (bezier.mode)

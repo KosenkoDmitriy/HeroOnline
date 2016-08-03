@@ -175,8 +175,8 @@ namespace Xft
             GameObject obj = new GameObject("xftmesh " + mat.name);
             obj.layer = gameObject.layer;
             MeshList.Add(obj);
-            obj.AddComponent("MeshFilter");
-            obj.AddComponent("MeshRenderer");
+            obj.AddComponent<MeshFilter>();
+            obj.AddComponent<MeshRenderer>();
             SetActive(obj, true);
 
 #if UNITY_EDITOR
@@ -192,7 +192,7 @@ namespace Xft
             Meshrenderer = (MeshRenderer)obj.GetComponent(typeof(MeshRenderer));
             Meshrenderer.castShadows = false;
             Meshrenderer.receiveShadows = false;
-            Meshrenderer.renderer.sharedMaterial = mat;
+            Meshrenderer.GetComponent<Renderer>().sharedMaterial = mat;
             Meshfilter.sharedMesh = new Mesh();
             return Meshfilter;
         }

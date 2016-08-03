@@ -9,7 +9,7 @@ private var time:float=0;
 function Start ()
 {
 
-renderer.material.SetColor ("_TintColor", Color(0, 0, 0, 0));
+GetComponent.<Renderer>().material.SetColor ("_TintColor", Color(0, 0, 0, 0));
 
 }
 
@@ -19,6 +19,6 @@ time+=Time.deltaTime*timeMultiplier;
 curColor=Gradient.Evaluate(time);
 
 
-renderer.material.SetColor ("_TintColor", curColor);
+GetComponent.<Renderer>().material.SetColor ("_TintColor", curColor);
 }
 

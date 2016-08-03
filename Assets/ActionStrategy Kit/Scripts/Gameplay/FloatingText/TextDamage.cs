@@ -14,9 +14,9 @@ public class TextDamage : MonoBehaviour {
 		//show text damage
 		if(this.GetComponent<TextMesh>() != null){
 			root.transform.LookAt(Camera.main.transform.position);
-			this.GetComponent<TextMesh>().renderer.material.color -= new Color(0,0,0,2f*Time.deltaTime);
+			this.GetComponent<TextMesh>().GetComponent<Renderer>().material.color -= new Color(0,0,0,2f*Time.deltaTime);
 			this.transform.Translate(Vector3.up * 1.5f * Time.deltaTime);
-			if(this.GetComponent<TextMesh>().renderer.material.color.a <= 0){
+			if(this.GetComponent<TextMesh>().GetComponent<Renderer>().material.color.a <= 0){
 				Destroy(root.gameObject);	
 			}
 		}
@@ -24,12 +24,12 @@ public class TextDamage : MonoBehaviour {
 	public void SetDamage(string damage, Color colotText){
 		//recive & send damage variable
 		this.GetComponent<TextMesh>().text = damage;
-		this.GetComponent<TextMesh>().renderer.material.color = colotText;
+		this.GetComponent<TextMesh>().GetComponent<Renderer>().material.color = colotText;
 	}
 	public void SetDamage(float damage, Color colotText){
 		//recive & send damage variable
 		this.GetComponent<TextMesh>().text = damage.ToString();
         colotText.a = 255;
-		this.GetComponent<TextMesh>().renderer.material.color = colotText;
+		this.GetComponent<TextMesh>().GetComponent<Renderer>().material.color = colotText;
 	}
 }

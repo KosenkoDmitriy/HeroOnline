@@ -90,9 +90,9 @@ public class CameraPathBezierControlPointEditor : Editor
     {
         Camera[] cams = Camera.allCameras;
         bool sceneHasCamera = cams.Length > 0;
-        if (Camera.mainCamera)
+        if (Camera.main)
         {
-            sceneCamera = Camera.mainCamera;
+            sceneCamera = Camera.main;
         }
         else if (sceneHasCamera)
         {
@@ -189,7 +189,7 @@ public class CameraPathBezierControlPointEditor : Editor
                 cam.AddComponent<Camera>();
                 if (sceneCamera != null)
                 {
-                    cam.camera.backgroundColor = sceneCamera.backgroundColor;
+                    cam.GetComponent<Camera>().backgroundColor = sceneCamera.backgroundColor;
                     if (sceneCameraSkybox != null)
                         cam.AddComponent<Skybox>().material = sceneCameraSkybox.material;
                     else
@@ -198,10 +198,10 @@ public class CameraPathBezierControlPointEditor : Editor
                 }
                 cam.transform.position = previewCamPos;
                 cam.transform.rotation = previewCamRot;
-                cam.camera.fov = previewCamFOV;
-                cam.camera.targetTexture = pointPreviewTexture;
-                cam.camera.Render();
-                cam.camera.targetTexture = null;
+                cam.GetComponent<Camera>().fov = previewCamFOV;
+                cam.GetComponent<Camera>().targetTexture = pointPreviewTexture;
+                cam.GetComponent<Camera>().Render();
+                cam.GetComponent<Camera>().targetTexture = null;
 
                 DestroyImmediate(cam);
 

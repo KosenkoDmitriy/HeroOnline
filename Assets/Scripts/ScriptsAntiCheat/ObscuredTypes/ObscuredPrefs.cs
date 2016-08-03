@@ -840,7 +840,7 @@ namespace CodeStage.AntiCheat.ObscuredTypes
 	#if UNITY_5_0
 			deviceID = UnityEngine.iOS.Device.vendorIdentifier;
 	#else
-			deviceID = iPhone.vendorIdentifier;
+			deviceID = UnityEngine.iOS.Device.vendorIdentifier;
 	#endif
 #endif
 			if (String.IsNullOrEmpty(deviceID)) deviceID = SystemInfo.deviceUniqueIdentifier;

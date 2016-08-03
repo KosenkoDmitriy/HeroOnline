@@ -12,7 +12,7 @@ timeGoes+=Time.deltaTime*speed*startStr;
 
 currStr=startStr-timeGoes;
 
-renderer.material.SetFloat( "_AllPower", currStr );
+GetComponent.<Renderer>().material.SetFloat( "_AllPower", currStr );
 
 
 }

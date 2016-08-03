@@ -24,17 +24,17 @@ public class Light_Fade : MonoBehaviour {
 		
 		if (_time < 0.0f) return;
 
-		light.enabled = true;
+		GetComponent<Light>().enabled = true;
 
 		if (_time > 1.0f) {
 			_time = 0.0f;
 			if (!_loop){
 				enabled = false;
-				light.enabled = false;
+				GetComponent<Light>().enabled = false;
 			}
 		}
 
-		light.intensity = _intensity * _intensityCurve.Evaluate(_time);
+		GetComponent<Light>().intensity = _intensity * _intensityCurve.Evaluate(_time);
 	}
 
 	private void OnEnable() {

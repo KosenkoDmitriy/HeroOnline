@@ -21,7 +21,7 @@ public class AreaChecker : MonoBehaviour {
 			if(enemy.target == null){
 				if(col.GetComponent<Controller>().hp > 0){
 					if(enemy.actionStat != Enemy.ActionStat.Dead){
-						enemy.target = col.collider.gameObject;	
+						enemy.target = col.GetComponent<Collider>().gameObject;	
 						enemy.actionStat = Enemy.ActionStat.Attack;
 					}
 				}

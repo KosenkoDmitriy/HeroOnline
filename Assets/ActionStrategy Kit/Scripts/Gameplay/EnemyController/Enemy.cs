@@ -79,7 +79,7 @@ public class Enemy : MonoBehaviour {
 		switch(actionStat){
 			case ActionStat.Idle :{
 				if(actionStat != ActionStat.Dead){
-					animation.CrossFade(idle.name);
+					GetComponent<Animation>().CrossFade(idle.name);
 					if(target){
 						actionStat = ActionStat.Attack;
 					}
@@ -91,7 +91,7 @@ public class Enemy : MonoBehaviour {
 				if(actionStat != ActionStat.Dead){
 					checkDistance = (transform.position - LookAtTo(positionWay)).magnitude;
 					if(checkDistance >= distanceAttack){
-						animation.CrossFade(walk.name);
+						GetComponent<Animation>().CrossFade(walk.name);
 						transform.Translate(Vector3.forward*speedMove*Time.deltaTime);
 					}else{
 						actionStat = ActionStat.Idle;
@@ -105,7 +105,7 @@ public class Enemy : MonoBehaviour {
 					if(target != null){
 						checkDistance = (transform.position - LookAtTo(target.transform.position)).magnitude;
 						if(checkDistance >= distanceAttack){
-							animation.CrossFade(walk.name);
+							GetComponent<Animation>().CrossFade(walk.name);
 							transform.Translate(Vector3.forward*speedMove*Time.deltaTime);
 						}else{
 							AttackHandle();
@@ -118,7 +118,7 @@ public class Enemy : MonoBehaviour {
 			break;
 			
 			case ActionStat.Dead :{
-				animation.CrossFade(dead.name);
+				GetComponent<Animation>().CrossFade(dead.name);
 				Destroy(gameObject, 2);
 			}
 			break;
@@ -137,7 +137,7 @@ public class Enemy : MonoBehaviour {
 	
 	private void Attack_1(){
 		//wait delay & prepare attack
-		animation.CrossFade(idle.name);
+		GetComponent<Animation>().CrossFade(idle.name);
         countAttack += attackSpeed * Time.deltaTime;// Time.smoothDeltaTime;
 		if(countAttack >= 100){
 			countAttack = 0;
@@ -147,8 +147,8 @@ public class Enemy : MonoBehaviour {
 	
 	private void Attack_2(){
 		//attack
-		animation.Play(attack.name);
-		if(animation[attack.name].normalizedTime > 0.9f){
+		GetComponent<Animation>().Play(attack.name);
+		if(GetComponent<Animation>()[attack.name].normalizedTime > 0.9f){
 			AttackHandle = Attack_1;	
 		}
 	}
@@ -157,7 +157,7 @@ public class Enemy : MonoBehaviour {
 		//if take damage material monster will change to white mat
 		int index = 0;
 		while(index < objMeshAndSkinMesh.Length){
-			objMeshAndSkinMesh[index].renderer.material.color = Color.white;
+			objMeshAndSkinMesh[index].GetComponent<Renderer>().material.color = Color.white;
 			index++;
 		}
 		StartCoroutine(TakeDamage(0.1f));
@@ -179,14 +179,14 @@ public class Enemy : MonoBehaviour {
 		int index = 0;
 		Color[] colorDef = new Color[objMeshAndSkinMesh.Length];
 		while(index < objMeshAndSkinMesh.Length){
-			colorDef[index] = objMeshAndSkinMesh[index].renderer.material.color;
-			objMeshAndSkinMesh[index].renderer.material.color = colorTakeDamage;
+			colorDef[index] = objMeshAndSkinMesh[index].GetComponent<Renderer>().material.color;
+			objMeshAndSkinMesh[index].GetComponent<Renderer>().material.color = colorTakeDamage;
 			index++;
 		}
 		yield return new WaitForSeconds(time);
 		index = 0;
 		while(index < objMeshAndSkinMesh.Length){
-			objMeshAndSkinMesh[index].renderer.material.color = colorDef[index];
+			objMeshAndSkinMesh[index].GetComponent<Renderer>().material.color = colorDef[index];
 			index++;
 		}
 		yield return 0;
@@ -198,7 +198,7 @@ public class Enemy : MonoBehaviour {
         
         foreach (GameObject go in objMeshAndSkinMesh)
         {
-            foreach (Material mat in go.renderer.materials)
+            foreach (Material mat in go.GetComponent<Renderer>().materials)
             {
                 mat.shader = Resources.Load<Shader>("Shaders/Toony-BasicOutline");
                                 
@@ -213,7 +213,7 @@ public class Enemy : MonoBehaviour {
     {
         foreach (GameObject go in objMeshAndSkinMesh)
         {
-            foreach (Material mat in go.renderer.materials)
+            foreach (Material mat in go.GetComponent<Renderer>().materials)
             {
                 mat.shader = Resources.Load<Shader>("Shaders/Toony-Basic");
             }

@@ -29,7 +29,7 @@ if (changeCooldown>0) changeCooldown-=Time.deltaTime;
 animName=onThisAnim.name;
 
 
-if (animation.IsPlaying(animName) && played == false)  // if the animation is running, and we didn't played the anim yet
+if (GetComponent.<Animation>().IsPlaying(animName) && played == false)  // if the animation is running, and we didn't played the anim yet
 	{
 	actualDelay-=Time.deltaTime;
 	if (actualDelay <= 0)  // delay was done, time to play the effect

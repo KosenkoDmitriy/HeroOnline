@@ -23,7 +23,7 @@ public class AlphaText : MonoBehaviour {
 		//Fade in-out press start
 		count += speedFade * Time.deltaTime;
 		
-		guiTexture.color = new Color(0.5f,0.5f,0.5f,Mathf.Sin(count)*0.5f);
+		GetComponent<GUITexture>().color = new Color(0.5f,0.5f,0.5f,Mathf.Sin(count)*0.5f);
 	
 	}
 }

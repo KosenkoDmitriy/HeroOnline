@@ -39,7 +39,7 @@ public class FadeInOutShaderFloat : MonoBehaviour
     if (effectSettings != null)
     effectSettings.CollisionEnter += prefabSettings_CollisionEnter;
 
-    mat = renderer.material;
+    mat = GetComponent<Renderer>().material;
     isStartDelay = StartDelay > 0.001f;
     isIn = FadeInSpeed > 0.001f;
     isOut = FadeOutSpeed > 0.001f;

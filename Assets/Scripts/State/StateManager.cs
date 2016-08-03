@@ -55,8 +55,8 @@ public class StateManager : MonoBehaviour {
             || controller.actionStat == Controller.ActionStat.hit 
             || controller.actionStat == Controller.ActionStat.Skill) return;
 
-        if (!animation.IsPlaying(controller.action.name)
-            || (animation.IsPlaying(controller.action.name) && animation[controller.action.name].normalizedTime >= 0.8f))
+        if (!GetComponent<Animation>().IsPlaying(controller.action.name)
+            || (GetComponent<Animation>().IsPlaying(controller.action.name) && GetComponent<Animation>()[controller.action.name].normalizedTime >= 0.8f))
         {
             if (curState != null && Time.time - _timer > 0.1f)
             {

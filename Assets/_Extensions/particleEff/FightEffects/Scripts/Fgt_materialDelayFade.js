@@ -14,7 +14,7 @@ private var percent:float;
 function Start ()
 {
 maxAlpha=myColor.a;
-renderer.material.SetColor ("_TintColor", Color(myColor.r, myColor.g, myColor.b,0));
+GetComponent.<Renderer>().material.SetColor ("_TintColor", Color(myColor.r, myColor.g, myColor.b,0));
 if(fadeInTime<0.01) fadeInTime=0.01; //hack to avoid division with zero
 percent=(timeElapsed/fadeInTime) * maxAlpha;
 
@@ -22,7 +22,7 @@ percent=(timeElapsed/fadeInTime) * maxAlpha;
 
 
 function Update () {
-renderer.material.SetColor ("_TintColor", Color(myColor.r, myColor.g, myColor.b,0));
+GetComponent.<Renderer>().material.SetColor ("_TintColor", Color(myColor.r, myColor.g, myColor.b,0));
 delayTime+=Time.deltaTime;
 	if (delayTime>delay)
 		{
@@ -32,12 +32,12 @@ delayTime+=Time.deltaTime;
 			if(timeElapsed<=fadeInTime) //fade in
 				{
 				percent=(timeElapsed/fadeInTime) * maxAlpha;
-				renderer.material.SetColor ("_TintColor", Color(myColor.r, myColor.g, myColor.b, percent));
+				GetComponent.<Renderer>().material.SetColor ("_TintColor", Color(myColor.r, myColor.g, myColor.b, percent));
 				}
 			
 			if((timeElapsed>fadeInTime)&&(timeElapsed<fadeInTime+stayTime)) //set the normal color
 				{
-				renderer.material.SetColor ("_TintColor", Color(myColor.r, myColor.g, myColor.b, maxAlpha));
+				GetComponent.<Renderer>().material.SetColor ("_TintColor", Color(myColor.r, myColor.g, myColor.b, maxAlpha));
 				}
 		
 			if(timeElapsed>=fadeInTime+stayTime&&timeElapsed<=fadeInTime+stayTime+fadeOutTime) //fade out
@@ -45,7 +45,7 @@ delayTime+=Time.deltaTime;
 				timeElapsedLast+=Time.deltaTime;
 				percent=maxAlpha-((timeElapsedLast/fadeOutTime)*maxAlpha);
 				if (percent<0) percent=0;
-				renderer.material.SetColor ("_TintColor", Color(myColor.r, myColor.g, myColor.b, percent));
+				GetComponent.<Renderer>().material.SetColor ("_TintColor", Color(myColor.r, myColor.g, myColor.b, percent));
 				}
 		
 		}

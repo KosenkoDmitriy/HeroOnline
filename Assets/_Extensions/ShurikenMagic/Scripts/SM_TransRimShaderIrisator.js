@@ -42,6 +42,6 @@ if (!timeGoesUp){timeGoes-=Time.deltaTime*speed;}
 
 var currStr=timeGoes;
 
-renderer.material.SetFloat( "_AllPower", currStr );
+GetComponent.<Renderer>().material.SetFloat( "_AllPower", currStr );
 }
 
