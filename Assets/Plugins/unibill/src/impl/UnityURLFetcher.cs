@@ -46,7 +46,7 @@ namespace Unibill.Impl
         public object doGet (string url, Dictionary<string, string> headers)
         {
             WWW w;
-            #if UNITY_5_0 || UNITY_4_5 || UNITY_WP8 || UNITY_METRO
+			#if UNITY_5 || UNITY_5_0 || UNITY_4_5 || UNITY_WP8 || UNITY_MET
             w = new WWW(url, null, headers);
             #else
             hashHeaders.Clear();
