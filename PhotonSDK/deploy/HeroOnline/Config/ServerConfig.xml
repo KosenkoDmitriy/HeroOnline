@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ServerConfig>
+  <MasterIP2>104.198.102.205</MasterIP2>
   <MasterIP>127.0.0.1</MasterIP>
-  <MasterPort>4530</MasterPort>
+  <MasterPort>4520</MasterPort>
   <ZoneMaxCCU>500</ZoneMaxCCU>
-  <WorldId>20</WorldId>
-  <ServiceUrl>http://lol.yourplaceforfun.com</ServiceUrl>
-  <WebsiteDevUrl>http://th2.shopomob.ru</WebsiteDevUrl>
+  <WorldId>19</WorldId>
+  <ServiceUrl>http://ho.yourplaceforfun.com</ServiceUrl>
   <WebsiteUrl>https://yourplaceforfun.com</WebsiteUrl>
 </ServerConfig>
