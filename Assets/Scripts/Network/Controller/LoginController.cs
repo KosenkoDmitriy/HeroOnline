@@ -52,8 +52,8 @@ public class LoginController : PhotonController
 		Dictionary<byte, object> parameters = new Dictionary<byte, object>();
 		parameters.Add((byte)ParameterCode.UserName, username);
 		parameters.Add((byte)ParameterCode.Password, password);
-		parameters.Add((byte)ParameterCode.Balance, balance);
-		SendOperation((byte)OperationCode.SetBalance, parameters);
+//		parameters.Add((byte)ParameterCode.Balance, balance);
+//		SendOperation((byte)OperationCode.SetBalance, parameters);
 	}
 
     public void SendRequestZones()

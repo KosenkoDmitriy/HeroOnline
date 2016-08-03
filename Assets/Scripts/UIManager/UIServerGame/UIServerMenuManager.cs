@@ -23,7 +23,7 @@ public class UIServerMenuManager : MonoBehaviour
         if(Global.LOCAL)
 			lolServiceUrl = "http://lol.yourplaceforfun.com/Game/GetWorlds"; // "http://home.blueskysoft.vn/lolservices/game/getworlds";
         else
-			lolServiceUrl = "https://ho.yourplaceforfun.com/Game/GetWorlds"; //"http://service.leagueoflords.org/Game/GetWorlds";// change serviceen.leagueoflords.vn to yourWebserviceURL 
+			lolServiceUrl = "http://ho.yourplaceforfun.com/Game/GetWorlds"; //"http://service.leagueoflords.org/Game/GetWorlds";// change serviceen.leagueoflords.vn to yourWebserviceURL 
 
         _sendRequestZones = false;
         _ServerGameController = new ServerGameController(this);

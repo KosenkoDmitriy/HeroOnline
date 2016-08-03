@@ -36,6 +36,7 @@ public class Global
 	public static string actionGetReg = "get_reg";
 	public static string actionSignUp = "sign_in_up";
 
+	public static object actionCredits = "#credits";
 
 	public static Language language = Language.ENGLISH;
 }

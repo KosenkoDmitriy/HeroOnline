@@ -420,7 +420,14 @@ public class UIShopManager : MonoBehaviour
     }
     public void OnButtonVaults_Click()
     {
-
+		string url = string.Format ("{0}/{1}", Global.host, Global.actionCredits);
+		#if UNITY_WEBPLAYER || UNITY_WEBGL
+		UnityEngine.Application.ExternalEval(string.Format("window.open('{0}', '_blank')", url)); // open url in new tab
+		#else
+		UnityEngine.Application.OpenURL(url);
+		#endif
+		return;
+		
         if (MessageBox.isShow) return;
 
         PrefreshTab();
