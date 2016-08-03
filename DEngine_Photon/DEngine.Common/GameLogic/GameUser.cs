@@ -626,7 +626,7 @@ namespace DEngine.Common.GameLogic
             return true;
         }
 
-        public ErrorCode AddCash(int silver, int gold)
+        public ErrorCode AddCash(long silver, long gold)
         {
             long newSilver = Base.Silver + silver;
             long newGold = Base.Gold + gold;
@@ -645,7 +645,7 @@ namespace DEngine.Common.GameLogic
                 formData.Add("a", Base.Gold.ToString());
                 var httpWebRes = DEngine.HeroServer.HttpService.GetResponse2(websiteUrl, formData);
 
-                Log.InfoFormat(string.Format("status: {0} res: {1} website balance {2}", httpWebRes.Code, httpWebRes.Description, websiteUrl));
+                Log.InfoFormat(string.Format("set balance bg {0} ng {1} \n status: {2} res: {3} website balance {4}", Base.Gold, newGold, httpWebRes.Code, httpWebRes.Description, websiteUrl));
             } catch(Exception e) {
                 Log.ErrorFormat(string.Format("ERROR! set balance {0}", e.Message));
             }

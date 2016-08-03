@@ -128,7 +128,6 @@ namespace DEngine.HeroServer.GameData
             newUser.MissionLevel = 1;
             newUser.CreateTime = DateTime.Now;
             newUser.LoginTime = DateTime.Now;
-
             newUser.Gold = 50;
             newUser.Silver = 10000;
             newUser.Status = 1;
@@ -526,6 +525,8 @@ namespace DEngine.HeroServer.GameData
         }
 
         public ErrorCode UserSetCash(GameUser gameUser) {
+            Log.Info("UserSetCash gold:"+gameUser.Base.Gold+" silver: "+gameUser.Base.Silver);
+
             try {
                 using (HeroDBDataContext dbContext = new HeroDBDataContext())
                 {
@@ -534,6 +535,7 @@ namespace DEngine.HeroServer.GameData
                     {
                         theUser.Silver = gameUser.Base.Silver;
                         theUser.Gold = gameUser.Base.Gold;
+                        gameUser.AddCash(0, 0);
                     }
 
                     dbContext.SubmitChanges();

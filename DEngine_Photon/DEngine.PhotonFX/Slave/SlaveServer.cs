@@ -37,6 +37,7 @@ namespace DEngine.PhotonFX.Slave
 
         public SlaveServer()
         {
+            //IpAddress = IPAddress.Parse("104.198.102.205");
             IpAddress = IPAddress.Parse("127.0.0.1");
             TcpPort = 4530;
             UdpPort = 5055;

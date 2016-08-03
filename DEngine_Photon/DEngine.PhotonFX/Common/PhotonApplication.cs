@@ -22,6 +22,7 @@ namespace DEngine.PhotonFX.Common
 
         #region Properties
 
+       // protected virtual string MasterIP { get { return "104.198.102.205"; } }
         protected virtual string MasterIP { get { return "127.0.0.1"; } }
         protected virtual int MasterPort { get { return 4520; } }
         protected virtual int ZoneMaxCCU { get { return 500; } }

@@ -41,6 +41,7 @@ namespace LOLClient
             controller.Disconnected += Controller_Disconnected;
             controller.ResponseReceived += Controller_ResponseReceived;
 
+            //controller.Connect("104.198.102.205:4530", "HeroWorld");
             controller.Connect("192.168.1.10:4530", "HeroWorld");
             //controller.Connect("ngocvaio:4530", "HeroWorld");
 

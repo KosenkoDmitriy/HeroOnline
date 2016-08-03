@@ -432,7 +432,7 @@ public class UIShopManager : MonoBehaviour
 
         PrefreshTab();
         btnvault.normalSprite = "tieu_de_shop_down";
-        OnChangeTab(ActiveTab.Vault);
+        OnChangeTab(ActiveTab.Vault); 
     }
     public void OnButtonWhite_Click()
     {
