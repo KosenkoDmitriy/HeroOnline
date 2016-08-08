@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{011335A8-16BE-E7EB-9316-D1E88AE84424}</ProjectGuid>
+	<ProjectGuid>{36401249-05C5-0D04-B89B-27615EFD3493}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_9;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/unity_setup/Unity/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files/Unit4.6.9/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/unity_setup/Unity/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files/Unit4.6.9/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -496,65 +496,65 @@
      <None Include="Assets\Plugins\Android\res\values-ar\strings.xml" />
      <None Include="Assets\_Extensions\ShurikenMagic\Shaders\SM_TransparentRim.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/unity_setup/Unity/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unit4.6.9/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/unity_setup/Unity/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unit4.6.9/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="AssetStoreTools">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/AssetStoreTools/Editor/AssetStoreTools.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/AssetStoreTools/Editor/AssetStoreTools.dll</HintPath>
  </Reference>
  <Reference Include="AssetStoreToolsExtra">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/AssetStoreTools/Editor/AssetStoreToolsExtra.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/AssetStoreTools/Editor/AssetStoreToolsExtra.dll</HintPath>
  </Reference>
  <Reference Include="System.Xml.Linq">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/Editor/System.Xml.Linq.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/Editor/System.Xml.Linq.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/Editor/unibill/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/Editor/unibill/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="IFacebook">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="unibill">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/Plugins/unibill.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/Plugins/unibill.dll</HintPath>
  </Reference>
  <Reference Include="DEngine.Unity">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/Plugins/PhotonEngine/DEngine.Unity.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/Plugins/PhotonEngine/DEngine.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Ionic.Zlib">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/Plugins/PhotonEngine/Ionic.Zlib.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/Plugins/PhotonEngine/Ionic.Zlib.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/Plugins/PhotonEngine/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/Plugins/PhotonEngine/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="ShaderForge">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/ShaderForge/Editor/Code/ShaderForge.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/ShaderForge/Editor/Code/ShaderForge.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
  </Reference>
  <Reference Include="UnityVS.VersionSpecific">
- <HintPath>D:/LOL_Sell/EditLOLSell/Hero_fullVersion_sell/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ <HintPath>C:/dev/unity/HeroOnline/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
- <HintPath>D:/unity_setup/Unity/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ <HintPath>C:/Program Files/Unit4.6.9/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{1E50188E-4DA9-5DA5-E84B-746FF9176C32}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{ECE281AF-8EA1-0F00-F312-B9968647F3C3}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{6379E3E5-1865-06F1-B3ED-7DFA67C89520}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{39D211F9-C3E9-5F06-AD57-CBA508B92552}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
