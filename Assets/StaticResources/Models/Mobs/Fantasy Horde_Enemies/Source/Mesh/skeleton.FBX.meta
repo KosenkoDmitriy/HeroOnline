@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: 6a79d47ca7f140840b84f52d2f6c24dc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bip_hordeHead
+    100002: bip_hordeLCalf
+    100004: bip_hordeLCollarbone
+    100006: bip_hordeLDigit11
+    100008: bip_hordeLDigit11 1
+    100010: bip_hordeLDigit12
+    100012: bip_hordeLDigit31
+    100014: bip_hordeLDigit32
+    100016: bip_hordeLFoot
+    100018: bip_hordeLForearm
+    100020: bip_hordeLPalm
+    100022: bip_hordeLThigh
+    100024: bip_hordeLUpperarm
+    100026: bip_hordemouth
+    100028: bip_hordeNeck1
+    100030: bip_hordeNeck2
+    100032: bip_hordePelvis
+    100034: bip_hordeRCalf
+    100036: bip_hordeRCollarbone
+    100038: bip_hordeRDigit11
+    100040: bip_hordeRDigit11 1
+    100042: bip_hordeRDigit12
+    100044: bip_hordeRDigit31
+    100046: bip_hordeRDigit32
+    100048: bip_hordeRFoot
+    100050: bip_hordeRForearm
+    100052: bip_hordeRibcage
+    100054: bip_hordeRPalm
+    100056: bip_hordeRThigh
+    100058: bip_hordeRUpperarm
+    100060: bip_hordeSpine1
+    100062: bip_hordeSpine2
+    100064: bip_hordeSpine3
+    100066: ctrl_goblin arch_arrow
+    100068: //RootNode
+    100070: skeleton
+    100072: skeleton_ arch_botton
+    100074: skeleton_ arch_cord_01
+    100076: skeleton_ arch_cord_02
+    100078: skeleton_ arch_main
+    100080: skeleton_ arch_top
+    100082: skeleton_arch_01
+    100084: skeleton_quiver
+    100086: skeleton_shield
+    100088: skeleton_sword
+    100090: skeleton_shield_02
+    400000: bip_hordeHead
+    400002: bip_hordeLCalf
+    400004: bip_hordeLCollarbone
+    400006: bip_hordeLDigit11
+    400008: bip_hordeLDigit11 1
+    400010: bip_hordeLDigit12
+    400012: bip_hordeLDigit31
+    400014: bip_hordeLDigit32
+    400016: bip_hordeLFoot
+    400018: bip_hordeLForearm
+    400020: bip_hordeLPalm
+    400022: bip_hordeLThigh
+    400024: bip_hordeLUpperarm
+    400026: bip_hordemouth
+    400028: bip_hordeNeck1
+    400030: bip_hordeNeck2
+    400032: bip_hordePelvis
+    400034: bip_hordeRCalf
+    400036: bip_hordeRCollarbone
+    400038: bip_hordeRDigit11
+    400040: bip_hordeRDigit11 1
+    400042: bip_hordeRDigit12
+    400044: bip_hordeRDigit31
+    400046: bip_hordeRDigit32
+    400048: bip_hordeRFoot
+    400050: bip_hordeRForearm
+    400052: bip_hordeRibcage
+    400054: bip_hordeRPalm
+    400056: bip_hordeRThigh
+    400058: bip_hordeRUpperarm
+    400060: bip_hordeSpine1
+    400062: bip_hordeSpine2
+    400064: bip_hordeSpine3
+    400066: ctrl_goblin arch_arrow
+    400068: skeleton
+    400070: //RootNode
+    400072: skeleton_ arch_botton
+    400074: skeleton_ arch_cord_01
+    400076: skeleton_ arch_cord_02
+    400078: skeleton_ arch_main
+    400080: skeleton_ arch_top
+    400082: skeleton_arch_01
+    400084: skeleton_quiver
+    400086: skeleton_shield
+    400088: skeleton_sword
+    400090: skeleton_shield_02
+    2300000: skeleton_quiver
+    2300002: skeleton_shield
+    2300004: skeleton_sword
+    2300006: skeleton_shield_02
+    3300000: skeleton_quiver
+    3300002: skeleton_shield
+    3300004: skeleton_sword
+    3300006: skeleton_shield_02
+    4300000: skeleton_arch_01
+    4300002: skeleton_shield
+    4300004: skeleton_sword
+    4300006: skeleton_quiver
+    4300008: skeleton
+    4300010: skeleton_shield_02
+    7400000: idle
+    7400002: idle_break
+    7400004: hit
+    7400006: jump
+    7400008: death
+    7400010: block
+    7400012: attack
+    7400014: attack bow
+    7400016: walk
+    7400018: run
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: skeleton
+    13700002: skeleton_arch_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle_break
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 245
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 245
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: block
+      takeName: Take 001
+      firstFrame: 280
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 325
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack bow
+      takeName: Take 001
+      firstFrame: 340
+      lastFrame: 395
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 485
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 425
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 1
+  userData: 
