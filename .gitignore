@@ -1,4 +1,3 @@
-*.meta
 # =============== #
 # Unity generated #
 # =============== #
@@ -47,3 +46,4 @@ DEngine_Photon/DEngine.Common/DEngine.Common.csproj.user
 *.csproj
 Assets/StaticResources/lolModels.rar
 /Builds
+Models
